@@ -37,7 +37,8 @@
 <body>
 	<div class="content">
 	<div id="back_to_camera">
-		<a href="http://www.pixedelic.com/plugins/camera/">&larr; Back to the Camera project</a>
+		<img src="imagenes/logo.jpg">
+		
 	</div>
 	<!-- #back_to_camera -->
 
