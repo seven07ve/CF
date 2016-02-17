@@ -29,9 +29,9 @@ a:hover {
 	background: rgba(0,41,87,.7);
 	clear: both;
 	display: block;
-	height: 90px;
+	height: 80px;
 	line-height: 40px;
-	padding: 20px;
+	padding: 10px;
 	position: relative;
 	z-index: 1;
 }

@@ -20,7 +20,7 @@
 			
 			jQuery('#camera_wrap_4').camera({
 				height: 'auto',
-				loader: 'pie',
+				loader: 'none',
 				time: 2500,
 				transPeriod: 750,
 				navigation: false,
