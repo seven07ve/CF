@@ -14,7 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 	    <!--fuente BITTER-->
 	<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/stylehome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/camera.css">
         <!--    PAGE SCROLL-->
     <link rel="stylesheet" href="css/pagescroll.css">
@@ -39,146 +39,34 @@
 <div id="container">
 	<div id="back_to_camera">
       <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=""><img src="imagenes/logo.jpg"></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-<!--
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="https://getbootstrap.com/examples/navbar/#">Home</a></li>
-              <li><a href="https://getbootstrap.com/examples/navbar/#">About</a></li>
-              <li><a href="https://getbootstrap.com/examples/navbar/#">Contact</a></li>
-            </ul>
--->
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NOSOTROS <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="nosotros.php#quienes">QUIENES SOMOS?</a></li>
-                  <li><a href="#">QUE OFRECEMOS?</a></li>
-                  <li><a href="#">MISION VISION VALORES</a></li>
-                  <li><a href="#">POR QUE NOSOTROS</a></li>
-                  <li><a href="#">ESQUEMA ORGANIZACIONAL</a></li>
-                  <li><a href="#">DESCARGA</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">LÍNEAS DE SERVICIO</a></li>
-                  <li><a href="#">EJECUCIÓN DE INGENIERÍAS </a></li>
-                  <li><a href="#">MADURACIÓN DE PROYECTOS</a></li>
-                  <li><a href="#">ESTUDIOS ESPECIALES</a></li>
-                  <li><a href="#">DESARROLLOS DE MODELOS 3D</a></li>
-                  <li><a href="#">PRE-COMMISSIONING/COMMISSIONING Y ARRANQUE</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SECTORES <span class="caret"></span></a>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ESTRATEGIA <span class="caret"></span></a>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EXPERIENCIA <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">NUESTRO PERSONAL</a></li>
-                  <li><a href="#">DIRECTORES C&amp;F ENG</a></li>
-                  <li><a href="#">NUESTROS CLIENTES</a></li>
-                  <li><a href="#">HECHO EN CASA</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MANEJO SOFTWARE <span class="caret"></span></a>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADIESTRAMIENTO <span class="caret"></span></a>
-              </li>
-              <li class="dropdown">
-                <a href="https://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTÁCTENOS <span class="caret"></span></a>
-              </li>
-<!--
-              <li><a href="">Static top</a></li>
-              <li class="active"><a href="">Fixed top</a></li>
--->
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+    <?php include("php/menu.php"); ?>
 	</div>
 	<!-- #back_to_camera -->	
 	<div class="sections">
-		<div class="section section-1">
-			<h3>the First section</h3>
+		<div class="section section-1 blanco bg-1">
+		    <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h3>the First section</h3>
+                </div>
+		    </div>
 		</div>
-		<div class="section section-2">
-			<div class="insection insection-1">
+		<div class="section section-2 gris-2 bg-2">
+<!--			<div class="insection insection-1">-->
 				<h3>the Second section-1</h3>
-			</div>
+<!--			</div>
 			<div class="insection insection-2">
 				<h3>the Second section-2</h3>
 			</div>
 			<div class="insection insection-3">
 				<h3>the Second section-3</h3>
-			</div>
+			</div>-->
 		</div>
-		<div class="section section-3">
+		<div class="section section-3 gris-3 bg-3">
 			<h3>the Third section</h3>
 		</div>
-		<div class="section section-4">the Fifth section</div>
+		<div class="section section-4 gris-4 bg-1">the Fifth section</div>
 		<div class="section section-5">
-            <footer>
-                <div class="row">
-                    <div class="col-md-2 text-left slogan">
-                    <img src="imagenes/logo.jpg"><br><br>
-                    &ldquo;Creamos Soluciones... <br>
-                    Su proyecto es <br> nuestro compromiso&rdquo;<br>
-                    <span class="copy">Derechos Reservados &copy; 2016</span>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <div class="tit-secc">NOSOTROS</div>
-                        QUIENES SOMOS?<br>
-                        QUE OFRECEMOS?<br>
-                        MISION VISION VALORES<br>
-                        POR QUE NOSOTROS?<br>
-                        ESQUEMA ORGANIZACIONAL<br>
-                        DESCARGA<br>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <div class="tit-secc">SERVICIOS</div>
-                        LÍNEAS DE SERVICIO<br>
-                        EJECUCIÓN DE INGENIERÍAS<br>
-                        MADURACIÓN DE PROYECTOS<br>
-                        ESTUDIOS ESPECIALES<br>
-                        DESARROLLOS DE MODELOS 3D <br>
-                        PRE-COMMISSIONING COMMISSIONING Y ARRANQUE
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <div class="tit-secc">EXPERIENCIA</div>
-                            NUESTRO PERSONAL<br>
-                            DIRECTORES C&amp;F ENG<br>
-                            NUESTROS CLIENTES<br>
-                            HECHO EN CASA<br>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <div class="tit-secc">SECTORES</div><br>
-                        <div class="tit-secc">ESTRATEGIA</div>	        
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <div class="tit-secc">MANEJO SOFTWARE</div><br>
-                        <div class="tit-secc">ADIESTRAMIENTO</div><br>
-                        <div class="tit-secc">CONTÁCTENOS</div>	  
-                    </div>
-                </div>
-	        </footer>
+        <?php include("php/footer.php"); ?>
         </div>
 	</div>
 </div>
