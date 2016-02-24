@@ -7,24 +7,35 @@ html,body{
 	width: 100%;
 	overflow: hidden;
 }
-.h3, h3{
-    margin-top: 0px; text-align: right; font-family: 'Bitter', serif;
+.section{
+    font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #545454;
+	position: relative;
+    padding-top: 1px;
+}
+.text-grd{
+    	font-size: 20px;
+}
+.text-med{
+    	font-size: 16px;
+}
+.text-peq{
+    	font-size: 14px;
+}
+.section h3{
+    text-align: right;
+    font-family: 'Bitter', serif;
+    font-size: 28px;
+    margin-right: 5%;
+    margin-bottom: 4%;
 }
 #container,.sections{
 	height: 100%;
 	width: 100%;
 	position: relative;
-
-}
-.section{
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: #545454;
-	/*font-size: 40px;*/
-/*	font-family: "microsoft yahei",Simsun,Tahoma;*/
-	position: relative;
-    padding-top: 1px;
 }
 .bg-1{
     background:  url(../imagenes/bg-1.png) repeat;
@@ -33,7 +44,13 @@ html,body{
     background:  url(../imagenes/bg-2.png) repeat;
 }
 .bg-3{
-    background:  rgba(170,170,170,.7) url(../imagenes/bg-3.png) repeat;
+    background:  rgba(170,170,170,.4) url(../imagenes/bg-3.png) repeat;
+}
+.bg-4{
+    background:  url(../imagenes/bg-4.png) repeat;
+}
+.bg-5{
+    background:  url(../imagenes/bg-5.png) repeat;
 }
 .section-1{
 	/*background-color: #ffffff;*/
@@ -49,21 +66,22 @@ html,body{
 }
 .insection{
 	height: 100%;
+    text-align: justify;
 }
 .insection-1{
-	background-color: #d1d1d1;
+
 }
 .insection-2{
-	background-color: #6599FF;
+
 }
 .insection-3{
-	background-color: #FF9900;
+
 }
 .control-prev{
     color: #606060;
 	font-size: 60px;
 	position: fixed;
-	top:250%;
+	top:150%;
 	left: 50px;
 	cursor: pointer;
 }
@@ -71,7 +89,7 @@ html,body{
     color: #606060;
 	font-size: 60px;
 	position: fixed;
-	top: 250%;
+	top: 150%;
 	right: 50px;
 	cursor: pointer;
 }
@@ -120,4 +138,34 @@ html,body{
 	border: 2px solid #0AA5DE;
 	background: none;
 	margin-left: 0;
+}
+
+@media (max-width: 992px) { 
+    .section h3{
+        font-size: 24px;
+    }
+    .text-grd{
+            font-size: 18px;
+    }
+    .text-med{
+            font-size: 14px;
+    }
+    .text-peq{
+            font-size: 12px;
+    }
+}
+
+@media (max-width: 599px) { 
+        .section h3{
+        font-size: 14px;
+    }
+.text-grd{
+    	font-size: 11px;
+}
+.text-med{
+    	font-size: 11px;
+}
+.text-peq{
+    	font-size: 10px;
+}
 }
