@@ -1,29 +1,29 @@
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 html,body{
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .section{
     font-family: 'Raleway', sans-serif;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: #545454;
-	position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #646464;
+    position: relative;
     padding-top: 1px;
 }
 .text-grd{
-    	font-size: 20px;
+        font-size: 20px;
 }
 .text-med{
-    	font-size: 16px;
+        font-size: 16px;
 }
 .text-peq{
-    	font-size: 14px;
+        font-size: 14px;
 }
 .section h3{
     text-align: right;
@@ -32,10 +32,15 @@ html,body{
     margin-right: 5%;
     margin-bottom: 4%;
 }
+.section h4{
+    text-align: left;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+}
 #container,.sections{
-	height: 100%;
-	width: 100%;
-	position: relative;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 .bg-1{
     background:  url(../imagenes/bg-1.png) repeat;
@@ -53,7 +58,7 @@ html,body{
     background:  url(../imagenes/bg-5.png) repeat;
 }
 .section-1{
-	/*background-color: #ffffff;*/
+    /*background-color: #ffffff;*/
 }
 .section-2{
 /*	background-color: #d1d1d1;*/
@@ -62,10 +67,10 @@ html,body{
 /*	background-color: #000000;*/
 }
 .section-4{
-	/*background-color: #CC0000;*/
+    /*background-color: #CC0000;*/
 }
 .insection{
-	height: 100%;
+    height: 100%;
     text-align: justify;
 }
 .insection-1{
@@ -79,70 +84,73 @@ html,body{
 }
 .control-prev{
     color: #606060;
-	font-size: 60px;
-	position: fixed;
-	top:150%;
-	left: 50px;
-	cursor: pointer;
+    font-size: 45px;
+    position: fixed;
+    top:150%;
+    left: 50px;
+    cursor: pointer;
 }
 .control-next{
     color: #606060;
-	font-size: 60px;
-	position: fixed;
-	top: 150%;
-	right: 50px;
-	cursor: pointer;
+    font-size: 45px;
+    position: fixed;
+    top: 150%;
+    right: 50px;
+    cursor: pointer;
 }
 .horizontal{
-	width: 82px;
-	position:fixed;
-	list-style: none;
-	margin:auto;
-	left:0;
-	right:0;
-	bottom: 15px;
+    width: 82px;
+    position:fixed;
+    list-style: none;
+    margin:auto;
+    left:0;
+    right:0;
+    bottom: 15px;
 }
 .horizontal > li{
-	display: block;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: #fff;
-	margin: 0px 10px 0 0;
-	float: left;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0px 10px 0 0;
+    float: left;
 }
 .horizontal > li.active{
-	width: 14px;
-	height: 14px;
-	border: 2px solid #FFFE00;
-	background: none;
-	margin-top: -5px;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #FFFE00;
+    background: none;
+    margin-top: -5px;
 }
 
 .vertical{
-	position:fixed;
-	list-style: none;
-	right: 10px;
-	top: 50%;
+    position:fixed;
+    list-style: none;
+    right: 10px;
+    top: 50%;
 }
 .vertical > li{
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: #6d6d6d;
-	margin: 0 0 10px 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #6d6d6d;
+    margin: 0 0 10px 5px;
 }
 .vertical > li.active{
-	width: 14px;
-	height: 14px;
-	border: 2px solid #0AA5DE;
-	background: none;
-	margin-left: 0;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #0AA5DE;
+    background: none;
+    margin-left: 0;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
     .section h3{
         font-size: 24px;
+    }
+    .section h4{
+        font-size: 20px;
     }
     .text-grd{
             font-size: 18px;
@@ -155,17 +163,22 @@ html,body{
     }
 }
 
-@media (max-width: 599px) { 
+@media (max-width: 599px) {
         .section h3{
         font-size: 14px;
     }
-.text-grd{
-    	font-size: 11px;
-}
-.text-med{
-    	font-size: 11px;
-}
-.text-peq{
-    	font-size: 10px;
-}
+    .section h4{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .text-grd{
+            font-size: 11px;
+    }
+    .text-med{
+            font-size: 11px;
+    }
+    .text-peq{
+            font-size: 10px;
+    }
 }

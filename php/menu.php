@@ -16,19 +16,19 @@
                 <a href="index.php">HOME </a>
               </li>
               <li class="dropdown">
-                <a href="">NOSOTROS</a>
+                <a href="nosotros.php">NOSOTROS</a>
               </li>
               <li class="dropdown">
-                <a href="">SERVICIOS</a>
+                <a href="servicios.php">SERVICIOS</a>
               </li>
               <li class="dropdown">
-                <a href="">SECTORES</a>
+                <a href="sectores.php">SECTORES</a>
               </li>
               <li class="dropdown">
-                <a href="">ESTRATEGIA</a>
+                <a href="estrategia.php">ESTRATEGIA</a>
               </li>
               <li class="dropdown">
-                <a href="">EXPERIENCIA</a>
+                <a href="experiencia.php">EXPERIENCIA</a>
               </li>
               <li class="dropdown">
                 <a href="">MANEJO SOFTWARE</a>

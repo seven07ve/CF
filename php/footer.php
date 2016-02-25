@@ -14,7 +14,7 @@ echo '            <footer>
                         MISION VISION VALORES<br>
                         POR QUE NOSOTROS?<br>
                         ESQUEMA ORGANIZACIONAL<br>
-                        DESCARGA<br>
+                        <!--DESCARGA<br>-->
                     </div>
                     <div class="col-md-2 text-center">
                         <div class="tit-secc">SERVICIOS</div>
@@ -34,13 +34,13 @@ echo '            <footer>
                     </div>
                     <div class="col-md-2 text-center">
                         <div class="tit-secc">SECTORES</div><br>
-                        <div class="tit-secc">ESTRATEGIA</div>	        
+                        <div class="tit-secc">ESTRATEGIA</div>
                     </div>
                     <div class="col-md-2 text-center">
                         <div class="tit-secc">MANEJO SOFTWARE</div><br>
                         <div class="tit-secc">ADIESTRAMIENTO</div><br>
-                        <div class="tit-secc">CONTÁCTENOS</div>	  
+                        <div class="tit-secc">CONTÁCTENOS</div>
                     </div>
                 </div>
-	        </footer>';
+            </footer>';
 ?>
