@@ -39,7 +39,10 @@
 <div id="container">
     <div id="back_to_camera">
       <!-- Static navbar -->
-    <?php include("php/menu.php"); ?>
+    <?php
+        $estrategia=active;
+        include("php/menu.php");
+    ?>
     </div>
     <!-- #back_to_camera -->
     <div class="sections">

@@ -39,13 +39,16 @@
 <div id="container">
     <div id="back_to_camera">
       <!-- Static navbar -->
-    <?php include("php/menu.php"); ?>
+<?php
+$nosotros=active;
+include("php/menu.php");
+?>
     </div>
     <!-- #back_to_camera -->
     <div class="sections">
         <div class="section section-1 blanco bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3><div style="width:auto;">¿QUIÉNES SOMOS?</div></h3><br><br><br><br><br>
                     <div class="row">
                         <div class="col-sm-6 col-md-6 text-justify text-grd">
@@ -61,17 +64,18 @@
                 </div>
             </div>
         </div>
+        <div></div>
         <div class="section section-2 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>¿QUÉ OFRECEMOS?</h3>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3 id="ofrecemos">¿QUÉ OFRECEMOS?</h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-left img-res-left" src="imagenes/ofrecemos.jpg" style="border-radius:8px;" alt="QUÉ OFRECEMOS" title="QUÉ OFRECEMOS">
                             El personal que integra <strong>C&amp;F ENGINEERING</strong>, especialistas en diferentes áreas de
                             ingeniería, pre arranque y arranque de instalaciones de Gas Natural y Petróleo,
                             cuenta con una amplia trayectoria de proyectos exitosos dentro de la industria
-                            petrolera nacional e internacional. <br><br><br>
+                            petrolera nacional e internacional. <br><br>
                             <strong>Nuestra Oferta de Servicios incluye:</strong>
                             <ul>
                                 <li>Evaluación de Infraestructura de Superficie.</li>
@@ -91,8 +95,8 @@
         </div>
         <div class="section section-3 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>MISIÓN Y VISIÓN</h3><br><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>MISIÓN Y VISIÓN</h3><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             <img class="img-responsive pull-left img-res-left" src="imagenes/mision.jpg"
@@ -114,8 +118,8 @@
         </div>
         <div class="section section-4 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>VALORES</h3><br><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>VALORES</h3><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right  img-res-right" src="imagenes/valores.png"
@@ -141,10 +145,10 @@
             </div>
             </div>
         </div>
-        <div class="section section-4 bg-1">
+        <div class="section section-5 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>VALORES</h3><br><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>VALORES</h3><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/valores.png"
@@ -171,10 +175,10 @@
             </div>
             </div>
         </div>
-        <div class="section section-5 bg-1">
+        <div class="section section-6 bg-1">
                <div class="row">
-                   <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                        <h3>¿POR QUÉ NOSOTROS?</h3><br><br><br><br>
+                   <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                        <h3>¿POR QUÉ NOSOTROS?</h3><br><br>
                         <div class="row">
                             <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/por-que.jpg"
@@ -197,16 +201,16 @@
                    </div>
             </div>
         </div>
-        <div class="section section-6 bg-1">
+        <div class="section section-7 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>ESQUEMA ORGANIZACIONAL</h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             Estamos integrados por profesionales de muy alta calificación, con sólida formación
                             académica y amplia experiencia que nos permite definir el siguiente esquema
                             organizacional, dando la posibilidad de conformar equipos multidisciplinarios en
-                            corto plazo para la ejecución de proyectos medianos y pequeños.<br><br><br>
+                            corto plazo para la ejecución de proyectos medianos y pequeños.<br><br>
                         </div>
                     </div>
                     <div class="row">
@@ -218,7 +222,7 @@
                 </div>
             </div>
         </div>
-        <div class="section section-7 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </div>
+        <div class="section section-8 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </div>
     </div>
     </div>
 

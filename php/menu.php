@@ -15,29 +15,29 @@
               <li>
                 <a href="index.php">HOME </a>
               </li>
-              <li class="dropdown">
+              <li class="'.$nosotros.'">
                 <a href="nosotros.php">NOSOTROS</a>
               </li>
-              <li class="dropdown">
+              <li class="'.$servicios.'">
                 <a href="servicios.php">SERVICIOS</a>
               </li>
-              <li class="dropdown">
+              <li class="'.$sectores.'">
                 <a href="sectores.php">SECTORES</a>
               </li>
-              <li class="dropdown">
+              <li class="'.$estrategia.'">
                 <a href="estrategia.php">ESTRATEGIA</a>
               </li>
-              <li class="dropdown">
+              <li class="'.$experiencia.'">
                 <a href="experiencia.php">EXPERIENCIA</a>
               </li>
-              <li class="dropdown">
-                <a href="">MANEJO SOFTWARE</a>
+              <li class="'.$manejo.'">
+                <a href="manejo.php">MANEJO SOFTWARE</a>
               </li>
-              <li class="dropdown">
-                <a href="">ADIESTRAMIENTO</a>
+              <li class="'.$adiestramiento.'">
+                <a href="adiestramiento.php">ADIESTRAMIENTO</a>
               </li>
-              <li class="dropdown">
-                <a href="">CONTÁCTENOS</a>
+              <li class="'.$contactenos.'">
+                <a href="contactenos.php">CONTÁCTENOS</a>
               </li>
 <!--
               <li><a href="">Static top</a></li>

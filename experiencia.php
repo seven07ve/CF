@@ -39,7 +39,10 @@
 <div id="container">
     <div id="back_to_camera">
       <!-- Static navbar -->
-    <?php include("php/menu.php"); ?>
+    <?php
+        $experiencia=active;
+        include("php/menu.php");
+    ?>
     </div>
     <!-- #back_to_camera -->
     <div class="sections">
@@ -53,7 +56,7 @@
                             primordialmente en Venezuela, Colombia y México, sin embargo, su personal
                             también ha desarrollado proyectos en USA, Canadá, Ecuador, Bolivia y Argentina,
                             entre otras localidades.
-                            <br><br>
+                            <br>
                         </div>
                     </div>
                     <div class="row">
@@ -432,7 +435,7 @@
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3 style="margin-bottom:2%;">DIRECTORES C&amp;F ENG - DIRECTORA EJECUTIVA</h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
                             <img class="img-responsive pull-right" src="imagenes/natalia.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0;" alt="Ivan Gamero" title="Ivan Gamero">
                             <h4>Natalia Cataldo</h4>
                             Gerente Senior de Proyectos, con más de 30 años de experiencia y exitoso
@@ -489,7 +492,7 @@
                     <h3>DIRECTORES C&amp;F ENG - DIRECTOR DE COMISIONAMIENTO Y ARRANQUE
 </h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
                             <img class="img-responsive pull-right" src="imagenes/ivan.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0;" alt="Ivan Gamero" title="Ivan Gamero">
                             <h4>Ivan Gamero</h4>
                             Gerente de Commissioning para Petróleo y Gas Natural. 33 años de experiencia.
@@ -530,7 +533,7 @@
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>DIRECTORES C&amp;F ENG - DIRECTOR TÉCNICO</h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
                             <img class="img-responsive pull-right" src="imagenes/mariby.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0;" alt="Ivan Gamero" title="Ivan Gamero">
                             <h4>Mariby Figuera</h4>
                             Ingeniero Mecánico e Ingeniero de Sistemas Mención Control de Procesos con más

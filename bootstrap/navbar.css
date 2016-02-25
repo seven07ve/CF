@@ -23,8 +23,8 @@ src: url("../fonts/Sansation-Regular.ttf");
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #FFF;
-    padding-bottom: 9px;
-    border-bottom: 1px solid #0AA5DE;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0AA5DE;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #fff;
@@ -34,8 +34,8 @@ src: url("../fonts/Sansation-Regular.ttf");
     background: none;
     border: none;
     color: #FFF;
-    padding-bottom: 9px;
-    border-bottom: 1px solid #0AA5DE;
+    padding-bottom: 6px;
+    border-bottom: 4px solid #0AA5DE;
 }
 .navbar-default .navbar-nav>.active>a:hover {
     background: none;
@@ -48,7 +48,7 @@ src: url("../fonts/Sansation-Regular.ttf");
     padding: 10px 10px;
 }
 ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
+    display: block;
 }
 .dropdown-menu {
     background-color: rgba(0,41,87,.7);
@@ -81,7 +81,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     .nav>li {
         position: relative;
         display: block;
-    }  
+    }
 }
 @media (max-width: 700px){
     .navbar-right {

@@ -39,13 +39,16 @@
 <div id="container">
     <div id="back_to_camera">
       <!-- Static navbar -->
-    <?php include("php/menu.php"); ?>
+    <?php
+        $servicios=active;
+        include("php/menu.php");
+    ?>
     </div>
     <!-- #back_to_camera -->
     <div class="sections">
         <div class="section section-1 blanco bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>LÍNEAS DE SERVICIO</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -63,14 +66,14 @@
         </div>
         <div class="section section-2 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3><br>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/fases.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             Conformación de equipos multidisciplinarios para la ejecución de ingenierías, con
                             sólidas fortalezas en la gestión gerencial y comunicacional cliente-consultor, con la
-                            flexibilidad de trabajar a distancia. Incluye entre otras: <br><br><br>
+                            flexibilidad de trabajar a distancia. Incluye entre otras: <br><br>
                             <strong>Nuestra Oferta de Servicios incluye:</strong>
                             <ul>
                                 <li>Simulación de  Procesos.</li>
@@ -91,8 +94,8 @@
         </div>
         <div class="section section-3 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>MADURACIÓN DE PROYECTOS EN TODAS SUS FASES</h3><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>MADURACIÓN DE PROYECTOS EN TODAS SUS FASES</h3><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-grd">
                                 <ul>
@@ -118,8 +121,8 @@
         </div>
         <div class="section section-4 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>ESTUDIOS ESPECIALES</h3><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>ESTUDIOS ESPECIALES</h3>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-med">
                                 <ul>
@@ -148,8 +151,8 @@
         </div>
         <div class="section section-5 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>DESARROLLOS DE MODELOS 3D</h3><br><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3>DESARROLLOS DE MODELOS 3D</h3><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             Desarrollamos un Concepto Tridimensional de comunicación. Hacemos la
@@ -157,7 +160,7 @@
                             Herramientas CAD‐CAE (Diseño asistido por computadora/Ingeniería asistida por
                             computadora) de software especializados. Nuestro personal está altamente
                             calificado en manejo de PDS, SmartPlant 3D, PDMS, Autoplan, Cadworx.
-<br><br><br><br>
+<br><br>
                         </div>
                     </div>
                     <div class="row">
@@ -173,9 +176,9 @@
         </div>
         <div class="section section-6 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3><br><br><br><br><br>
+                    PETRÓLEO</h3><br><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-med">
                                 <ul>
@@ -204,18 +207,16 @@
         </div>
         <div class="section section-7 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3><br><br>
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
+                    <h3 style="margin-bottom:3%;">PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
+                    PETRÓLEO</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning1.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             Estas son fases muy importantes para la excelente finalización del proyecto en la cual
                             hay un solape entre la Gerencia de Construcción y Arranque. Resulta clave incorporar
                             al personal que se encargará del arranque en las etapas tempranas del mismo.
-                             <br>
                             <h4>PRECOMISONAMIENTO (PRE ARRANQUE)</h4>
-                            <strong></strong>
                             <ul style="margin-left:5px;">
                                 <li><strong>Verificación de las condiciones de procesos, electromecánicas y de
                                 instrumentación de las instalaciones, entre otros:</strong>
@@ -227,7 +228,7 @@
                                         <li>Purga de líneas y colocación de ciegos en equipos no sujetos a pruebas
                                         hidrostáticas tales como compresores, bombas y válvulas de seguridad.</li>
                                     </ul>
-                                </li><br>
+                                </li>
                                 <li><strong>Procedimientos de arranque seguro:</strong>
                                     <ul style="margin-left:15px;">
                                         <li>Revisión del diseño en función de la preparación para el arranque.</li>
@@ -248,9 +249,9 @@
         </div>
         <div class="section section-8 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3><br><br><br><br>
+                    PETRÓLEO</h3><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning2.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
