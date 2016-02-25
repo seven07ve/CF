@@ -46,7 +46,7 @@
         <div class="section section-1 blanco bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>¿QUIÉNES SOMOS?</h3>
+                    <h3>¿QUIÉNES SOMOS?</h3><br><br><br><br><br>
                     <div class="row">
                         <div class="col-sm-6 col-md-6 text-justify text-grd">
                             Somos una Empresa de Consultoría especializada en la creación de Soluciones
@@ -67,7 +67,7 @@
                     <h3>¿QUÉ OFRECEMOS?</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <img class="img-responsive pull-left" src="imagenes/ofrecemos.jpg" style="width:40%; margin-right:4%; border-radius:8px;" alt="QUÉ OFRECEMOS" title="QUÉ OFRECEMOS">
+                            <img class="img-responsive pull-left img-res-left" src="imagenes/ofrecemos.jpg" style="border-radius:8px;" alt="QUÉ OFRECEMOS" title="QUÉ OFRECEMOS">
                             El personal que integra <strong>C&amp;F ENGINEERING</strong>, especialistas en diferentes áreas de
                             ingeniería, pre arranque y arranque de instalaciones de Gas Natural y Petróleo,
                             cuenta con una amplia trayectoria de proyectos exitosos dentro de la industria
@@ -92,11 +92,11 @@
         <div class="section section-3 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>MISIÓN Y VISIÓN</h3>
+                    <h3>MISIÓN Y VISIÓN</h3><br><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <img class="img-responsive pull-left" src="imagenes/mision.jpg"
-                                  style="width:40%; margin-right:4%; border-radius:8px;" alt="MISIÓN Y VISIÓN" title="MISIÓN Y VISIÓN">
+                            <img class="img-responsive pull-left img-res-left" src="imagenes/mision.jpg"
+                                  style="border-radius:8px;" alt="MISIÓN Y VISIÓN" title="MISIÓN Y VISIÓN">
                                   Nuestra <strong>VISIÓN</strong> es ser una empresa de servicios reconocida
                                   como líder en la creación de valor para nuestros clientes en el negocio de Estudios
                                   Integrales, Ingeniería, Definición y mejora continua de Procesos, mediante la
@@ -115,11 +115,11 @@
         <div class="section section-4 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>VALORES</h3>
+                    <h3>VALORES</h3><br><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right" src="imagenes/valores.png"
-                                  style="width:40%; margin-left:4%; border-radius:8px;" alt="VALORES" title="VALORES">
+                            <img class="img-responsive pull-right  img-res-right" src="imagenes/valores.png"
+                                  style="border-radius:8px;" alt="VALORES" title="VALORES">
                                   <strong>RESPETO AL RECURSO HUMANO:</strong> En C&amp;F ENGINEERING
                                   entendemos que nuestra gente es parte primordial en la empresa y en este
                                   sentido proveemos un trabajo digno e impulsamos un ambiente en el que se
@@ -144,11 +144,11 @@
         <div class="section section-4 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>VALORES</h3>
+                    <h3>VALORES</h3><br><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right" src="imagenes/valores.png"
-                                  style="width:40%; margin-left:4%; border-radius:8px;" alt="VALORES" title="VALORES">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/valores.png"
+                                  style="border-radius:8px;" alt="VALORES" title="VALORES">
                                   <strong>CALIDAD E INNOVACIÓN:</strong> Nos ocupamos por desarrollar y
                                   mantener altos estándares de calidad en nuestro servicio,
                                   ajustándonos al entorno y a las necesidades específicas de
@@ -174,11 +174,11 @@
         <div class="section section-5 bg-1">
                <div class="row">
                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                        <h3>¿POR QUÉ NOSOTROS?</h3>
+                        <h3>¿POR QUÉ NOSOTROS?</h3><br><br><br><br>
                         <div class="row">
                             <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right" src="imagenes/por-que.jpg"
-                                  style="width:40%; margin-left:4%; border-radius:8px;" alt="POR QUÉ NOSOTROS" title="POR QUÉ NOSOTROS">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/por-que.jpg"
+                                  style="border-radius:8px;" alt="POR QUÉ NOSOTROS" title="POR QUÉ NOSOTROS">
                                   Nuestra esencia es la generación y sostenibilidad de una relación estrecha con
                                   Clientes y Proveedores, cuya explicación más simple reside en el efecto sinérgico y
                                   dinámico que pretendemos dar a nuestras acciones. <br>
@@ -206,7 +206,7 @@
                             Estamos integrados por profesionales de muy alta calificación, con sólida formación
                             académica y amplia experiencia que nos permite definir el siguiente esquema
                             organizacional, dando la posibilidad de conformar equipos multidisciplinarios en
-                            corto plazo para la ejecución de proyectos medianos y pequeños.<br><br>
+                            corto plazo para la ejecución de proyectos medianos y pequeños.<br><br><br>
                         </div>
                     </div>
                     <div class="row">

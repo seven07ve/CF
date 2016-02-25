@@ -64,10 +64,10 @@
         <div class="section section-2 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3>
+                    <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <img class="img-responsive pull-right" src="imagenes/fases.jpg" style="width:40%; margin-left:4%; border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/fases.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             Conformación de equipos multidisciplinarios para la ejecución de ingenierías, con
                             sólidas fortalezas en la gestión gerencial y comunicacional cliente-consultor, con la
                             flexibilidad de trabajar a distancia. Incluye entre otras: <br><br><br>
@@ -92,7 +92,7 @@
         <div class="section section-3 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>MADURACIÓN DE PROYECTOS EN TODAS SUS FASES</h3>
+                    <h3>MADURACIÓN DE PROYECTOS EN TODAS SUS FASES</h3><br><br><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-grd">
                                 <ul>
@@ -119,7 +119,7 @@
         <div class="section section-4 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>ESTUDIOS ESPECIALES</h3>
+                    <h3>ESTUDIOS ESPECIALES</h3><br><br><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-med">
                                 <ul>
@@ -149,7 +149,7 @@
         <div class="section section-5 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>DESARROLLOS DE MODELOS 3D</h3>
+                    <h3>DESARROLLOS DE MODELOS 3D</h3><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             Desarrollamos un Concepto Tridimensional de comunicación. Hacemos la
@@ -157,11 +157,11 @@
                             Herramientas CAD‐CAE (Diseño asistido por computadora/Ingeniería asistida por
                             computadora) de software especializados. Nuestro personal está altamente
                             calificado en manejo de PDS, SmartPlant 3D, PDMS, Autoplan, Cadworx.
-<br><br>
+<br><br><br><br>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-center text-grd">
                             <img class="img-responsive" src="imagenes/modelos-3d-soft.png"
                                   style="display: inline-block; margin:0 2%; border-radius:8px;" alt="MODELOS 3D" title="MODELOS 3D">
                             <img class="img-responsive hidden-xs " src="imagenes/modelos-3d.jpg"
@@ -175,7 +175,7 @@
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3>
+                    PETRÓLEO</h3><br><br><br><br><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-med">
                                 <ul>
@@ -206,10 +206,10 @@
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3>
+                    PETRÓLEO</h3><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <img class="img-responsive pull-right" src="imagenes/commissioning1.jpg" style="width:40%; margin-left:4%; border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning1.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             Estas son fases muy importantes para la excelente finalización del proyecto en la cual
                             hay un solape entre la Gerencia de Construcción y Arranque. Resulta clave incorporar
                             al personal que se encargará del arranque en las etapas tempranas del mismo.
@@ -250,10 +250,10 @@
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3>
+                    PETRÓLEO</h3><br><br><br><br>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <img class="img-responsive pull-right" src="imagenes/commissioning2.jpg" style="width:40%; margin-left:4%; border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning2.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             <h4>COMISIONAMIENTO Y ARRANQUE</h4>
                                     <ul style="margin-left:5px;">
                                         <li>Alcanzar el nivel mínimo para la operación estable y segura de la planta,

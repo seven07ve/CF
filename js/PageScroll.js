@@ -127,7 +127,7 @@
                 var	prevClass = me.selectors.controlPrev.substring(1),
                     nextClass = me.selectors.controlNext.substring(1),
                     controlHtml = "<a class="+prevClass+">&lt;</a>";
-                    controlHtml += "<a class="+nextClass+"><span style=\"font-size:14px;\">siguiente</span> &gt;</a>";
+                    controlHtml += "<a class="+nextClass+"><span style=\"font-size:16px;\">siguiente</span> &gt;</a>";
                     me.insection.parent().append(controlHtml);
             },
             /*说明：主要针对横屏情况进行页面布局*/

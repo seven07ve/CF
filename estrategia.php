@@ -67,10 +67,10 @@
         <div class="section section-2 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h3>CAPACIDAD DE EJECUCIÓN</h3>
+                    <h3>CAPACIDAD DE EJECUCIÓN</h3><br><br><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-left" src="imagenes/ejecucion.jpg" style="width:40%; margin-right:4%; border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-left img-res-left" src="imagenes/ejecucion.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             <strong>C&amp;F ENGINEERING</strong> cuenta con el soporte de profesionales
                              multidisciplinarios que le otorgan una Capacidad de Ejecución adaptable a las
                              necesidades y que se puede expandir de manera flexible a través de su red de

@@ -16,6 +16,16 @@ html,body{
     position: relative;
     padding-top: 1px;
 }
+.section .img-res-left{
+    width:40%;
+    max-width: 400px;
+    margin-right:4%; 
+}
+.section .img-res-right{
+    width:40%;
+    max-width: 400px;
+    margin-left:4%; 
+}
 .text-grd{
         font-size: 20px;
 }
@@ -109,8 +119,8 @@ html,body{
 }
 .horizontal > li{
     display: block;
-    width: 8px;
-    height: 8px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: #fff;
     margin: 0px 10px 0 0;
@@ -131,20 +141,36 @@ html,body{
     top: 50%;
 }
 .vertical > li{
-    width: 8px;
-    height: 8px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: #6d6d6d;
     margin: 0 0 10px 5px;
 }
 .vertical > li.active{
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     border: 2px solid #0AA5DE;
     background: none;
-    margin-left: 0;
+    margin-left: 3px;
 }
-
+@media (min-width: 1282px) {
+    .section h3{
+        font-size: 30px;
+    }
+    .section h4{
+        font-size: 26px;
+    }
+    .text-grd{
+            font-size: 24px;
+    }
+    .text-med{
+            font-size: 20px;
+    }
+    .text-peq{
+            font-size: 18px;
+    }
+}
 @media (max-width: 992px) {
     .section h3{
         font-size: 24px;
