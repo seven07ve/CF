@@ -8,7 +8,7 @@
     <meta name="keywords" content="Empresa, Consultoría, creación, Soluciones, Soluciones integrales, Industria, Petrolero, Gasífero, Petroquímico, Energético, Servicios, asistencia técnica,  diseño, proyecto, Arranque, Arranque de instalaciones, instalaciones" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SERVICIOS C&amp;F Engineering</title>
+    <title>ESTRATEGIA C&amp;F Engineering</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <!--	fuente RALEWAY-->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -45,7 +45,7 @@
     <div class="sections">
         <div class="section section-1 blanco bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>ESTRATEGIA</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -66,7 +66,7 @@
         </div>
         <div class="section section-2 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>CAPACIDAD DE EJECUCIÓN</h3><br><br><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">

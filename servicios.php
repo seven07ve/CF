@@ -45,7 +45,7 @@
     <div class="sections">
         <div class="section section-1 blanco bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>LÍNEAS DE SERVICIO</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -63,7 +63,7 @@
         </div>
         <div class="section section-2 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -91,7 +91,7 @@
         </div>
         <div class="section section-3 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>MADURACIÓN DE PROYECTOS EN TODAS SUS FASES</h3><br><br><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-grd">
@@ -118,7 +118,7 @@
         </div>
         <div class="section section-4 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>ESTUDIOS ESPECIALES</h3><br><br><br>
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-med">
@@ -148,7 +148,7 @@
         </div>
         <div class="section section-5 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>DESARROLLOS DE MODELOS 3D</h3><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -173,7 +173,7 @@
         </div>
         <div class="section section-6 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
                     PETRÓLEO</h3><br><br><br><br><br>
                         <div class="row">
@@ -204,7 +204,7 @@
         </div>
         <div class="section section-7 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
                     PETRÓLEO</h3><br><br>
                     <div class="row">
@@ -248,7 +248,7 @@
         </div>
         <div class="section section-8 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
                     PETRÓLEO</h3><br><br><br><br>
                     <div class="row">

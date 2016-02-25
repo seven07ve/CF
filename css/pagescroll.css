@@ -39,13 +39,19 @@ html,body{
     text-align: right;
     font-family: 'Bitter', serif;
     font-size: 28px;
+    color: #1d6dbc;
+    text-decoration: underline;
     margin-right: 5%;
     margin-bottom: 4%;
+}
+strong{
+    color: #42495c;
 }
 .section h4{
     text-align: left;
     font-family: 'Bitter', serif;
     font-size: 24px;
+    color: #1d6dbc;
 }
 #container,.sections{
     height: 100%;

@@ -8,7 +8,7 @@
     <meta name="keywords" content="Empresa, Consultoría, creación, Soluciones, Soluciones integrales, Industria, Petrolero, Gasífero, Petroquímico, Energético, Servicios, asistencia técnica,  diseño, proyecto, Arranque, Arranque de instalaciones, instalaciones" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SERVICIOS C&amp;F Engineering</title>
+    <title>EXPERIENCIA C&amp;F Engineering</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <!--	fuente RALEWAY-->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -45,7 +45,7 @@
     <div class="sections">
         <div class="section section-1 blanco bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -68,7 +68,7 @@
         <div class="section section-2 bg-1">
            <div class="insection insection-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -102,7 +102,7 @@
             </div>
            <div class="insection insection-2">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -135,7 +135,7 @@
             </div>
            <div class="insection insection-3">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -168,7 +168,7 @@
             </div>
            <div class="insection insection-4">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -202,7 +202,7 @@
             </div>
            <div class="insection insection-5">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -235,7 +235,7 @@
             </div>
            <div class="insection insection-6">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -271,7 +271,7 @@
             </div>
            <div class="insection insection-7">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -310,7 +310,7 @@
             </div>
            <div class="insection insection-8">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -351,7 +351,7 @@
             </div>
            <div class="insection insection-9">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -390,7 +390,7 @@
             </div>
            <div class="insection insection-10">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -429,7 +429,7 @@
         </div>
         <div class="section section-3 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3 style="margin-bottom:2%;">DIRECTORES C&amp;F ENG - DIRECTORA EJECUTIVA</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -485,7 +485,7 @@
         </div>
         <div class="section section-4 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>DIRECTORES C&amp;F ENG - DIRECTOR DE COMISIONAMIENTO Y ARRANQUE
 </h3>
                     <div class="row">
@@ -527,7 +527,7 @@
         </div>
         <div class="section section-5 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>DIRECTORES C&amp;F ENG - DIRECTOR TÉCNICO</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -565,7 +565,7 @@
         </div>
         <div class="section section-6 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>NUESTROS CLIENTES</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
@@ -578,7 +578,7 @@
         </div>
         <div class="section section-7 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>HECHO EN CASA...</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -620,7 +620,7 @@
         </div>
         <div class="section section-8 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>HECHO EN CASA...</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -658,7 +658,7 @@
         </div>
         <div class="section section-9 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>HECHO EN CASA...</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -698,7 +698,7 @@
         </div>
         <div class="section section-10 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>HECHO EN CASA...</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -739,7 +739,7 @@
         </div>
         <div class="section section-11 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>HECHO EN CASA...</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
@@ -782,7 +782,7 @@
         </div>
         <div class="section section-12 bg-1">
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>HECHO EN CASA...</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
