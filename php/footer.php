@@ -54,7 +54,8 @@ echo '<footer>
                         </a><br>
                         <a href="adiestramiento.php" class="footer-link">
                             <div class="tit-secc">ADIESTRAMIENTO</div>
-                        </a><br>
+                            CURSOS PROXIMAMENTE
+                        </a><br><br>
                         <a href="contactenos.php" class="footer-link">
                             <div class="tit-secc">CONTÁCTENOS</div>
                         </a>
