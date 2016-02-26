@@ -59,7 +59,7 @@
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             <img class="img-responsive" src="imagenes/software.png"
-                                  style="margin:0 auto; border-radius:8px;" alt="SECTORES" title="SECTORES">
+                                  style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="SECTORES" title="SECTORES">
                         </div>
                     </div>
                 </div>

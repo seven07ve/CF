@@ -70,7 +70,7 @@
                     <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right img-res-right" src="imagenes/fases.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/fases.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             Conformación de equipos multidisciplinarios para la ejecución de ingenierías, con
                             sólidas fortalezas en la gestión gerencial y comunicacional cliente-consultor, con la
                             flexibilidad de trabajar a distancia. Incluye entre otras: <br><br>
@@ -113,7 +113,7 @@
                                 <br><br>
                             </div>
                             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-sm-6 col-md-6">
-                                <img class="img-responsive round" src="imagenes/maduracion.jpg" style="margin:0 auto; border-radius:8px;" alt="MADURACIÓN" title="MADURACIÓN">
+                                <img class="img-responsive round" src="imagenes/maduracion.jpg" style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="MADURACIÓN" title="MADURACIÓN">
                             </div>
                         </div>
                 </div>
@@ -143,7 +143,7 @@
                                 <br><br>
                             </div>
                             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-sm-6 col-md-6">
-                                <img class="img-responsive round" src="imagenes/estudios.jpg" style="margin:0 auto; border-radius:8px;" alt="ESTUDIOS ESPECIALES" title="ESTUDIOS ESPECIALES">
+                                <img class="img-responsive round" src="imagenes/estudios.jpg" style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="ESTUDIOS ESPECIALES" title="ESTUDIOS ESPECIALES">
                             </div>
                         </div>
                 </div>
@@ -168,7 +168,7 @@
                             <img class="img-responsive" src="imagenes/modelos-3d-soft.png"
                                   style="display: inline-block; margin:0 2%; border-radius:8px;" alt="MODELOS 3D" title="MODELOS 3D">
                             <img class="img-responsive hidden-xs " src="imagenes/modelos-3d.jpg"
-                                  style="display: inline-block; margin:0 2%; border-radius:8px;" alt="MODELOS 3D" title="MODELOS 3D">
+                                  style="display: inline-block; margin:0 2%; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="MODELOS 3D" title="MODELOS 3D">
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
                                 <br><br>
                             </div>
                             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-sm-6 col-md-6">
-                                <img class="img-responsive round" src="imagenes/commissioning.jpg" style="margin:0 auto; border-radius:8px;" alt="COMMISSIONING" title="COMMISSIONING">
+                                <img class="img-responsive round" src="imagenes/commissioning.jpg" style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="COMMISSIONING" title="COMMISSIONING">
                             </div>
                         </div>
                 </div>
@@ -212,7 +212,7 @@
                     PETRÓLEO</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning1.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning1.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             Estas son fases muy importantes para la excelente finalización del proyecto en la cual
                             hay un solape entre la Gerencia de Construcción y Arranque. Resulta clave incorporar
                             al personal que se encargará del arranque en las etapas tempranas del mismo.
@@ -254,7 +254,7 @@
                     PETRÓLEO</h3><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning2.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning2.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             <h4>COMISIONAMIENTO Y ARRANQUE</h4>
                                     <ul style="margin-left:5px;">
                                         <li>Alcanzar el nivel mínimo para la operación estable y segura de la planta,

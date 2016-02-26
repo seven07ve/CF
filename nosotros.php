@@ -58,7 +58,7 @@ include("php/menu.php");
                             Proyecto y  Arranque de instalaciones. <br><br>
                         </div>
                         <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-sm-6 col-md-6">
-                            <img class="img-responsive round" src="imagenes/quienes.jpg" style="margin:0 auto; border-radius:8px;" alt="QUIÉNES SOMOS" title="QUIÉNES SOMOS">
+                            <img class="img-responsive round" src="imagenes/quienes.jpg" style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="QUIÉNES SOMOS" title="QUIÉNES SOMOS">
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ include("php/menu.php");
                     <h3 id="ofrecemos">¿QUÉ OFRECEMOS?</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-left img-res-left" src="imagenes/ofrecemos.jpg" style="border-radius:8px;" alt="QUÉ OFRECEMOS" title="QUÉ OFRECEMOS">
+                            <img class="img-responsive pull-left img-res-left" src="imagenes/ofrecemos.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="QUÉ OFRECEMOS" title="QUÉ OFRECEMOS">
                             El personal que integra <strong>C&amp;F ENGINEERING</strong>, especialistas en diferentes áreas de
                             ingeniería, pre arranque y arranque de instalaciones de Gas Natural y Petróleo,
                             cuenta con una amplia trayectoria de proyectos exitosos dentro de la industria
@@ -100,7 +100,7 @@ include("php/menu.php");
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             <img class="img-responsive pull-left img-res-left" src="imagenes/mision.jpg"
-                                  style="border-radius:8px;" alt="MISIÓN Y VISIÓN" title="MISIÓN Y VISIÓN">
+                                  style="border-radius:8px;  box-shadow: #555 4px 4px 8px;" alt="MISIÓN Y VISIÓN" title="MISIÓN Y VISIÓN">
                                   Nuestra <strong>VISIÓN</strong> es ser una empresa de servicios reconocida
                                   como líder en la creación de valor para nuestros clientes en el negocio de Estudios
                                   Integrales, Ingeniería, Definición y mejora continua de Procesos, mediante la
@@ -182,7 +182,7 @@ include("php/menu.php");
                         <div class="row">
                             <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/por-que.jpg"
-                                  style="border-radius:8px;" alt="POR QUÉ NOSOTROS" title="POR QUÉ NOSOTROS">
+                                  style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="POR QUÉ NOSOTROS" title="POR QUÉ NOSOTROS">
                                   Nuestra esencia es la generación y sostenibilidad de una relación estrecha con
                                   Clientes y Proveedores, cuya explicación más simple reside en el efecto sinérgico y
                                   dinámico que pretendemos dar a nuestras acciones. <br>

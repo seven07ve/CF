@@ -436,7 +436,7 @@
                     <h3 style="margin-bottom:2%;">DIRECTORES C&amp;F ENG - DIRECTORA EJECUTIVA</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
-                            <img class="img-responsive pull-right" src="imagenes/natalia.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0;" alt="Ivan Gamero" title="Ivan Gamero">
+                            <img class="img-responsive pull-right" src="imagenes/natalia.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
                             <h4>Natalia Cataldo</h4>
                             Gerente Senior de Proyectos, con más de 30 años de experiencia y exitoso
                             desempeño en Gerencia de Proyectos para la Industria de Petróleo, Refinación y Gas,
@@ -493,7 +493,7 @@
 </h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
-                            <img class="img-responsive pull-right" src="imagenes/ivan.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0;" alt="Ivan Gamero" title="Ivan Gamero">
+                            <img class="img-responsive pull-right" src="imagenes/ivan.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
                             <h4>Ivan Gamero</h4>
                             Gerente de Commissioning para Petróleo y Gas Natural. 33 años de experiencia.
                             Responsabilidad sobre la fase final de construcción, completamiento mecánico de
@@ -534,7 +534,7 @@
                     <h3>DIRECTORES C&amp;F ENG - DIRECTOR TÉCNICO</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
-                            <img class="img-responsive pull-right" src="imagenes/mariby.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0;" alt="Ivan Gamero" title="Ivan Gamero">
+                            <img class="img-responsive pull-right" src="imagenes/mariby.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
                             <h4>Mariby Figuera</h4>
                             Ingeniero Mecánico e Ingeniero de Sistemas Mención Control de Procesos con más
                             de 15 años de Experiencia Profesional en la Ejecución y Coordinación de Proyectos

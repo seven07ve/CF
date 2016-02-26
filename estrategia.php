@@ -73,7 +73,7 @@
                     <h3>CAPACIDAD DE EJECUCIÓN</h3><br><br><br><br><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-left img-res-left" src="imagenes/ejecucion.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-left img-res-left" src="imagenes/ejecucion.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             <strong>C&amp;F ENGINEERING</strong> cuenta con el soporte de profesionales
                              multidisciplinarios que le otorgan una Capacidad de Ejecución adaptable a las
                              necesidades y que se puede expandir de manera flexible a través de su red de

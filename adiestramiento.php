@@ -52,7 +52,7 @@
                     <h3>ADIESTRAMIENTOS</h3><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right img-res-right" src="imagenes/adiestramiento.jpg" style="border-radius:8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
+                            <img class="img-responsive pull-right img-res-right" src="imagenes/adiestramiento.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
                             “En Casa” o Cursos / Talleres programados básicamente en las siguientes áreas:
                              <br><ul>
                                  <li>Ingeniería de Procesos.</li>
@@ -85,8 +85,8 @@
                             <h4>PROXIMAMENTE se estarán dictando los cursos:</h4>
                              <br><br>
                                 <ul>
-                                 <li><a href="pdf/Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf" target="_blank">Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf</a></li><br>
-                                 <li><a href="pdf/Análisis de esfuerzos y Flexibilidad para Líderes de Tuberías.pdf" target="_blank">Análisis de esfuerzos y Flexibilidad para Líderes de Tuberías.</a></li>
+                                 <li><a href="pdf/Analisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf" target="_blank">Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf</a></li><br>
+                                 <li><a href="pdf/Analisis de esfuerzos y Flexibilidad para Lideres de Tuberias.pdf" target="_blank">Análisis de esfuerzos y Flexibilidad para Líderes de Tuberías.</a></li>
                              </ul>
                              <br>
                         </div>
