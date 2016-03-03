@@ -36,9 +36,17 @@
 
 </head>
 <body>
-    <div class="main">
-        <section class="section section-1 blanco bg-1">
-            <?php $nosotros=active; include("php/menu.php"); ?>
+<div id="container">
+    <div id="back_to_camera">
+      <!-- Static navbar -->
+<?php
+$nosotros=active;
+include("php/menu.php");
+?>
+    </div>
+    <!-- #back_to_camera -->
+    <div class="sections">
+        <div class="section section-1 blanco bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3><div style="width:auto;">¿QUIÉNES SOMOS?</div></h3><br><br><br><br><br>
@@ -55,8 +63,9 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section section-2 bg-1">
+        </div>
+        <div></div>
+        <div class="section section-2 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3 id="ofrecemos">¿QUÉ OFRECEMOS?</h3>
@@ -83,8 +92,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section section-3 bg-1">
+        </div>
+        <div class="section section-3 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>MISIÓN Y VISIÓN</h3><br><br>
@@ -106,8 +115,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section section-4 bg-1">
+        </div>
+        <div class="section section-4 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>VALORES</h3><br><br>
@@ -135,8 +144,8 @@
                 </div>
             </div>
             </div>
-        </section>
-        <section class="section section-5 bg-1">
+        </div>
+        <div class="section section-5 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>VALORES</h3><br><br>
@@ -165,8 +174,8 @@
                 </div>
             </div>
             </div>
-        </section>
-        <section class="section section-6 bg-1">
+        </div>
+        <div class="section section-6 bg-1">
                <div class="row">
                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                         <h3>¿POR QUÉ NOSOTROS?</h3><br><br>
@@ -191,8 +200,8 @@
                         </div>
                    </div>
             </div>
-        </section>
-        <section class="section section-7 bg-1">
+        </div>
+        <div class="section section-7 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>ESQUEMA ORGANIZACIONAL</h3>
@@ -212,24 +221,54 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section section-8 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </section>
+        </div>
+        <div class="section section-8 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </div>
+    </div>
+    </div>
 
-</div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <!--<script src="./bootstrap/jquery.min.js"></script>-->
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./bootstrap/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./bootstrap/ie10-viewport-bug-workaround.js"></script>
     <!--SCROLL SCRIPT-->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/rustic.js"></script>
-<script>
-$(document).ready(function() {
-    $('.main').rustic({looping: true});
-});
-</script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/PageScroll.js"></script>
+    <script type="text/javascript">
+    //插件初始化
+    $("#container").PageScroll({
+        //html结构
+        selectors : {
+            sections : ".sections",
+            section : ".section",
+            insection : ".insection",
+            page : ".pages",
+            active : ".active",
+            controlPrev : ".control-prev",
+            controlNext : ".control-next"
+        },
+        //页面开始的索引值,默认为0,从0开始记数
+        index : 0,
+        //动画效果，5种：默认为ease,linear,ease-in,ease-out,ease-in-out
+        easing : "ease",
+        //动画时间，单位毫秒
+        duration : 500,
+        //是否循环播放
+        loop : false,
+        //是否进行分页处理
+        pagination : true,
+        //是否触发键盘事件
+        keyboard :true,
+        //滚动方式，默认竖屏滚动，横屏滚动为horizontal
+        direction : "vertical",
+        //动画执行后执行的回调函数
+        callback : ""
+    });
+    //$("#container").PageScroll("init");
+    </script>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <meta name="keywords" content="Empresa, Consultoría, creación, Soluciones, Soluciones integrales, Industria, Petrolero, Gasífero, Petroquímico, Energético, Servicios, asistencia técnica,  diseño, proyecto, Arranque, Arranque de instalaciones, instalaciones" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ESTRATEGIA C&amp;F Engineering</title>
+    <title>SECTORES C&amp;F Engineering</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <!--	fuente RALEWAY-->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -36,69 +36,81 @@
 
 </head>
 <body>
-<div class="main">
-        <section class="section section-1 blanco bg-1">
-           <?php  $estrategia=active; include("php/menu.php"); ?>
+<div id="container">
+    <div id="back_to_camera">
+      <!-- Static navbar -->
+    <?php
+        $sectores=active;
+        include("php/menu.php");
+    ?>
+    </div>
+    <!-- #back_to_camera -->
+    <div class="sections">
+        <div class="section section-1 blanco bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>ESTRATEGIA</h3>
+                    <h3>SECTORES</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            La estrategia está diseñada para ofrecerle a nuestros Clientes significativos
-                            beneficios, tanto Técnicos, que se traducen en trabajos oportunos, confiables y
-                            seguros, así como Económicos, resultando un servicio costo-efectivo.
+                            Nuestra Oferta de Servicios Técnicos comprende las siguientes áreas de negocios:
                             <br><br>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <img class="img-responsive" src="imagenes/estrategia.png"
-                                  style="margin:0 auto; border-radius:8px;" alt="ESTRATEGIA" title="ESTRATEGIA">
+                            <img class="img-responsive" src="imagenes/sectores.png"
+                                  style="margin:0 auto; border-radius:8px;" alt="SECTORES" title="SECTORES">
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section section-2 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>CAPACIDAD DE EJECUCIÓN</h3><br><br><br><br><br>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-left img-res-left" src="imagenes/ejecucion.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
-                            <strong>C&amp;F ENGINEERING</strong> cuenta con el soporte de profesionales
-                             multidisciplinarios que le otorgan una Capacidad de Ejecución adaptable a las
-                             necesidades y que se puede expandir de manera flexible a través de su red de
-                             profesionales y técnicos, dependiendo de los requerimientos de proyectos.
-                             <br><br>
-                             La participación de <strong>C&amp;F ENGINEERING</strong> está orientada a la
-                             conformación de Equipos de alto desempeño, base para materializar las sinergias
-                             entre las diferentes actividades, que asegure una ejecución comprometida no sólo
-                             con un alto nivel técnico y óptimos tiempos de ejecución, sino siempre en línea con la
-                             seguridad y calidad de los procesos, en sincronía con el ambiente y todos los
-                             aspectos de HSE involucrados.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-7 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </section>
+        </div>
+        <div class="section section-7 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </div>
     </div>
-</div>
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <!--<script src="./bootstrap/jquery.min.js"></script>-->
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./bootstrap/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./bootstrap/ie10-viewport-bug-workaround.js"></script>
     <!--SCROLL SCRIPT-->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/rustic.js"></script>
-<script>
-$(document).ready(function() {
-    $('.main').rustic({looping: true});
-});
-</script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/PageScroll.js"></script>
+    <script type="text/javascript">
+    //插件初始化
+    $("#container").PageScroll({
+        //html结构
+        selectors : {
+            sections : ".sections",
+            section : ".section",
+            insection : ".insection",
+            page : ".pages",
+            active : ".active",
+            controlPrev : ".control-prev",
+            controlNext : ".control-next"
+        },
+        //页面开始的索引值,默认为0,从0开始记数
+        index : 0,
+        //动画效果，5种：默认为ease,linear,ease-in,ease-out,ease-in-out
+        easing : "ease",
+        //动画时间，单位毫秒
+        duration : 500,
+        //是否循环播放
+        loop : false,
+        //是否进行分页处理
+        pagination : true,
+        //是否触发键盘事件
+        keyboard :true,
+        //滚动方式，默认竖屏滚动，横屏滚动为horizontal
+        direction : "vertical",
+        //动画执行后执行的回调函数
+        callback : ""
+    });
+    //$("#container").PageScroll("init");
+    </script>
 </body>
 </html>
