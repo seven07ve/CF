@@ -73,8 +73,8 @@ footer .tit-secc{
 	height: 45px;
 	margin-bottom: 10px;
 	padding-left: 10px;
-	border-top: 2px solid #9A9A9A;
-	border-left: 2px solid #9A9A9A;
+	border-top: 2px solid #5f8ebc;
+	border-left: 2px solid #5f8ebc;
 	border-radius: 14px;
 	background: #5F5F5F; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#bfbfbf, #9f9f9f); /* For Safari 5.1 to 6.0 */
@@ -91,14 +91,16 @@ input:focus{
 	width: 20%;
 	height: 40px;
 	margin-right: 5%;
+    border-bottom: 1px solid #8a979b;
+    border-right: 1px solid #8a979b;
 }
 .form-contacto textarea{
 	font-size: 110%;
 	width: 90%;
 	margin-bottom: 10px;
 	padding-left: 10px;
-	border-top: 2px solid #9A9A9A;
-	border-left: 2px solid #9A9A9A;
+	border-top: 2px solid #5f8ebc;
+	border-left: 2px solid #5f8ebc;
 	border-radius: 14px;
 	background: #5F5F5F; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#bfbfbf, #9f9f9f); /* For Safari 5.1 to 6.0 */
@@ -111,8 +113,25 @@ textarea:focus{
 	box-shadow: #1D6DBC 0px 0px 7px;
 	outline: 0;
 }
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #0AA5DE;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: #0AA5DE;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: #0AA5DE;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: #0AA5DE;
+}
 .msj{
 	display: none;
+    font-weight: bold;
 }
 #aviso-enviado{
 	display: none;
