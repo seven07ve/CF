@@ -53,14 +53,20 @@ $(document).ready(function (){
 		}
 		else{
 			var datos = 'nombre='+nombre+'&tel='+tel+'&email='+mail+'&asunto='+asuntos+'&consulta='+consulta;
-			alert(datos);
 			$.ajax({
 				type:'post',
 				url:'php/contacto-mail.php',
 				data:datos,
 				success: function(data){
 					var resp = data;
-					$('#prueba').fadeIn(0).html(resp);
+					$('#remitente').fadeIn(1000).html(resp);
+					$('#aviso-enviado').fadeIn(1000);
+					$('#name').val("");
+					$('#nombre').val("");
+					$('#tel').val("");
+					$('#email').val("");
+					$('#asuntos').val("");
+					$('#mensaje').val("");
 				}
 			});
 		}

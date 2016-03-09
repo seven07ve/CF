@@ -79,7 +79,7 @@
 					<h3><div style="width:auto;">ESCRÍBANOS</div></h3>
 					<h4 style="color: #646464;">Si desea ponerse en contacto con nosotros, por favor escríbanos a través
 					de este formulario.</h4>
-					<span id="prueba"></span>
+					<span id="remitente"></span><span id='aviso-enviado'> Su mensaje ha sido enviado. Prontamente estaremos en contacto con usted. <img src="imagenes/mensaje.png" alt=""></span>
 						<div class="row">
 							<div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 clo-lg-8 ">
 								<form id="form-contacto" class="form-contacto" name="form-contacto" method="post" action="">

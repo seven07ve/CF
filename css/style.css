@@ -5,118 +5,124 @@ font-family: "Sansation";
 src: url("fonts/Sansation-Regular.ttf");
 }
 html,body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    color: #545454;
-    font-family: 'Raleway', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #545454;
+	font-family: 'Raleway', sans-serif;
 }
 .content{
-    width: 100%;
-    height: 100%
+	width: 100%;
+	height: 100%
 }
 h3{
 
 }
 footer{
-    /*font-family: "Sansation";*/
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-    color: #545454;
-    background: rgba(255,255,255,.9);
-    clear: both;
-    display: block;
-    height: auto;
-    line-height: 40px;
-    padding: 20px;
-    position: relative;
-    z-index: 1;
+	/*font-family: "Sansation";*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	color: #545454;
+	background: rgba(255,255,255,.9);
+	clear: both;
+	display: block;
+	height: auto;
+	line-height: 40px;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
 }
 .footer-link, .footer-link:hover{
-    color: #23527c;
-    text-decoration: none;
+	color: #23527c;
+	text-decoration: none;
 }
 .slogan{
-    color: #000;
-    text-align: left;
-    font-size: 18px;
-    font-weight: normal;
+	color: #000;
+	text-align: left;
+	font-size: 18px;
+	font-weight: normal;
 }
 .copy{
-    color: #000;
-    font-size: 12px;
-    font-weight: normal;
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
 }
 footer .tit-secc{
-    border-bottom: 2px solid #0AA5DE;
+	border-bottom: 2px solid #0AA5DE;
 }
 /* ------este encierra el menu----------*/
 #back_to_camera {
-    background: rgba(0,41,87,.7);
-    clear: both;
-    display: block;
-    /*height: 80px;*/
-    line-height: 40px;
-    padding: 10px 10px 0px 10px;
-    position: relative;
-    z-index: 1;
+	background: rgba(0,41,87,.7);
+	clear: both;
+	display: block;
+	/*height: 80px;*/
+	line-height: 40px;
+	padding: 10px 10px 0px 10px;
+	position: relative;
+	z-index: 1;
 }
 /*--------------------------------------*/
 /*---------------- FORMULARIO DE CONTACTO --------------*/
 .form-contacto{
-    margin-top: 20px;
+	margin-top: 20px;
 }
 .form-contacto input{
-    font-size: 110%;
-    width: 90%;
-    height: 45px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    border-top: 2px solid #9A9A9A;
-    border-left: 2px solid #9A9A9A;
-    border-radius: 14px;
-    background: #5F5F5F; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#bfbfbf, #9f9f9f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#5F5F5F, #9f9f9f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#5F5F5F, #9f9f9f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eaeaea, #f5f5f5); /* Standard syntax */
+	font-size: 110%;
+	width: 90%;
+	height: 45px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-top: 2px solid #9A9A9A;
+	border-left: 2px solid #9A9A9A;
+	border-radius: 14px;
+	background: #5F5F5F; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#bfbfbf, #9f9f9f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#5F5F5F, #9f9f9f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#5F5F5F, #9f9f9f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#eaeaea, #f5f5f5); /* Standard syntax */
 }
 input:focus{
-    border-color: #D3D3D3;
-    box-shadow: #1D6DBC 0px 0px 7px;
-    outline: 0;
+	border-color: #D3D3D3;
+	box-shadow: #1D6DBC 0px 0px 7px;
+	outline: 0;
 }
 #enviar{
-    width: 20%;
-    height: 40px;
-    margin-right: 5%;
+	width: 20%;
+	height: 40px;
+	margin-right: 5%;
 }
 .form-contacto textarea{
-    font-size: 110%;
-    width: 90%;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    border-top: 2px solid #9A9A9A;
-    border-left: 2px solid #9A9A9A;
-    border-radius: 14px;
-    background: #5F5F5F; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#bfbfbf, #9f9f9f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#5F5F5F, #9f9f9f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#5F5F5F, #9f9f9f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eaeaea, #f5f5f5); /* Standard syntax */
+	font-size: 110%;
+	width: 90%;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-top: 2px solid #9A9A9A;
+	border-left: 2px solid #9A9A9A;
+	border-radius: 14px;
+	background: #5F5F5F; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#bfbfbf, #9f9f9f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#5F5F5F, #9f9f9f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#5F5F5F, #9f9f9f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#eaeaea, #f5f5f5); /* Standard syntax */
 }
 textarea:focus{
-    border-color: #D3D3D3;
-    box-shadow: #1D6DBC 0px 0px 7px;
-    outline: 0;
+	border-color: #D3D3D3;
+	box-shadow: #1D6DBC 0px 0px 7px;
+	outline: 0;
 }
 .msj{
-    display: none;
+	display: none;
+}
+#aviso-enviado{
+	display: none;
+}
+#remitente{
+	display: none;
 }
 /*////////////////////////////////////////////////////////////*/
 @media (max-width: 1280px){
-    footer{
-        font-size: 11px;
-    }
+	footer{
+		font-size: 11px;
+	}
 }
