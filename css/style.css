@@ -116,9 +116,12 @@ textarea:focus{
 }
 #aviso-enviado{
 	display: none;
+    font-weight: bold;
 }
 #remitente{
 	display: none;
+    font-weight: bold;
+    color: #0AA5DE;
 }
 /*////////////////////////////////////////////////////////////*/
 @media (max-width: 1280px){
