@@ -77,20 +77,20 @@
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
 					<h3><div style="width:auto;">ESCRÍBANOS</div></h3>
-					<h4 style="color: #646464;">Si desea ponerse en contacto con nosotros, por favor escríbanos a través
+					<h4 style="color: #646464; text-align:center;">Si desea ponerse en contacto con nosotros, por favor escríbanos a través
 					de este formulario.</h4>
-					<span id="remitente"></span><span id='aviso-enviado'> Su mensaje ha sido enviado. Prontamente estaremos en contacto con usted. <img src="imagenes/mensaje.png" alt=""></span>
+					<div class="text-center"><span id="remitente"></span><span id='aviso-enviado'> Su mensaje ha sido enviado. Prontamente estaremos en contacto con usted. <img src="imagenes/mensaje.png" alt=""></span></div>
 						<div class="row">
 							<div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 clo-lg-8 ">
 								<form id="form-contacto" class="form-contacto" name="form-contacto" method="post" action="">
 									<input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido"><br>
-									<span class="msj" id="msjnombre">Debe Colocar su Nombre y Apellido</span>
+									<span class="msj" id="msjnombre">Debe Colocar su Nombre y Apellido.</span>
 									<input type="tel" id="tel" name="tel" placeholder="Teléfono">
 									<input type="email" id="email" name="email" placeholder="Correo Eléctonico">
-									<span class="msj" id="msjmail">Debe escribir una dirección de correo valida para poder
-									contactarle</span>
+									<span class="msj" id="msjmail">Debe escribir una dirección de correo válida para poder
+									contactarle.</span>
 									<input type="text" id="asuntos" name="asunto" placeholder="Asunto">
-									<span class="msj" id="msjasuntos">Debe colocar el Asunto</span>
+									<span class="msj" id="msjasuntos">Debe colocar el Asunto.</span>
 									<textarea id="mensaje" name="mensaje" cols="30" rows="7" placeholder="Mensaje"></textarea>
 									<span class="msj" id="msjconsulta">Debe escribir el mensaje.</span>
 									<input type="button" id="enviar" class="pull-right" name="enviar" value="Enviar">
