@@ -33,11 +33,10 @@
     <script type='text/javascript' src='js/jquery.min.js'></script>
     <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
     <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
-
 </head>
 <body>
-    <div class="main">
-        <section class="section section-1 blanco bg-1">
+    <div id="main" class="main">
+        <section id="quienes" class="section section-1 blanco bg-1">
             <?php $nosotros=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
@@ -56,7 +55,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-2 bg-1">
+        <section id="ofrecemos" class="section section-2 bg-1">
+			<?php $nosotros=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3 id="ofrecemos">¿QUÉ OFRECEMOS?</h3>
@@ -84,7 +84,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-3 bg-1">
+        <section id="mision" class="section section-3 bg-1">
+            <?php $nosotros=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>MISIÓN Y VISIÓN</h3><br><br>
@@ -107,7 +108,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-4 bg-1">
+        <section id="valores" class="section section-4 bg-1">
+			<?php $nosotros=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>VALORES</h3><br><br>
@@ -136,7 +138,8 @@
             </div>
             </div>
         </section>
-        <section class="section section-5 bg-1">
+        <section id="valores2" class="section section-5 bg-1">
+			<?php $nosotros=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>VALORES</h3><br><br>
@@ -166,7 +169,8 @@
             </div>
             </div>
         </section>
-        <section class="section section-6 bg-1">
+        <section id="por-que" class="section section-6 bg-1">
+				<?php $nosotros=active; include("php/menu.php"); ?>
                <div class="row">
                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                         <h3>¿POR QUÉ NOSOTROS?</h3><br><br>
@@ -192,7 +196,8 @@
                    </div>
             </div>
         </section>
-        <section class="section section-7 bg-1">
+        <section id="esquema" class="section section-7 bg-1">
+           <?php $nosotros=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>ESQUEMA ORGANIZACIONAL</h3>
@@ -231,5 +236,22 @@ $(document).ready(function() {
     $('.main').rustic({looping: true});
 });
 </script>
+		<script>
+			var dir = window.location.href;
+			var divId = dir.split('#', 2);
+			//$( divId[1] ).insertBefore( "#quienes" );
+			var id = document.getElementById(divId[1]);
+			//id.className += " active";
+    // Recojemos en una variable el segundo párrafo
+    var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
+    
+    // Y ahora lo insertamos
+    document.getElementById('main').insertBefore(id,segundo_p);
+		if (divId[1] === "valores"){
+			var seg_val = document.getElementById('valores2');
+			var segundo = document.getElementById('main').getElementsByTagName('section')[1];
+			document.getElementById('main').insertBefore(seg_val,segundo);
+		}
+		</script>
 </body>
 </html>

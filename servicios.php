@@ -37,8 +37,8 @@
 </head>
 <body>
 
-<div class="main">
-        <section class="section section-1 blanco bg-1">
+<div id="main" class="main">
+        <section id="lineas" class="section section-1 blanco bg-1">
            <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
@@ -57,7 +57,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-2 bg-1">
+        <section id="ejecucion" class="section section-2 bg-1">
+            <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>EJECUCIÓN DE INGENIERÍAS EN SUS DIFERENTES FASES</h3><br>
@@ -85,7 +86,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-3 bg-1">
+        <section id="maduracion" class="section section-3 bg-1">
+           <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>MADURACIÓN DE PROYECTOS EN TODAS SUS FASES</h3><br>
@@ -112,7 +114,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-4 bg-1">
+        <section id="estudios" class="section section-4 bg-1">
+           <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>ESTUDIOS ESPECIALES</h3>
@@ -142,7 +145,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-5 bg-1">
+        <section id="modelos" class="section section-5 bg-1">
+            <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>DESARROLLOS DE MODELOS 3D</h3><br>
@@ -167,7 +171,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-6 bg-1">
+        <section id="commissioning" class="section section-6 bg-1">
+           <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
@@ -198,7 +203,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-7 bg-1">
+        <section id="commissioning2" class="section section-7 bg-1">
+           <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3 style="margin-bottom:3%;">PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
@@ -240,7 +246,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-8 bg-1">
+        <section id="commissioning3" class="section section-8 bg-1">
+           <?php $servicios=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
@@ -286,6 +293,22 @@
 $(document).ready(function() {
     $('.main').rustic({looping: true});
 });
+</script>
+<script>
+var dir = window.location.href;
+var divId = dir.split('#', 2);
+var id = document.getElementById(divId[1]);
+var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
+// Y ahora lo insertamos
+document.getElementById('main').insertBefore(id,segundo_p);
+if (divId[1] === "commissioning"){
+	var seg_val = document.getElementById('commissioning2');
+	var segundo = document.getElementById('main').getElementsByTagName('section')[1];
+	document.getElementById('main').insertBefore(seg_val,segundo);
+	var terc_val = document.getElementById('commissioning3');
+	var tercero = document.getElementById('main').getElementsByTagName('section')[2];
+	document.getElementById('main').insertBefore(terc_val,tercero);
+}
 </script>
 </body>
 </html>
