@@ -236,22 +236,18 @@ $(document).ready(function() {
     $('.main').rustic({looping: true});
 });
 </script>
-		<script>
-			var dir = window.location.href;
-			var divId = dir.split('#', 2);
-			//$( divId[1] ).insertBefore( "#quienes" );
-			var id = document.getElementById(divId[1]);
-			//id.className += " active";
-    // Recojemos en una variable el segundo párrafo
-    var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
-    
-    // Y ahora lo insertamos
-    document.getElementById('main').insertBefore(id,segundo_p);
-		if (divId[1] === "valores"){
-			var seg_val = document.getElementById('valores2');
-			var segundo = document.getElementById('main').getElementsByTagName('section')[1];
-			document.getElementById('main').insertBefore(seg_val,segundo);
-		}
-		</script>
+<script>
+var dir = window.location.href;
+var divId = dir.split('#', 2);
+var id = document.getElementById(divId[1]);
+var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
+// Y ahora lo insertamos
+document.getElementById('main').insertBefore(id,segundo_p);
+if (divId[1] === "valores"){
+	var seg_val = document.getElementById('valores2');
+	var segundo = document.getElementById('main').getElementsByTagName('section')[1];
+	document.getElementById('main').insertBefore(seg_val,segundo);
+}
+</script>
 </body>
 </html>
