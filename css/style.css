@@ -143,6 +143,39 @@ textarea:focus{
     color: #0AA5DE;
 }
 /*////////////////////////////////////////////////////////////*/
+/*------------------------ EXPERIENCIA ---------------------*/
+.cuadros{
+	float: left;
+	display:inline-block;
+	width:150px;
+	height: 150px;
+	margin: 2%;
+	padding: 2em;
+	font-size: 8px;
+	text-align: left;
+	background: #f7f7f7;
+	border-radius: 0px 20px 0px 20px;
+	box-shadow: 4px 4px 8px #444;
+	border-top: 2px solid #5f8ebc;
+	border-left: 2px solid #5f8ebc;
+	border-bottom: 2px solid #787979;
+	border-right: 2px solid #5f8ebc;
+	overflow: hidden;
+	-webkit-transition: 0.5s;
+    transition: 500ms 0ms;
+}
+.cuadros:hover {
+	font-size: 14px;
+    width: 300px;
+	height: auto;
+	border-radius: 20px;
+}
+.cuadros-conten{
+	width:100%;
+	height: auto;
+	max-height: none;
+	padding:2%;
+	}
 @media (max-width: 1280px){
 	footer{
 		font-size: 11px;
