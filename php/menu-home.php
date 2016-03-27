@@ -44,7 +44,7 @@
 					</ul>
 			  </li>
 			  <li class="dropdown">
-				<a href="experiencia.php">EXPERIENCIA</a>
+				<a href="personal.php">EXPERIENCIA</a>
 					<ul class="dropdown-menu">
 						<li><a href="personal.php">NUESTRO PERSONAL</a></li>
                         <li><a href="experiencia.php#directores">DIRECTORES C&F ENG</a></li>
