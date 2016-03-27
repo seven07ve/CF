@@ -276,7 +276,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-9 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </div>
+    <section class="section section-9 hidden-xs visible-sm visible-md visible-lg"> <?php include("php/footer.php"); ?> </section>
 </div>
 
     <!-- Bootstrap core JavaScript

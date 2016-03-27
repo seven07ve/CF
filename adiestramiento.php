@@ -71,10 +71,10 @@
         <section class="section section-2 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>CURSOS PROXIMAMENTE</h3><br>
+                    <h3>PRÓXIMOS CURSOS</h3><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <h4>PROXIMAMENTE se estarán dictando los cursos:</h4>
+                            <h4>PRÓXIMOS CURSOS</h4>
                              <br><br>
                                 <ul>
                                  <li><a href="pdf/Analisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf" target="_blank">Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf</a></li><br>

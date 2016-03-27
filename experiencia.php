@@ -36,539 +36,160 @@
 
 </head>
 <body>
-<div class="main">
-        <section class="section section-1 blanco bg-1">
-           <?php $experiencia=active; include("php/menu.php"); ?>
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            La experiencia del Talento Humano de C&amp;F ENGINEERING ha sido
-                            primordialmente en Venezuela, Colombia y México, sin embargo, su personal
-                            también ha desarrollado proyectos en USA, Canadá, Ecuador, Bolivia y Argentina,
-                            entre otras localidades.
-                            <br>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <img class="img-responsive" src="imagenes/mapa.png"
-                                  style="margin:0 auto; border-radius:8px;" alt="EXPERIENCIA" title="EXPERIENCIA">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-2 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Gerencia de Ingeniería y Proyectos PDVSA Oriente, Coordinación, Seguimiento y Control de Proyectos en Etapa FEL: Instalaciones Complementarias BITOR; Planta de Manufactura de Orimulsión; Remoción de H2S y CO2 en el Gas Natural; Ampliación Criogénico de Oriente III y IV; Exportación de Etano ACCRO III y IV; Manejo de Crudo Nueva Planta Compresora Altagracia de Orituco; Proyecto Interconexión Centro Oriente ICO. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Coordinación de equipos Multidisciplinarios Gerencia de Ingeniería y Proyectos PDVSA Oriente para IC, IB e ID Proyectos Propanoducto, Endulzamiento de Gas Fase I y Fase II, Endulzamiento de Gas en Planta de COA. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Petrobras<br>
-                                <strong>REFERENCIA</strong> Asesoría en Fase FEL Proyecto Plan Director de Refino
-. <br>
-                                <strong>LUGAR</strong> Argentina.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Pacific Rubiales Energy (PRE)<br>
-                                <strong>REFERENCIA</strong> Dirección de Proyectos para para ID Plataformas de Inyección (PAD) 3 y 8. <br>
-                                <strong>LUGAR</strong> Colombia.
+    <div id="main" class="main">
+    <section id="directores" class="section section-1 bg-1">
+        <?php $experiencia=active; include("php/menu.php"); ?>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <h3 style="margin-bottom:2%;">DIRECTORES C&amp;F ENG - DIRECTORA EJECUTIVA</h3>
+                <div class="row">
+                    <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
+                        <img class="img-responsive pull-right" src="imagenes/natalia.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
+                        <h4>Natalia Cataldo</h4>
+                        Gerente Senior de Proyectos, con más de 30 años de experiencia y exitoso
+                        desempeño en Gerencia de Proyectos para la Industria de Petróleo, Refinación y Gas,
+                        con foco en fase FEED, Supervisión de Ingenierías Conceptuales, Básicas, de Detalle y
+                        EPC. Amplia trayectoria en la Industria Petrolera Venezolana (PDVSA) y en Empresas
+                        de Consultoría de E&amp;C en Venezuela, Argentina y Colombia.<br>
+                        <strong>Experiencia en:</strong>
+                            <ul class="" style="margin-left:20px;">
+                                <li>Certificación de Coach Ontológico Formación de Oficinas de Proyectos,
+                                competencias de Liderazgo y Gerencia de Equipos de Alto Desempeño.</li>
+                                <li>Gerente de la Unidad de Proyectos Colombia.</li>
+                                <li>Gerente de Operaciones Colombia.</li>
+                                <li>Gerente Gerencia Técnica Colombia.</li>
+                                <li>Gerente de Ingeniería en Proyectos EPC.
+                                    <ul style="margin-left:15px;">
+                                        <li>Sistema de Aire del Proyecto Plan Maestro de Servicios Industriales
+                                        (PMSI) de la Gerencia Refinería Barrancabermeja, Santander Colombia, de
+                                        Ecopetrol.</li>
+                                        <li>Recuperación Gases de Antorcha en el Complejo Industrial de La Plata,
+                                        Empresa RYPF, Buenos Aires.</li>
+                                    </ul>
                                 </li>
-                                <li><strong>CLIENTE</strong> Ecopetrol<br>
-                                <strong>REFERENCIA</strong> Gerencia de Ingeniería para EPC 1, 2 y 3 Plan Maestro de Servicios Industriales de Refinería Barrancabermeja. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li><br>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-<!--        <section class="section section-3 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Control y Estimación de Costos para Proyecto Modificación Unidad de Alquilación de la Refinería PLC; Proyecto RFCC de la Refinería El Palito; Ceras Parafínicas – PDVSA; GLP El Palito; Infraestructura USI-PQV; Muelle USI-PQV. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Sincor<br>
-                                <strong>REFERENCIA</strong> Gerencia Ingeniería Básica y de Detalle Instalación Tanque de 750 MBls de Crudo. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> OBC<br>
-                                <strong>REFERENCIA</strong> Dirección de Proyectos para para IB Oleoducto Bicentenario Tramo Banadía-Ayacucho-Coveñas. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li>
-                                <li><strong>CLIENTE</strong> Empresa RYPF<br>
-                                <strong>REFERENCIA</strong> Gerencia de Ingeniería para el IPC de Recuperación Gases de Antorcha en el Complejo Industrial de la Plata. <br>
-                                <strong>LUGAR</strong> Argentina.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Sincor<br>
-                                <strong>REFERENCIA</strong> Gerencia de Ingeniería Básica y de Detalle de 25 Proyectos Operacionales y de Mantenimiento para la Operadora Sincrudos de Oriente (Sincor). <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-4 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> OCN<br>
-                                <strong>REFERENCIA</strong> Gerencia Ingeniería Básica y de Detalle de Proyectos Operacionales para la Operadora Cerro Negro (Exxon Mobil/PDVSA). <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Comisión Federal de Electricidad (CFE)<br>
-                                <strong>PROYECTO</strong> EPC “222 CC Repotenciación Central Termoeléctrica Manzanillo I, U-1 y 2” . <br>
-                                <strong>LUGAR</strong> México.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Metanol de Oriente Complejo Industrial José Antonio Anzoátegui<br>
-                                <strong>PROYECTO</strong> EPC “METOR Expansion”. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                                <li><strong>CLIENTE</strong> Pemex<br>
-                                <strong>PROYECTO</strong> IB e ID “Mejoramiento de las Plantas de Recuperación de Azufre I, II y III en la Refinería Ing. Antonio Dovali Jaime en Salina Cruz, Oaxaca”. <br>
-                                <strong>LUGAR</strong> México.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Repsol<br>
-                                <strong>PROYECTO</strong> IB e ID “Planta de Extracción de líquidos Quiamare - La Ceiba (REPSOL YPF)”. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-5 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> Ecopetrol<br>
-                                <strong>PROYECTO</strong> EPC 1, 2 y 3 Plan Maestro de Servicios Industriales de Refinería Barrancabermeja. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Ameriven<br>
-                                <strong>PROYECTO</strong> ID Proyectos CAPEX de AMERIVEN: “New H2S Removal Facilities Project”; “Educt and vent piping Project”; “Facilidades para la segregación del slop liviano craqueado”. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Pemex<br>
-                                <strong>PROYECTO</strong> IB e ID “Mejoramiento de la Unidad de Tratamiento
-                                con DEA de FCC2 de la Refinería de Cadereyta en Nuevo León”. <br>
-                                <strong>LUGAR</strong> México.
-                                </li>
-                                <li><strong>CLIENTE</strong> Petrozuata<br>
-                                <strong>PROYECTO</strong> IC “Alternativas de Reparación de Techos de Tanques T-202A/B. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> OBC<br>
-                                <strong>PROYECTO</strong> IB “Oleoducto Bicentenario Tramo Banadía-Ayacucho-Coveñas”. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-6 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> Ocensa<br>
-                                <strong>REFERENCIA</strong> EPC 1, 2 y 3 Plan Maestro de Servicios Industriales de Refinería Barrancabermeja. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Ameriven<br>
-                                <strong>PROYECTO</strong> ID “Estación El Porvenir para el incremento de capacidad de transporte de crudo pesado hasta 300 cSt”. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> CBI<br>
-                                <strong>PROYECTO</strong> ID Proyecto de Expansión de la Refinería de Cartagena – CBI - Reficar. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li>
-                                <li><strong>CLIENTE</strong> Repsol<br>
-                                <strong>REFERENCIA</strong> IC “Reactivación Campo Quiriquire Shallow”  / “Reducción de Presión de Separación Estación de Flujo Tácata” / “Mudanza estación de flujo Batería 12 Guárico” / . <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Oleoducto de los Llanos S.A (ODL)<br>
-                                <strong>REFERENCIA</strong> IB “Oleoducto Carmentea-Araguaney”<br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-7 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> Repsol<br>
-                                <strong>PROYECTO</strong> IB e ID “Adecuaciones de instalaciones de superficie Campo Quiamare-La Ceiba”. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Repsol<br>
-                                <strong>PROYECTO</strong> IB e ID “Sistema de manejo Agua de formación Campo Quiamare- La Ceiba”. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Repsol<br>
-                                <strong>PROYECTO</strong> Selección esquema de compresión Planta QE-2  /
-                                Estudio de Factibilidad Planta de Control de Rocío campo Quiriquire . <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                                <li><strong>CLIENTE</strong> Ameriven<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad líneas asociadas a Fired Heater F-1102. Cerro Negro Upgrader Project. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Petrobras<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad y Vibraciones de líneas
-                                asociadas a la EPF Pata Azul/PATA, Estación de Producción ubicada en el Bloque
-                                18<br>
-                                <strong>LUGAR</strong> Ecuador.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-8 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> Repsol<br>
-                                <strong>REFERENCIA</strong> Estudio de flexibilidad tubería de producción Pozo
-                                QQ-675. Proyecto Adecuación de Puentes de Tuberías en Río Azaguas. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> OCN<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad Bombas asociadas al Sistema Diluente OCN-Jose. Diluent System Upgrades Project. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad Proyecto Ampliación de la
-                                Capacidad de Deshidratación de Crudo del Complejo Jusepín EP-JUS-2. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis de flexibilidad sistemas de tuberías
-                                asociados al área de separadores a instalar. Proyecto de reordenamiento Planta
-                                Compresora Muscar. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad Patio de Tanques Oficina -
-                                Incremento Capacidad de almacenamiento en PTO y manejo de producción
-                                pesados por tubería de 42”.<br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-9 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> OCN<br>
-                                <strong>REFERENCIA</strong> Análisis de flexibilidad Sistema de Tubería
-                                asociado al Proyecto de ampliación de flexibilidad operacional del tanque 53-Tk-
-                                5309. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Williams International<br>
-                                <strong>REFERENCIA</strong> Determinación de cargas sobre las boquillas del
-                                turboexpansor 12-0601, Planta ACCROVEN San Joaquín. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> CBI &amp; Lummus<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad IB e ID en CB&amp;I – Lummus.
-                                <br>
-                                <strong>LUGAR</strong> USA.
-                                </li>
-                                <li><strong>CLIENTE</strong> Empresas Públicas de Medellín E.P.M<br>
-                                <strong>REFERENCIA</strong> Estudio de análisis de flexibilidad y soportería de
-                                tuberías del sistema de generación de vapor de la Central Termoeléctrica La
-                                Sierra. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis de Flexibilidad Proyecto Oportunidades de
-                                Gas-San Tomé recolección de gas baja presión pesado oeste – área Melones.
-                                <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-10 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete de las 6 troncales de
-                                alimentación de la Refinería Puerto La Cruz. <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete Diluenducto Complejo
-                                Criogénico José Antonio Anzóátegui – Patio de Tanques Oficina, PDVSA Oriente.
-                                <br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Oleoducto de los Llanos (ODL)<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete Oleoducto
-                                Carmentea-Araguaney.<br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete del sistema para
-                                manejo de Gasolina y Nafta de la Refinería Puerto la Cruz.<br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Comisión Federal de Electricidad (CFE)<br>
-                                <strong>REFERENCIA</strong> Análisis “Steam Hammer” Central Termoeléctrica
-                                Manzanillo I, U1 y U2, Colima México.<br>
-                                <strong>LUGAR</strong> México.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-        <section class="section section-11 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
-                            <ul style="margin-left:20px;">
-                                <li><strong>CLIENTE</strong> OBC<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete Oleoducto
-                                Bicentenario Tramo Banadía-Ayacucho-Coveñas, Proyecto Bicentenario. <br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete 6 Muelles del Terminal
-                                Marino Guaraguao- PDVSA Oriente.<br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> Pacific Rubiales Energy (PRE)<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete Plataformas Múltiples
-                                de Inyección (PAD) 1,3,5,6,7 y 9.<br>
-                                <strong>LUGAR</strong> Colombia.
-                                </li>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete 4 Muelles del Terminal
-                                Marino El Chaure- PDVSA Oriente.<br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li><br>
-                                <li><strong>CLIENTE</strong> PDVSA<br>
-                                <strong>REFERENCIA</strong> Análisis por Golpe de Ariete, Instalaciones
-                                Complementarias BITOR, PDVSA Oriente.<br>
-                                <strong>LUGAR</strong> Venezuela.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>-->
-        <section class="section section-12 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3 style="margin-bottom:2%;">DIRECTORES C&amp;F ENG - DIRECTORA EJECUTIVA</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
-                            <img class="img-responsive pull-right" src="imagenes/natalia.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
-                            <h4>Natalia Cataldo</h4>
-                            Gerente Senior de Proyectos, con más de 30 años de experiencia y exitoso
-                            desempeño en Gerencia de Proyectos para la Industria de Petróleo, Refinación y Gas,
-                            con foco en fase FEED, Supervisión de Ingenierías Conceptuales, Básicas, de Detalle y
-                            EPC. Amplia trayectoria en la Industria Petrolera Venezolana (PDVSA) y en Empresas
-                            de Consultoría de E&amp;C en Venezuela, Argentina y Colombia.<br>
-                            <strong>Experiencia en:</strong>
-                                <ul class="" style="margin-left:20px;">
-                                    <li>Certificación de Coach Ontológico Formación de Oficinas de Proyectos,
-                                    competencias de Liderazgo y Gerencia de Equipos de Alto Desempeño.</li>
-                                    <li>Gerente de la Unidad de Proyectos Colombia.</li>
-                                    <li>Gerente de Operaciones Colombia.</li>
-                                    <li>Gerente Gerencia Técnica Colombia.</li>
-                                    <li>Gerente de Ingeniería en Proyectos EPC.
-                                        <ul style="margin-left:15px;">
-                                            <li>Sistema de Aire del Proyecto Plan Maestro de Servicios Industriales
-                                            (PMSI) de la Gerencia Refinería Barrancabermeja, Santander Colombia, de
-                                            Ecopetrol.</li>
-                                            <li>Recuperación Gases de Antorcha en el Complejo Industrial de La Plata,
-                                            Empresa RYPF, Buenos Aires.</li>
-                                        </ul>
-                                    </li>
-                                   <li>Gerente de Proyectos en Etapas Visualización, Conceptualización y Básicas.
-                                       Venezuela.
-                                        <ul style="margin-left:15px;">
-                                            <li>Ingenierías Básicas para Operadora Cerro Negro Venezuela ( Exxon
-                                            Mobil ).</li>
-                                            <li>Ingeniería Básica y detalle para las facilidades relacionadas a TQ de
-                                            750 Mbls de Crudo.</li>
-                                       <li>Ingenierías Básicas y Detalle Proyectos operacionales.</li>
-                                       <li>Instalaciones Complementarias de Bitor y Planta de Manufactura de
-                                       Orimulsion&reg;.</li>
-                                       <li>Remoción de H2S y CO2 en el Gas Natural en el Oriente de Venezuela.
-                                       </li>
-                                       <li>Ampliación Criogénico de Oriente III y IV.</li>
-                                       <li>Exportación de Etano (ACCRO III y IV).</li>
-                                       <li>Manejo de Crudo, Nueva Planta Compresora Altagracia de Orituco en
-                                       Venezuela.</li>
-                                       <li>Proyecto Interconexión Centro Occidente (ICO).</li>
-                                        </ul>
+                               <li>Gerente de Proyectos en Etapas Visualización, Conceptualización y Básicas.
+                                   Venezuela.
+                                    <ul style="margin-left:15px;">
+                                        <li>Ingenierías Básicas para Operadora Cerro Negro Venezuela ( Exxon
+                                        Mobil ).</li>
+                                        <li>Ingeniería Básica y detalle para las facilidades relacionadas a TQ de
+                                        750 Mbls de Crudo.</li>
+                                   <li>Ingenierías Básicas y Detalle Proyectos operacionales.</li>
+                                   <li>Instalaciones Complementarias de Bitor y Planta de Manufactura de
+                                   Orimulsion&reg;.</li>
+                                   <li>Remoción de H2S y CO2 en el Gas Natural en el Oriente de Venezuela.
                                    </li>
-                                   <li>Participación como apoyo en cursos de Gerencia de Proyectos de Inversión,
-                                   Definición de Proyectos (Fase FEL), Talleres de Ingeniería de Valor.</li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-13 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>DIRECTORES C&amp;F ENG - DIRECTOR DE COMISIONAMIENTO Y ARRANQUE
-</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
-                            <img class="img-responsive pull-right" src="imagenes/ivan.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
-                            <h4>Ivan Gamero</h4>
-                            Gerente de Commissioning para Petróleo y Gas Natural. 33 años de experiencia.
-                            Responsabilidad sobre la fase final de construcción, completamiento mecánico de
-                            instalaciones, Commissioning &amp; Precommissioning en facilidades de petróleo y
-                            gas natural, plantas de transmisión e inyección de gas alta presión (9.000 psig).
-                            Estimación y control de costos en Commissioning y arranque. Estabilización de
-                            procesos de  petróleo y Gas.<br><br>
-                            <strong>Experiencia en:</strong>
-                                <ul style="margin-left:20px;">
-                                    <li>Procesos criogénicos, licuefacción de propano y pesados (C3+),
-                                    temperaturas de procesos – 128 F, desde final de construcción hasta
-                                    estabilización de procesos.</li>
-                                    <li>Tratamiento de gas natural, remoción de CO2 (sistemas de aminas) y
-                                    deshidratación con glicol y tamices moleculares.</li>
-                                    <li>Operaciones de Fraccionamiento en facilidades de 100.000 BBls LGN,
-                                    separación de propano, iso/normal  butanos, pentanos, gasolina natural y
-                                    pesados.</li>
-                                    <li>Transmisión de gas natural, definición de paquetes de prueba y definición de
-                                    sistemas, Commissioning y arranque de instalaciones de 1.500 MMSCFD plantas
-                                    de transmisión de gas natural.</li>
-                                    <li>Commissioning y arranque de plantas de inyección de gas natural alta
-                                    presión y estabilización de procesos (800 MMSCFD), tratamiento de gas y
-                                    compresores centrífugos (frame 5), pozos de inyección.</li>
-                                   <li>Commissioning de plantas de transmisión de gas (100 MMSCFD) y plantas de
-                                   control de punto de rocío (100 MMSCFD).</li>
-                                   <li>Gerente de Commissioning para plantas de procesamiento de crudo pesado
-                                   (12.5 – 13.8 API) y liviano, tratamiento de agua, bombas de transferencia e
-                                   inyección de agua de formación.</li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-14 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>DIRECTORES C&amp;F ENG - DIRECTOR TÉCNICO</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
-                            <img class="img-responsive pull-right" src="imagenes/mariby.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
-                            <h4>Mariby Figuera</h4>
-                            Ingeniero Mecánico e Ingeniero de Sistemas Mención Control de Procesos con más
-                            de 15 años de Experiencia Profesional en la Ejecución y Coordinación de Proyectos
-                            para la Industria Petrolera, participación en  desarrollos de Ingeniería en Venezuela,
-                            México y Colombia. <br>
-                            Maestría Internacional en Administración de Empresas, con doble titulación, Magister
-                            Executive en Dirección de Empresas otorgado por la EOI – Escuela de Organización
-                            Industrial de España y Magister en Gestión y Dirección de Negocios, otorgado por la
-                            Universidad Santo Tomás de Chile.<br><br>
-                            <strong>Experiencia en:</strong>
-                                <ul style="margin-left:20px;">
-                                    <li>Especialista en Análisis Hidrodinámico y Análisis de Flexibilidad de Tuberías.
-                                    Coordinación, Asesoría y Revisión en Proyectos EPC.</li>
-                                    <li>Gerente de Departamento de Diseño Mecánico.</li>
-                                    <li>Directora de Operaciones/ Coordinador de Proyectos / Ingeniero Senior en
-                                    destacadas empresas del Sector de Oil &amp; Gas.</li>
-                                    <li>Coordinador de Ingeniería de Proyectos Menores.</li>
-                                    <li>Líder de Tuberías en Proyectos.</li>
-                                   <li>Líder de Flexibilidad de Tuberías y Soportería.</li>
-                                   <li>Soporte en la elaboración de ofertas Técnicas de Servicios de Ingeniería y
-                                   Proyectos EPC.</li>
-                               <li>Ejecución y coordinación de equipos multidisciplinarios para la realización de
-                               Ingenierías Conceptuales, Básicas y detalle para Proyectos de la Industria petrolera.
+                                   <li>Ampliación Criogénico de Oriente III y IV.</li>
+                                   <li>Exportación de Etano (ACCRO III y IV).</li>
+                                   <li>Manejo de Crudo, Nueva Planta Compresora Altagracia de Orituco en
+                                   Venezuela.</li>
+                                   <li>Proyecto Interconexión Centro Occidente (ICO).</li>
+                                    </ul>
                                </li>
-                               <li>Adiestramiento de Personal en Diseño Mecánico.</li>
-                                </ul>
-                        </div>
+                               <li>Participación como apoyo en cursos de Gerencia de Proyectos de Inversión,
+                               Definición de Proyectos (Fase FEL), Talleres de Ingeniería de Valor.</li>
+                            </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section section-15 bg-1">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>NUESTROS CLIENTES</h3>
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
-                            <img class="img-responsive" src="imagenes/clientes.png"
-                                  style="margin: 0 auto; border-radius:8px;" alt="CLIENTES" title="CLIENTES">
-                        </div>
+        </div>
+    </section>
+    <section id="directores2" class="section section-2 bg-1">
+        <?php $experiencia=active; include("php/menu.php"); ?>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <h3>DIRECTORES C&amp;F ENG - DIRECTOR DE COMISIONAMIENTO Y ARRANQUE
+</h3>
+                <div class="row">
+                    <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
+                        <img class="img-responsive pull-right" src="imagenes/ivan.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
+                        <h4>Ivan Gamero</h4>
+                        Gerente de Commissioning para Petróleo y Gas Natural. 33 años de experiencia.
+                        Responsabilidad sobre la fase final de construcción, completamiento mecánico de
+                        instalaciones, Commissioning &amp; Precommissioning en facilidades de petróleo y
+                        gas natural, plantas de transmisión e inyección de gas alta presión (9.000 psig).
+                        Estimación y control de costos en Commissioning y arranque. Estabilización de
+                        procesos de  petróleo y Gas.<br><br>
+                        <strong>Experiencia en:</strong>
+                            <ul style="margin-left:20px;">
+                                <li>Procesos criogénicos, licuefacción de propano y pesados (C3+),
+                                temperaturas de procesos – 128 F, desde final de construcción hasta
+                                estabilización de procesos.</li>
+                                <li>Tratamiento de gas natural, remoción de CO2 (sistemas de aminas) y
+                                deshidratación con glicol y tamices moleculares.</li>
+                                <li>Operaciones de Fraccionamiento en facilidades de 100.000 BBls LGN,
+                                separación de propano, iso/normal  butanos, pentanos, gasolina natural y
+                                pesados.</li>
+                                <li>Transmisión de gas natural, definición de paquetes de prueba y definición de
+                                sistemas, Commissioning y arranque de instalaciones de 1.500 MMSCFD plantas
+                                de transmisión de gas natural.</li>
+                                <li>Commissioning y arranque de plantas de inyección de gas natural alta
+                                presión y estabilización de procesos (800 MMSCFD), tratamiento de gas y
+                                compresores centrífugos (frame 5), pozos de inyección.</li>
+                               <li>Commissioning de plantas de transmisión de gas (100 MMSCFD) y plantas de
+                               control de punto de rocío (100 MMSCFD).</li>
+                               <li>Gerente de Commissioning para plantas de procesamiento de crudo pesado
+                               (12.5 – 13.8 API) y liviano, tratamiento de agua, bombas de transferencia e
+                               inyección de agua de formación.</li>
+                            </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <section id="directores3" class="section section-3 bg-1">
+        <?php $experiencia=active; include("php/menu.php"); ?>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <h3>DIRECTORES C&amp;F ENG - DIRECTOR TÉCNICO</h3>
+                <div class="row">
+                    <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-mpeq">
+                        <img class="img-responsive pull-right" src="imagenes/mariby.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
+                        <h4>Mariby Figuera</h4>
+                        Ingeniero Mecánico e Ingeniero de Sistemas Mención Control de Procesos con más
+                        de 15 años de Experiencia Profesional en la Ejecución y Coordinación de Proyectos
+                        para la Industria Petrolera, participación en  desarrollos de Ingeniería en Venezuela,
+                        México y Colombia. <br>
+                        Maestría Internacional en Administración de Empresas, con doble titulación, Magister
+                        Executive en Dirección de Empresas otorgado por la EOI – Escuela de Organización
+                        Industrial de España y Magister en Gestión y Dirección de Negocios, otorgado por la
+                        Universidad Santo Tomás de Chile.<br><br>
+                        <strong>Experiencia en:</strong>
+                            <ul style="margin-left:20px;">
+                                <li>Especialista en Análisis Hidrodinámico y Análisis de Flexibilidad de Tuberías.
+                                Coordinación, Asesoría y Revisión en Proyectos EPC.</li>
+                                <li>Gerente de Departamento de Diseño Mecánico.</li>
+                                <li>Directora de Operaciones/ Coordinador de Proyectos / Ingeniero Senior en
+                                destacadas empresas del Sector de Oil &amp; Gas.</li>
+                                <li>Coordinador de Ingeniería de Proyectos Menores.</li>
+                                <li>Líder de Tuberías en Proyectos.</li>
+                               <li>Líder de Flexibilidad de Tuberías y Soportería.</li>
+                               <li>Soporte en la elaboración de ofertas Técnicas de Servicios de Ingeniería y
+                               Proyectos EPC.</li>
+                           <li>Ejecución y coordinación de equipos multidisciplinarios para la realización de
+                           Ingenierías Conceptuales, Básicas y detalle para Proyectos de la Industria petrolera.
+                           </li>
+                           <li>Adiestramiento de Personal en Diseño Mecánico.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clientes" class="section section-4 bg-1">
+        <?php $experiencia=active; include("php/menu.php"); ?>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
+                <h3>NUESTROS CLIENTES</h3>
+                <div class="row">
+                    <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <img class="img-responsive" src="imagenes/clientes.png"
+                              style="margin: 0 auto; border-radius:8px;" alt="CLIENTES" title="CLIENTES">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         <section class="section section-16 bg-1">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
@@ -814,6 +435,22 @@
 $(document).ready(function() {
     $('.main').rustic({looping: true});
 });
+</script>
+<script>
+    var dir = window.location.href;
+    var divId = dir.split('#', 2);
+    var id = document.getElementById(divId[1]);
+    var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
+    // Y ahora lo insertamos
+    document.getElementById('main').insertBefore(id,segundo_p);
+    if (divId[1] === "directores"){
+        var seg_val = document.getElementById('directores2');
+        var segundo = document.getElementById('main').getElementsByTagName('section')[1];
+        document.getElementById('main').insertBefore(seg_val,segundo);
+        var terc_val = document.getElementById('directores3');
+        var tercero = document.getElementById('main').getElementsByTagName('section')[2];
+        document.getElementById('main').insertBefore(terc_val,tercero);
+    }
 </script>
 </body>
 </html>

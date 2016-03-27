@@ -54,6 +54,13 @@ section {
     color: #1d6dbc;
     margin-bottom: 4%;
 }
+.cuadros-conten h3{
+    text-align: right;
+    font-family: 'Bitter', serif;
+    font-size: 28px;
+    color: #1d6dbc;
+    margin-bottom: 4%;
+}
 strong{
     color: #42495c;
 }
@@ -174,6 +181,9 @@ strong{
     .section h3{
         font-size: 28px;
     }
+    .cuadros-conten h3{
+        font-size: 28px;
+    }
     .section h4{
         font-size: 24px;
     }
@@ -194,6 +204,9 @@ strong{
     .section h3{
         font-size: 24px;
     }
+    .cuadros-conten h3{
+        font-size: 24px;
+    }
     .section h4{
         font-size: 20px;
     }
@@ -209,7 +222,10 @@ strong{
 }
 
 @media (max-width: 599px) {
-        .section h3{
+    .section h3{
+        font-size: 14px;
+    }
+    .cuadros-conten h3{
         font-size: 14px;
     }
     .section h4{
