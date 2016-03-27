@@ -36,9 +36,6 @@
 </head>
 <body>
 <?php $experiencia=active; include("php/menu.php"); ?>
-<!--<section class="experiencia section-1 blanco bg-1" style="height:70%; min-he">
-
-</section>-->
 <section class="cuadros-conten bg-1">
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10">
