@@ -40,7 +40,6 @@
 			  <li class="dropdown">
 				<a href="estrategia.php">ESTRATEGIA</a>
 					<ul class="dropdown-menu">
-                        
 						<li><a href="estrategia.php#capacidad">CAPACIDAD DE EJECUCIÓN</a></li>
 					</ul>
 			  </li>
@@ -59,7 +58,6 @@
 			  <li class="dropdown">
 				<a href="adiestramiento.php">ADIESTRAMIENTO</a>
                     <ul class="dropdown-menu">
-						
                         <li><a href="adiestramiento.php#cursos">PRÓXIMOS CURSOS</a></li>
 					</ul>
 			  </li>
