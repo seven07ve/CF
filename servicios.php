@@ -136,7 +136,7 @@
                                     computacional de fluidos por métodos numéricos y algoritmos basados en la
                                     teoría de elementos finitos, en tanques, piscinas y recipientes.</li>
                                 </ul>
-                                <br><br>
+                                <br>
                             </div>
                             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-sm-6 col-md-6">
                                 <img class="img-responsive round" src="imagenes/estudios.jpg" style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="ESTUDIOS ESPECIALES" title="ESTUDIOS ESPECIALES">
@@ -251,7 +251,7 @@
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
-                    PETRÓLEO</h3><br><br>
+                    PETRÓLEO</h3><br>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning2.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">

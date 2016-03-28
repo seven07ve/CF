@@ -37,7 +37,7 @@
 </head>
 <body>
     <div id="main" class="main">
-        <section class="section section-1 blanco bg-1">
+        <section id="estrategia" class="section section-1 blanco bg-1">
            <?php  $estrategia=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
@@ -47,7 +47,7 @@
                             La estrategia está diseñada para ofrecerle a nuestros Clientes significativos
                             beneficios, tanto Técnicos, que se traducen en trabajos oportunos, confiables y
                             seguros, así como Económicos, resultando un servicio costo-efectivo.
-                            <br><br>
+                            <br>
                         </div>
                     </div>
                     <div class="row">

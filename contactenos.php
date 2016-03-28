@@ -99,7 +99,7 @@
             <?php $contactenos=active; include("php/menu.php"); ?>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
-					<h3 style="margin:0px;">ESCRÍBANOS</h3>
+					<h3 style="margin-bottom:0px;">ESCRÍBANOS</h3>
 					<h4 style="color: #646464; text-align:center;">Si desea ponerse en contacto con nosotros, por favor escríbanos a través
 					de este formulario.</h4>
 					<div class="text-center"><span id="remitente"></span><span id='aviso-enviado'> Su mensaje ha sido enviado. Prontamente estaremos en contacto con usted. <img src="imagenes/mensaje.png" alt=""></span></div>

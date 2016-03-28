@@ -45,7 +45,7 @@
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             Nuestra Oferta de Servicios Técnicos comprende las siguientes áreas de negocios:
-                            <br><br>
+                            <br>
                         </div>
                     </div>
                     <div class="row">
