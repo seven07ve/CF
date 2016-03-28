@@ -36,9 +36,9 @@
 
 </head>
 <body>
-<div class="main">
-        <section class="section section-1 bg-1">
-           <?php $adiestramiento=active; include("php/menu.php"); ?>
+<div id="main" class="main">
+        <section id=adiestramientos class="section section-1 bg-1">
+            <?php $adiestramiento=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>ADIESTRAMIENTOS</h3><br>
@@ -68,7 +68,8 @@
                 </div>
             </div>
         </section>
-        <section class="section section-2 bg-1">
+        <section id="cursos" class="section section-2 bg-1">
+            <?php $adiestramiento=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>PRÓXIMOS CURSOS</h3><br>
@@ -102,6 +103,14 @@
 $(document).ready(function() {
     $('.main').rustic({looping: true});
 });
+</script>
+<script>
+    var dir = window.location.href;
+    var divId = dir.split('#', 2);
+    var id = document.getElementById(divId[1]);
+    var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
+    // Y ahora lo insertamos
+    document.getElementById('main').insertBefore(id,segundo_p);
 </script>
 </body>
 </html>

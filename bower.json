@@ -1,0 +1,21 @@
+{
+  "name": "CF",
+  "homepage": "https://github.com/seven07ve/CF",
+  "authors": [
+    "seven07ve <jheancg@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-map": "GoogleWebComponents/google-map#^1.1.10"
+  }
+}

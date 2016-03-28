@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="css/pagescroll.css">
 		<!-- Bootstrap core CSS -->
 	<link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
+	<!--Google map-->
+    <link rel="import" href="bower_components/google-map/google-map.html">
 
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<link href="./bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -35,45 +37,66 @@
 
 	<!--Check del formulario-->
 	<script src="js/contacto.js"></script>
+    <style>
+        google-map {
+            height: 400px;
+            box-shadow: #444 5px 5px 10px; 
+        }
+    </style>
 </head>
 <body>
 
 	<!-- #back_to_camera -->
-<div class="main">
-		<section class="section section-1 blanco bg-1">
+<div id="main" class="main">
+		<section id="contactenos" class="section section-1 blanco bg-1">
 		   <?php $contactenos=active; include("php/menu.php"); ?>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
 					<h3><div style="width:auto;">CONTÁCTENOS</div></h3>
 					<div class="row">
-						<div class="col-sm-6 col-md-6 text-left text-med">
+						<div class="col-sm-6 col-md-6 text-left text-peq">
 							<h4>REPRESENTANTES</h4>
-							<strong>NATALIA CATALDO</strong><br>
+                            <div style="float:left; margin-left:10px;"><strong>NATALIA CATALDO</strong><br>
 							Directora Ejecutiva <br>
 							ncataldo@cyf-eng.com <br>
-							<strong>Cel:</strong> (57) 3156092494 <br><br>
-							<strong>MARIBY FIGUERA</strong><br>
+                                <strong>Cel:</strong> (57) 3156092494 <br><br></div>
+                            <div style="float:left; margin-left:10px;"><strong>MARIBY FIGUERA</strong><br>
 							Directora de Operaciones <br>
 							mfiguera@cyf-eng.com <br>
-							<strong>Cel:</strong> (57) 3155235907 <br><br>
-							<strong>IVAN GAMERO</strong><br>
+                                <strong>Cel:</strong> (57) 3155235907 <br><br></div>
+                            <div style="float:left; margin-left:10px;"><strong>IVAN GAMERO</strong><br>
 							Director de Comisionamiento y Arranque<br>
 							igamero@cyf-eng.com <br>
-							<strong>Cel:</strong> (57) 3187164299 <br>
+                                <strong>Cel:</strong> (57) 3187164299 <br></div>
+                            <div style="float:left; width:100%; margin-left:10px;"><h4>SEDE</h4>
+                            <strong>Centro Empresarial Cedropoint</strong><br>
+                            Calle 140 No 10A-48 <br>
+                            Oficinas 211 y 213 <br>
+                            (571) 6094672 <br>
+                                Bogotá D.C, Colombia <br></div>
+                                <br clear="all">
 						</div>
 						<div class="col-sm-6 col-md-6 text-left text-grd">
-							<h4>SEDE</h4>
-							<strong>Centro Empresarial Cedropoint</strong><br>
-							Calle 140 No 10A-48 <br>
-							Oficinas 211 y 213 <br>
-							(571) 6094672 <br>
-							Bogotá D.C, Colombia <br>
+                            <google-map latitude="4.718568" longitude="-74.034327" zoom=17>
+                                <google-map-marker latitude="4.718568" longitude="-74.034327" title="C&amp;F Engineering">
+                                    <h4>C&amp;F Engineering</h4>
+                                        <strong>Centro Empresarial Cedropoint</strong><br>
+                                        Calle 140 No 10A-48 <br>
+                                        Oficinas 211 y 213 <br>
+                                        (571) 6094672 <br>
+                                        Bogotá D.C, Colombia <br>
+                                    <p>
+                                        <img src="imagenes/cc.jpg" alt="Centro Empresarial Cedropoint">
+                                    </p>
+                                </google-map-marker>
+                            </google-map>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section section-2 blanco bg-1">
+		<section id="escribanos" class="section section-2 blanco bg-1">
+            <?php $contactenos=active; include("php/menu.php"); ?>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
 					<h3><div style="width:auto;">ESCRÍBANOS</div></h3>
@@ -116,6 +139,14 @@
 $(document).ready(function() {
 	$('.main').rustic({looping: true});
 });
+</script>
+<script>
+    var dir = window.location.href;
+    var divId = dir.split('#', 2);
+    var id = document.getElementById(divId[1]);
+    var segundo_p = document.getElementById('main').getElementsByTagName('section')[0];
+    // Y ahora lo insertamos
+    document.getElementById('main').insertBefore(id,segundo_p);
 </script>
 </body>
 </html>
