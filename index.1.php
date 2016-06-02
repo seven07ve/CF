@@ -36,7 +36,6 @@
         jQuery(function(){
 
             jQuery('#camera_wrap_4').camera({
-				width: 900,
                 height: 'auto',
                 loader: 'none',
                 time: 2500,
@@ -74,9 +73,8 @@
     </div>
 
     <!-- .fluid_container -->
-	
+    </div>
     <?php include("php/footer.php"); ?>
-	</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

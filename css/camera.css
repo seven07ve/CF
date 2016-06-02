@@ -20,8 +20,8 @@
 }
 .camera_wrap {
 	direction: ltr;
-	display: none;
-	float: left;
+	/*display: none;
+	float: left;*/
 	position: relative;
 	z-index: 0;
 }
@@ -106,8 +106,6 @@
     background: #fff url(../images/camera-loader.gif) no-repeat center;
 	background: rgba(255, 255, 255, 0.9) url(../images/camera-loader.gif) no-repeat center;
 	border: 1px solid #ffffff;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
 	border-radius: 18px;
 	height: 36px;
 	left: 50%;
@@ -216,8 +214,6 @@
 	text-align: right;
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
 	border-radius: 8px;
 	cursor: pointer;
 	display: inline-block;
@@ -229,19 +225,11 @@
 	width: 16px;
 }
 .camera_commands_emboss .camera_pag .camera_pag_ul li {
-	-moz-box-shadow:
-		0px 1px 0px rgba(255,255,255,1),
-		inset 0px 1px 1px rgba(0,0,0,0.2);
-	-webkit-box-shadow:
-		0px 1px 0px rgba(255,255,255,1),
-		inset 0px 1px 1px rgba(0,0,0,0.2);
 	box-shadow:
 		0px 1px 0px rgba(255,255,255,1),
 		inset 0px 1px 1px rgba(0,0,0,0.2);
 }
 .camera_wrap .camera_pag .camera_pag_ul li > span {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
 	border-radius: 5px;
 	height: 8px;
 	left: 4px;
@@ -251,19 +239,11 @@
 	width: 8px;
 }
 .camera_commands_emboss .camera_pag .camera_pag_ul li:hover > span {
-	-moz-box-shadow:
-		0px 1px 0px rgba(255,255,255,1),
-		inset 0px 1px 1px rgba(0,0,0,0.2);
-	-webkit-box-shadow:
-		0px 1px 0px rgba(255,255,255,1),
-		inset 0px 1px 1px rgba(0,0,0,0.2);
 	box-shadow:
 		0px 1px 0px rgba(255,255,255,1),
 		inset 0px 1px 1px rgba(0,0,0,0.2);
 }
 .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
-	-moz-box-shadow: 0;
-	-webkit-box-shadow: 0;
 	box-shadow: 0;
 }
 .camera_pag_ul li img {
@@ -321,8 +301,6 @@
 	width: 40px;
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
 	border-radius: 8px;
 	cursor: pointer;
 	display: inline-block;
@@ -344,12 +322,6 @@
 	width: 100%;
 }
 .camera_commands_emboss .camera_thumbs_cont {
-	-moz-box-shadow:
-		0px 1px 0px rgba(255,255,255,1),
-		inset 0px 1px 1px rgba(0,0,0,0.2);
-	-webkit-box-shadow:
-		0px 1px 0px rgba(255,255,255,1),
-		inset 0px 1px 1px rgba(0,0,0,0.2);
 	box-shadow:
 		0px 1px 0px rgba(255,255,255,1),
 		inset 0px 1px 1px rgba(0,0,0,0.2);
@@ -441,8 +413,6 @@
 }
 .camera_pag_ul li img {
 	border: 4px solid #e6e6e6;
-	-moz-box-shadow: 0px 3px 6px rgba(0,0,0,.5);
-	-webkit-box-shadow: 0px 3px 6px rgba(0,0,0,.5);
 	box-shadow: 0px 3px 6px rgba(0,0,0,.5);
 }
 .camera_pag_ul .thumb_arrow {
