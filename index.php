@@ -61,9 +61,8 @@
         <?php include("php/menu-home.php"); ?>
     </div>
     <!-- #back_to_camera -->
-
     <div class="fluid_container">
-        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+		<div class="camera_wrap camera_azure_skin" id="camera_wrap_4">
             <div data-src="images/slides/refineria1.jpg"></div>
             <div data-src="images/slides/refineria2.jpg"></div>
             <div data-src="images/slides/refineria3.jpg"></div>
@@ -71,8 +70,8 @@
             <div data-src="images/slides/refineria5.jpg"></div>
         </div>
         <!-- #camera_wrap -->
+		<div class="noticias"></div>
     </div>
-
     <!-- .fluid_container -->
 	
     <?php include("php/footer.php"); ?>
