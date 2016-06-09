@@ -55,7 +55,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     border: none;
 }
 .dropdown-menu>li>a{
-    text-align: right;
+    text-align: left;
     color: #d6d6d6;
 }
 .dropdown-menu>li>a:hover {
