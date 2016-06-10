@@ -55,7 +55,7 @@ a:hover {
     text-decoration: none;
 }
 #back_to_camera {
-	background: rgba(0,41,87,1);
+    background: rgba(0,41,87,1);
     clear: both;
     display: block;
     /*height: 80px;*/
