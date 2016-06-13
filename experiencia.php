@@ -37,145 +37,38 @@
 </head>
 <body>
     <div id="main" class="main">
-    <section id="directores" class="section section-1 bg-1">
-        <?php $experiencia=active; include("php/menu.php"); ?>
+    <section id="nuestro" class="section section-4 bg-1">
+            <?php $experiencia=active; include("php/menu.php"); ?>
         <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                <h3 style="margin-bottom:2%;">DIRECTORES C&amp;F ENG - DIRECTORA EJECUTIVA</h3>
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10">
+                <h3>EXPERIENCIA DE NUESTRO PERSONAL</h3>
                 <div class="row">
-                    <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-mpeq">
-                        <img class="img-responsive pull-right" src="imagenes/natalia.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
-                        <h4>Natalia Cataldo</h4>
-                        Gerente Senior de Proyectos, con más de 30 años de experiencia y exitoso
-                        desempeño en Gerencia de Proyectos para la Industria de Petróleo, Refinación y Gas,
-                        con foco en fase FEED, Supervisión de Ingenierías Conceptuales, Básicas, de Detalle y
-                        EPC. Amplia trayectoria en la Industria Petrolera Venezolana (PDVSA) y en Empresas
-                        de Consultoría de E&amp;C en Venezuela, Argentina y Colombia.<br>
-                        <strong>Experiencia en:</strong>
-                            <ul class="" style="margin-left:20px;">
-                                <li>Certificación de Coach Ontológico Formación de Oficinas de Proyectos,
-                                competencias de Liderazgo y Gerencia de Equipos de Alto Desempeño.</li>
-                                <li>Gerente de la Unidad de Proyectos Colombia.</li>
-                                <li>Gerente de Operaciones Colombia.</li>
-                                <li>Gerente Gerencia Técnica Colombia.</li>
-                                <li>Gerente de Ingeniería en Proyectos EPC.
-                                    <ul style="margin-left:15px;">
-                                        <li>Sistema de Aire del Proyecto Plan Maestro de Servicios Industriales
-                                        (PMSI) de la Gerencia Refinería Barrancabermeja, Santander Colombia, de
-                                        Ecopetrol.</li>
-                                        <li>Recuperación Gases de Antorcha en el Complejo Industrial de La Plata,
-                                        Empresa RYPF, Buenos Aires.</li>
-                                    </ul>
-                                </li>
-                               <li>Gerente de Proyectos en Etapas Visualización, Conceptualización y Básicas.
-                                   Venezuela.
-                                    <ul style="margin-left:15px;">
-                                        <li>Ingenierías Básicas para Operadora Cerro Negro Venezuela ( Exxon
-                                        Mobil ).</li>
-                                        <li>Ingeniería Básica y detalle para las facilidades relacionadas a TQ de
-                                        750 Mbls de Crudo.</li>
-                                   <li>Ingenierías Básicas y Detalle Proyectos operacionales.</li>
-                                   <li>Instalaciones Complementarias de Bitor y Planta de Manufactura de
-                                   Orimulsion&reg;.</li>
-                                   <li>Remoción de H2S y CO2 en el Gas Natural en el Oriente de Venezuela.
-                                   </li>
-                                   <li>Ampliación Criogénico de Oriente III y IV.</li>
-                                   <li>Exportación de Etano (ACCRO III y IV).</li>
-                                   <li>Manejo de Crudo, Nueva Planta Compresora Altagracia de Orituco en
-                                   Venezuela.</li>
-                                   <li>Proyecto Interconexión Centro Occidente (ICO).</li>
-                                    </ul>
-                               </li>
-                               <li>Participación como apoyo en cursos de Gerencia de Proyectos de Inversión,
-                               Definición de Proyectos (Fase FEL), Talleres de Ingeniería de Valor.</li>
-                            </ul>
+                    <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-grd">
+                        La experiencia del Talento Humano de C&amp;F ENGINEERING ha sido
+                        primordialmente en Venezuela, Colombia y México, sin embargo, su personal
+                        también ha desarrollado proyectos en USA, Canadá, Ecuador, Bolivia y Argentina,
+                        entre otras localidades.
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-11 col-sm-11 col-md-5 text-justify text-grd">
+                            <div class="tex-lat">
+                                <h5>Conozca la experiencia del personal que integra C&F ENGINEERING</h5>
+                                <h6><a href="pdf/Flexibilidad y An%C3%A1lisis de Esfuerzos.pdf" target="_blank">Flexibilidad y Análisis de Esfuerzos.pdf</a></h6>
+                                <h6><a href="pdf/Evaluaciones%20Hidrodin%C3%A1micas.pdf" target="_blank">Evaluaciones Hidrodinámicas.pdf</a></h6>
+                                <h6><a href="pdf/Gerencia%20de%20Proyectos.pdf" target="_blank">Gerencia de Proyectos.pdf</a></h6>
+                                <h6><a href="pdf/Desarrollos%20de%20Ingenier%C3%ADa.pdf" target="_blank">Desarrollos de Ingeniería.pdf</a></h6>
+                            </div>
+                    </div>
+                    <div class="col-xs-11 col-sm-11 col-md-7 text-justify text-grd">
+                        <img class="img-responsive" src="imagenes/mapa.png"
+                             style="float:left; margin:0 auto; border-radius:8px;" alt="EXPERIENCIA" title="EXPERIENCIA">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="directores2" class="section section-2 bg-1">
-        <?php $experiencia=active; include("php/menu.php"); ?>
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                <h3>DIRECTORES C&amp;F ENG - DIRECTOR DE COMISIONAMIENTO Y ARRANQUE
-</h3>
-                <div class="row">
-                    <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-mpeq">
-                        <img class="img-responsive pull-right" src="imagenes/ivan.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
-                        <h4>Ivan Gamero</h4>
-                        Gerente de Commissioning para Petróleo y Gas Natural. 33 años de experiencia.
-                        Responsabilidad sobre la fase final de construcción, completamiento mecánico de
-                        instalaciones, Commissioning &amp; Precommissioning en facilidades de petróleo y
-                        gas natural, plantas de transmisión e inyección de gas alta presión (9.000 psig).
-                        Estimación y control de costos en Commissioning y arranque. Estabilización de
-                        procesos de  petróleo y Gas.<br><br>
-                        <strong>Experiencia en:</strong>
-                            <ul style="margin-left:20px;">
-                                <li>Procesos criogénicos, licuefacción de propano y pesados (C3+),
-                                temperaturas de procesos – 128 F, desde final de construcción hasta
-                                estabilización de procesos.</li>
-                                <li>Tratamiento de gas natural, remoción de CO2 (sistemas de aminas) y
-                                deshidratación con glicol y tamices moleculares.</li>
-                                <li>Operaciones de Fraccionamiento en facilidades de 100.000 BBls LGN,
-                                separación de propano, iso/normal  butanos, pentanos, gasolina natural y
-                                pesados.</li>
-                                <li>Transmisión de gas natural, definición de paquetes de prueba y definición de
-                                sistemas, Commissioning y arranque de instalaciones de 1.500 MMSCFD plantas
-                                de transmisión de gas natural.</li>
-                                <li>Commissioning y arranque de plantas de inyección de gas natural alta
-                                presión y estabilización de procesos (800 MMSCFD), tratamiento de gas y
-                                compresores centrífugos (frame 5), pozos de inyección.</li>
-                               <li>Commissioning de plantas de transmisión de gas (100 MMSCFD) y plantas de
-                               control de punto de rocío (100 MMSCFD).</li>
-                               <li>Gerente de Commissioning para plantas de procesamiento de crudo pesado
-                               (12.5 – 13.8 API) y liviano, tratamiento de agua, bombas de transferencia e
-                               inyección de agua de formación.</li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="directores3" class="section section-3 bg-1">
-        <?php $experiencia=active; include("php/menu.php"); ?>
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                <h3>DIRECTORES C&amp;F ENG - DIRECTOR TÉCNICO</h3>
-                <div class="row">
-                    <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-mpeq">
-                        <img class="img-responsive pull-right" src="imagenes/mariby.jpg" style="width:25%; margin-left:4%; border-radius:8px; border: 1px solid #A0A0A0; box-shadow: #555 4px 4px 8px;" alt="Ivan Gamero" title="Ivan Gamero">
-                        <h4>Mariby Figuera</h4>
-                        Ingeniero Mecánico e Ingeniero de Sistemas Mención Control de Procesos con más
-                        de 15 años de Experiencia Profesional en la Ejecución y Coordinación de Proyectos
-                        para la Industria Petrolera, participación en  desarrollos de Ingeniería en Venezuela,
-                        México y Colombia. <br>
-                        Maestría Internacional en Administración de Empresas, con doble titulación, Magister
-                        Executive en Dirección de Empresas otorgado por la EOI – Escuela de Organización
-                        Industrial de España y Magister en Gestión y Dirección de Negocios, otorgado por la
-                        Universidad Santo Tomás de Chile.<br><br>
-                        <strong>Experiencia en:</strong>
-                            <ul style="margin-left:20px;">
-                                <li>Especialista en Análisis Hidrodinámico y Análisis de Flexibilidad de Tuberías.
-                                Coordinación, Asesoría y Revisión en Proyectos EPC.</li>
-                                <li>Gerente de Departamento de Diseño Mecánico.</li>
-                                <li>Directora de Operaciones/ Coordinador de Proyectos / Ingeniero Senior en
-                                destacadas empresas del Sector de Oil &amp; Gas.</li>
-                                <li>Coordinador de Ingeniería de Proyectos Menores.</li>
-                                <li>Líder de Tuberías en Proyectos.</li>
-                               <li>Líder de Flexibilidad de Tuberías y Soportería.</li>
-                               <li>Soporte en la elaboración de ofertas Técnicas de Servicios de Ingeniería y
-                               Proyectos EPC.</li>
-                           <li>Ejecución y coordinación de equipos multidisciplinarios para la realización de
-                           Ingenierías Conceptuales, Básicas y detalle para Proyectos de la Industria petrolera.
-                           </li>
-                           <li>Adiestramiento de Personal en Diseño Mecánico.</li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     <section id="clientes" class="section section-4 bg-1">
         <?php $experiencia=active; include("php/menu.php"); ?>
         <div class="row">

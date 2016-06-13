@@ -74,6 +74,24 @@ footer .tit-secc{
 }
 
 /*--------------------------------------*/
+/*listas*/
+ul.ok { 
+    list-style-image: url("../imagenes/vineta.png");
+    padding: 10px;
+}
+/*experiencia de nuestro personal*/
+
+.tex-lat{
+    margin-top: 40%;
+}
+.tex-lat h5{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tex-lat h6{
+    font-weight: bold;
+}
 /*---------------- FORMULARIO DE CONTACTO --------------*/
 .form-contacto{
 	margin-top: 20px;

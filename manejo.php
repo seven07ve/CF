@@ -43,15 +43,15 @@
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
                     <h3>MANEJO DE SOFTWARE</h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-grd">
                             El personal de <strong>C&amp;F ENGINEERING</strong> tiene experiencia en el manejo de los siguientes Software de Ingeniería, Control y Gerencia:  
                             <br><br>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
+                        <div class="col-xs-12 col-sm-12 col-md-12 text-justify text-grd">
                             <img class="img-responsive" src="imagenes/software.png"
-                                  style="margin:0 auto; border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="SECTORES" title="SECTORES">
+                                  style="margin:0 auto; border-radius:8px;" alt="SECTORES" title="SECTORES">
                         </div>
                     </div>
                 </div>

@@ -48,6 +48,7 @@
             </div>-->
         </div>
     </div>
+    <div><h4 style="float:left;">Algunos de los desarrollos de C&F ENGINEERING</h5></div><br><br>
     <!--primero-->
     <div class="cuadros">
         <strong>CLIENTE:</strong> AMEC FOSTER WHEELER MEXICO / PEMEX <br>
@@ -185,6 +186,16 @@
         <strong>CLIENTE:</strong> CIMA TQ <br>
         <strong>REFERENCIA</strong> Simulaciones de Proceso para determinación de velocidades de líquido, gas y mezcla, patrón de flujo, slip liquid hold up, en Oleoductos. <br>
         <strong>LUGAR:</strong> Colombia.
+    </div>
+    <div class="cuadros">
+        <strong>CLIENTE:</strong> AYESA PERÚ / PACIF RUBIALES EXPLOR & PROD.<br>
+        <strong>REFERENCIA</strong> Análisis Dinámico de Flexibilidad de Tubería, Sistema de Compresión de Gas - Compresor CX15-K-310. <br>
+        <strong>LUGAR:</strong> Colombia.
+    </div>
+    <div class="cuadros">
+        <strong>CLIENTE:</strong> ECOTEK INVESTMENTS INC / TIGER ENGINEERING / INITEC / CFE.<br>
+        <strong>REFERENCIA</strong> Análisis por Golpe de Ariete en el Sistema de Agua de Enfriamiento y el Sistema de Refrigeración Auxiliar – Proyecto 311 RM CCC Tula Paquetes 1 y 2, Edo. Hidalgo, México.<br>
+        <strong>LUGAR:</strong> México.
     </div>
     <!--fin-->
     <br clear="all">

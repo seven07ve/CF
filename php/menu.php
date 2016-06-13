@@ -43,14 +43,14 @@
               <li class="dropdown '.$estrategia.'">
                 <a href="estrategia.php">ESTRATEGIA</a>
                     <ul class="dropdown-menu">
-						<li><a href="estrategia.php#capacidad">CAPACIDAD DE EJECUCIÓN</a></li>
+						<li><a href="estrategia.php">ESTRATEGIA</a></li> 
+                        <li><a href="estrategia.php#capacidad">CAPACIDAD DE EJECUCIÓN</a></li>
 					</ul>
               </li>
               <li class="dropdown '.$experiencia.'">
                 <a href="experiencia.php">EXPERIENCIA</a>
                     <ul class="dropdown-menu">
-						<li><a href="personal.php">NUESTRO PERSONAL</a></li>
-                        <li><a href="experiencia.php#directores">DIRECTORES C&F ENG</a></li>
+						<li><a href="experiencia.php">NUESTRO PERSONAL</a></li>
                         <li><a href="experiencia.php#clientes">NUESTROS CLIENTES</a></li>
                         <li><a href="casa.php">HECHO EN CASA...</a></li>
 					</ul>

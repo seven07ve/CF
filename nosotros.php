@@ -178,19 +178,21 @@
                             <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/por-que.jpg"
                                   style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="POR QUÉ NOSOTROS" title="POR QUÉ NOSOTROS">
-                                  Nuestra esencia es la generación y sostenibilidad de una relación estrecha con
-                                  Clientes y Proveedores, cuya explicación más simple reside en el efecto sinérgico y
-                                  dinámico que pretendemos dar a nuestras acciones. <br>
-                                  Entre las ventajas comparativas de nuestra Organización están: la estructuración
-                                  en forma rápida y oportuna de los equipos de trabajo, asignación eficaz y
-                                  ajustada de los recursos requeridos, donde los socios de la empresa son
-                                  partícipes activos a nivel de Gerencia/Coordinación y Ejecución en los proyectos,
-                                  conduciendo así a la obtención del máximo valor agregado y el aseguramiento
-                                  de la calidad de los mismos. <br>
-                                  Nuestro equipo de trabajo está conformado por profesionales y técnicos
-                                  altamente capacitados para la identificación sistemática de soluciones, con una
-                                  experiencia promedio de 25 años y cuya trayectoria cuenta con la confianza y
-                                  referencia de nuestros principales clientes.
+                                  <ul class="ok">
+                                      <li>Nuestra esencia es la generación y sostenibilidad de una relación estrecha con
+                                          Clientes y Proveedores, cuya explicación más simple reside en el efecto sinérgico y
+                                          dinámico que pretendemos dar a nuestras acciones.</li>
+                                      <li>Entre las ventajas comparativas de nuestra Organización están: la estructuración
+                                          en forma rápida y oportuna de los equipos de trabajo, asignación eficaz y
+                                          ajustada de los recursos requeridos, donde los socios de la empresa son
+                                          partícipes activos a nivel de Gerencia/Coordinación y Ejecución en los proyectos,
+                                          conduciendo así a la obtención del máximo valor agregado y el aseguramiento
+                                          de la calidad de los mismos.</li>
+                                      <li>Nuestro equipo de trabajo está conformado por profesionales y técnicos
+                                          altamente capacitados para la identificación sistemática de soluciones, con una
+                                          experiencia promedio de 25 años y cuya trayectoria cuenta con la confianza y
+                                          referencia de nuestros principales clientes.</li>
+                                  </ul>
                             </div>
                         </div>
                    </div>
