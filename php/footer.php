@@ -31,7 +31,6 @@ echo '<footer>
                     <div class="col-md-2 text-center">
                         <a href="experiencia.php" class="footer-link"><div class="tit-secc">EXPERIENCIA</div></a>
                             <a href="personal.php" class="footer-link">NUESTRO PERSONAL<br></a>
-                            <a href="experiencia.php#directores" class="footer-link">DIRECTORES C&amp;F ENG<br></a>
                             <a href="experiencia.php#clientes" class="footer-link">NUESTROS CLIENTES<br></a>
                             <a href="casa.php" class="footer-link">HECHO EN CASA<br></a>
                     </div>

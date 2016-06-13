@@ -55,10 +55,10 @@
                     <div class="col-xs-11 col-sm-11 col-md-5 text-justify text-grd">
                             <div class="tex-lat">
                                 <h5>Conozca la experiencia del personal que integra C&F ENGINEERING</h5>
-                                <h6><a href="pdf/Flexibilidad y An%C3%A1lisis de Esfuerzos.pdf" target="_blank">Flexibilidad y Análisis de Esfuerzos.pdf</a></h6>
-                                <h6><a href="pdf/Evaluaciones%20Hidrodin%C3%A1micas.pdf" target="_blank">Evaluaciones Hidrodinámicas.pdf</a></h6>
+                                <h6><a href="pdf/Flexibilidad%20y%20Analisis%20de%20Esfuerzos.pdf" target="_blank">Flexibilidad y Análisis de Esfuerzos.pdf</a></h6>
+                                <h6><a href="pdf/Evaluaciones%20Hidrodinamicas.pdf" target="_blank">Evaluaciones Hidrodinámicas.pdf</a></h6>
                                 <h6><a href="pdf/Gerencia%20de%20Proyectos.pdf" target="_blank">Gerencia de Proyectos.pdf</a></h6>
-                                <h6><a href="pdf/Desarrollos%20de%20Ingenier%C3%ADa.pdf" target="_blank">Desarrollos de Ingeniería.pdf</a></h6>
+                                <h6><a href="pdf/Desarrollos%20de%20Ingenieria.pdf" target="_blank">Desarrollos de Ingeniería.pdf</a></h6>
                             </div>
                     </div>
                     <div class="col-xs-11 col-sm-11 col-md-7 text-justify text-grd">
