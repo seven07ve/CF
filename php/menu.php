@@ -8,12 +8,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href=""><img src="imagenes/logo.jpg"></a>
+            <a class="navbar-brand" href="'.$noticia.'"><img src="'.$noticia.'imagenes/logo.jpg"></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a href="index.php">HOME </a>
+                <a href="'.$noticia.'index.php">HOME </a>
               </li>
               <li class="dropdown '.$nosotros.'">
                 <a href="nosotros.php">NOSOTROS</a>

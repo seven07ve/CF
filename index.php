@@ -1,3 +1,11 @@
+<?php 
+include("php/dbconect.php");
+
+//busqueda de los datos de la noticia
+$ssql=sprintf("SELECT * FROM noticias ORDER BY id_noticia DESC LIMIT 0,3");
+//ejecuta la sentencia sql
+$resultado = $mysqli->query($ssql);
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -70,7 +78,16 @@
             <div data-src="images/slides/refineria5.jpg"></div>
         </div>
         <!-- #camera_wrap -->
-		<div class="noticias"></div>
+		<div class="noticias">
+			<div class="tit-not"><h3><a href="noticias/"style="text-decoration:none; color:#FFF;">NOTICIAS</a></h3></div>
+<?php
+while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
+	echo '<a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content">'."\n";				
+	echo '<div style="padding:10px;">'.substr($fila["titulo"], 0, 100).'</div>'."\n";
+	echo'</a>'."\n";
+}
+?>
+		</div>
     </div>
     <!-- .fluid_container -->
 	

@@ -112,8 +112,21 @@ a:hover {
 	background: rgba(0,0,0,.7);
 	opacity: 0.95;
 	margin-top: -65vh;
-	padding-top: 203px;
+	/*padding-top: 203px;*/
 	overflow: hidden;
+}
+
+.noticias a{
+	text-decoration: none;
+	color: #FFF;
+}
+.noticias a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.tit-not{
+	color: #FFF;
+	text-align: center;
 }
 
 @media (max-width: 1280px){

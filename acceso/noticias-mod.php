@@ -154,7 +154,10 @@ Foreach ($ficheros1 as $valor)
 	if ($valor == '.' or $valor == '..'){
 	}
 	else{
-		echo '<div class="cont-img-mont"><img src="../imgsweb/'.$valor.'" style="vertical-align:middle;" alt="" width="230"/></div>';
+		/*produccion*/
+		//echo '<div class="cont-img-mont"><img src="http://cyf-eng.com/imgsweb/'.$valor.'" style="vertical-align:middle;" alt="" width="230"/></div>';
+		/*desarrollo*/
+		echo '<div class="cont-img-mont"><img src="http://seven.com/CF/imgsweb/'.$valor.'" style="vertical-align:middle;" alt="" width="230"/></div>';
 		echo '<form action="del_img.php" method="post"id="form" style="margin-bottom:5px 0;">';
 		echo '<input type="hidden" name="imagen" value="'.$valor.'" />';
 		echo '<input type="hidden" name="pagina" value="noticias-mod.php?num='.$fila["id_noticia"].'" />';
