@@ -6,7 +6,7 @@ $asunto = $_REQUEST["asunto"];
 $consulta = $_REQUEST["consulta"];
 //echo $mensaje = $nombre.' '.$tel.' '.$email.' '.$asunto.' '.$consulta;
 
-$para = 'atencion@cyf-eng.com';
+$para = 'info@cyf-eng.com';
 
 $cuerpo = '<div style="width:90%;min-height:auto;background-color:rgba(231,227,227,1.00);padding:5%"><div style="font-family:\'Open Sans\',Arial;font-size:24px;font-weight:bold;color:#294A99;width:100%;min-height:100px"><img src="http://cyf-eng.com/imagenes/logo.jpg" style="float:left"><div style="float:left;width:60%;padding:2% 5%;text-align:center">C&amp;F Engineering. Solicitud de Información</div></div><br clear="all">
 	<div style="width:100%;min-height:auto;border:dashed 1px #6c6c6c;padding:1% 2%">
