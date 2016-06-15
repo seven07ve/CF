@@ -122,11 +122,11 @@
                                   sentido proveemos un trabajo digno e impulsamos un ambiente en el que se
                                   promueve y valora la diversidad de talentos, capacidad de innovación e iniciativa,
                                   el desarrollo personal y profesional, fomentando la calidad de vida de nuestros
-                                  colaboradores. <br>
+                                  colaboradores. <br><br>
                                   <strong>ENFOQUE AL CLIENTE:</strong> Con actitud proactiva, mística y
                                   compromiso, en C&amp;F ENGINEERING abocamos esfuerzos por entender y
                                   satisfacer los requerimientos de los clientes, promoviendo la creación de valor y
-                                  superando sus expectativas. <br>
+                                  superando sus expectativas. <br><br>
                                   <strong>RESPONSABILIDAD:</strong> Cumplir nuestros compromisos y
                                   responder por nuestros actos, son principios básicos en C&amp;F ENGINEERING.
                                   Estamos comprometidos con el respeto al medio ambiente y la seguridad física
@@ -152,13 +152,13 @@
                                   ajustándonos al entorno y a las necesidades específicas de
                                   nuestros clientes, con una búsqueda continua de implementación
                                   de nuevas ideas, servicios y procedimientos que apoyen a
-                                  nuestros clientes y colaboradores. <br>
+                                  nuestros clientes y colaboradores. <br><br>
                                   <strong>TRANSPARENCIA Y ÉTICA:</strong> En C&amp;F ENGINEERING el
                                   respeto y la integridad son canales inamovibles de nuestras
                                   acciones, honramos nuestros compromisos y somos promotores
                                   de relaciones dentro de un marco ético donde prevalece la
                                   verdad, la transparencia y actuamos en consecuencia.
-                                   <br>
+                                   <br><br>
                                   <strong>TRABAJO EN EQUIPO:</strong> Promovemos y facilitamos el trabajo en
                                   equipo, creando ambientes participativos con profesionalismo y
                                   calidad humana, facilitando la comunicación y empatía, el
@@ -181,13 +181,13 @@
                                   <ul class="ok">
                                       <li>Nuestra esencia es la generación y sostenibilidad de una relación estrecha con
                                           Clientes y Proveedores, cuya explicación más simple reside en el efecto sinérgico y
-                                          dinámico que pretendemos dar a nuestras acciones.</li>
+                                          dinámico que pretendemos dar a nuestras acciones.</li><br>
                                       <li>Entre las ventajas comparativas de nuestra Organización están: la estructuración
                                           en forma rápida y oportuna de los equipos de trabajo, asignación eficaz y
                                           ajustada de los recursos requeridos, donde los socios de la empresa son
                                           partícipes activos a nivel de Gerencia/Coordinación y Ejecución en los proyectos,
                                           conduciendo así a la obtención del máximo valor agregado y el aseguramiento
-                                          de la calidad de los mismos.</li>
+                                          de la calidad de los mismos.</li><br>
                                       <li>Nuestro equipo de trabajo está conformado por profesionales y técnicos
                                           altamente capacitados para la identificación sistemática de soluciones, con una
                                           experiencia promedio de 25 años y cuya trayectoria cuenta con la confianza y

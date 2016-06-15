@@ -32,11 +32,13 @@ section {
     width:40%;
     max-width: 400px;
     margin-right:4%;
+    margin-bottom: 1%;
 }
 .section .img-res-right{
     width:40%;
     max-width: 400px;
     margin-left:4%;
+    margin-bottom: 1%;
 }
 .text-grd{
         font-size: 20px;

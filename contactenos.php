@@ -54,20 +54,8 @@
 				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-1 col-lg-10">
 					<h3><div style="width:auto;">CONTÁCTENOS</div></h3>
 					<div class="row">
-						<div class="col-sm-6 col-md-6 text-left text-peq">
-							<h4>REPRESENTANTES</h4>
-                            <div style="float:left; margin-left:10px;"><strong>NATALIA CATALDO</strong><br>
-							Directora Ejecutiva <br>
-							ncataldo@cyf-eng.com <br>
-                                <strong>Cel:</strong> (57) 3156092494 <br><br></div>
-                            <div style="float:left; margin-left:10px;"><strong>MARIBY FIGUERA</strong><br>
-							Directora de Operaciones <br>
-							mfiguera@cyf-eng.com <br>
-                                <strong>Cel:</strong> (57) 3155235907 <br><br></div>
-                            <div style="float:left; margin-left:10px;"><strong>IVAN GAMERO</strong><br>
-							Director de Comisionamiento y Arranque<br>
-							igamero@cyf-eng.com <br>
-                                <strong>Cel:</strong> (57) 3187164299 <br></div>
+						<div class="col-sm-6 col-md-6 text-left text-med">
+
                             <div style="float:left; width:100%; margin-left:10px;"><h4>SEDE</h4>
                             <strong>Centro Empresarial Cedropoint</strong><br>
                             Calle 140 No 10A-48 <br>
