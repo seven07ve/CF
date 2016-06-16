@@ -79,13 +79,15 @@ $resultado = $mysqli->query($ssql);
         </div>
         <!-- #camera_wrap -->
 		<div class="noticias">
-			<div class="tit-not"><h3><a href="noticias/"style="text-decoration:none; color:#FFF;">NOTICIAS</a></h3></div>
+			<div class="tit-not"><a href="noticias/"><h3>NOTICIAS</h3></a></div>
 <?php
+echo '<ul>';
 while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
-	echo '<a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content">'."\n";				
-	echo '<div style="padding:10px;">'.substr($fila["titulo"], 0, 100).'</div>'."\n";
-	echo'</a>'."\n";
+	echo '<li><a href="noticias/noticia.php?news='.$fila["id_noticia"].'" title="View all content" target="_blank">'."\n";				
+	echo ''.substr($fila["titulo"], 0, 100).''."\n";
+	echo'</a></li>'."\n";
 }
+echo '</ul>';
 ?>
 		</div>
     </div>
