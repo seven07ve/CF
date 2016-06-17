@@ -83,12 +83,39 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
 $noticia = "../";
 $experiencia=active; include("../php/menu.php"); 
 ?>
-<section class="cuadros-conten bg-1">
+<section class="cuadros-conten bg-1 section">
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10">
-            <h3>NOTICIAS</h3>
+            <h3>BOLETINES C&F</h3>
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-grd">
+                <h4>Aquí encuentra Artículos técnicos, Estudios de casos, Publicaciones de nuestro personal</h4><br><br>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                       <thead>
+                        <tr class="text-center">
+                            <td>FECHA</td>
+                            <td>ITEM</td>
+                            <td>ARCHIVO</td>
+                            <td>DESCRIPCIÓN</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>fdsd</td>
+                            <td>df</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>dsf</td>
+                            <td>dfs</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 <?php
 while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
 echo '<a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content" style="text-decoration:none; color:#2d2d2d;">
