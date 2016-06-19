@@ -239,12 +239,11 @@ textarea:focus{
 }
 
 thead{
-    border: 1px solid #FFF;
     color: #FFF;
     font-weight: bolder;
     background: #5B9BD5;
 }
 
-thead td{
-    border: 2px solid #FFF;
+.table-responsive td{
+    border: 2px solid #FFFFFF;
 }

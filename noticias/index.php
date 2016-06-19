@@ -113,6 +113,18 @@ $experiencia=active; include("../php/menu.php");
                             <td></td>
                             <td></td>
                         </tr>
+                            <tr>
+                                <td>fdsd</td>
+                                <td>df</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>dsf</td>
+                                <td>dfs</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
