@@ -5,7 +5,7 @@ $tipo_archivo = $_FILES['pdf']['type'];
 $tamano_archivo = $_FILES['pdf']['size']; 
 $dir_temp = $_FILES['pdf']['tmp_name'];
 $error = $_FILES['userfile']['error'];
-$uploads_dir = "../pdf/boletines";
+$uploads_dir = "../pdf/articulos";
 /*
 echo 'Directorio: '.$dir_temp.'<br>';
 echo 'error: '.$error.'<br>';
@@ -16,7 +16,7 @@ echo 'tamano: '.$tamano_archivo.'<br>';
 
 //NOMBRE NUEVO DEL ARCHIVO
 if (strpos($tipo_archivo, "pdf")){
-	$new_name= $id_noticia.".pdf";
+	$new_name= $id_articulos.".pdf";
 	//	echo $new_name;
 }
 else{
@@ -32,18 +32,16 @@ if ($nombre_archivo){
 	}
 	else{ 
 		if (copy($_FILES['pdf']['tmp_name'], "$uploads_dir/$new_name")){ 
-			//			copy($_FILES['pdf']['tmp_name'], "imagenes/noticias/$new_name");
-			$aviso ='El archivo ha sido cargado correctamente. ->'; 
-			//ACTUALIZAR EL NOMBRE DE LA pdf
-			$usql_pdf=("UPDATE noticias SET pdf='".$new_name."' WHERE id_noticia='".$id_noticia."'");
+			$aviso ='El archivo ha sido cargado correctamente. ->';
+			//ACTUALIZAR EL NOMBRE DEL pdf
+			$usql_pdf=("UPDATE articulos SET pdf='".$new_name."' WHERE id_articulos='".$id_articulos."'");
 			//ejecuta la sentencia usql
 			$actualizar_pdf = $mysqli->query($usql_pdf);
-
 		}
 		else{ 
-			$aviso ='Ocurrió algún error al subir el fichero. No pudo guardarse.'; 
+			$aviso ='Ocurrió algún error al subir el fichero. No pudo guardarse.';
 			//ELIMINAR EL NOMBRE DEL pdf
-			$bsql="UPDATE noticias SET pdf='' WHERE id_noticia='".$id_noticia."'";
+			$bsql="UPDATE articulos SET pdf='' WHERE id_articulos='".$id_articulos."'";
 			$borrar = $mysqli->query($bsql);
 		} 
 	}

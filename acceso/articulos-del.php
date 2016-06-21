@@ -13,51 +13,48 @@ include("php/start.php");
 <body>
 <div align="center">
 <?php
-	$id_noticia = $_POST["id_noticia"];
-	//Actualiza la noticia
-	include("bd/noticia-actualiza.php");
-	//Monta el archivo PDF y guarda el nombre del archivo en la tabla noticias de la BD
-	include("bd/montar-pdf-noticia.php");
-	//Trae todos los datos de la  tabla noticias
-	include("bd/noticia-select.php");
+	//Trae todos los datos de la  tabla articulos
+	$id_articulos = $_GET["num"];
+	include("bd/articulos-select.php");
 ?>
 	<div class="encabezado">
 		<img class="logo" src="../imagenes/logo.jpg">&Aacute;rea Administrativa
 	</div>
 	<!--<div class="nomb-user">Jhean account</div>-->
 	<div class="menu-prim"> <?php echo menu_sup($validar) ?> </div>
-	<div class="menu-sec"> <?php echo menu_sec($validar,'8')?> </div>
+	<div class="menu-sec"> <?php echo menu_sec($validar,'2')?> </div>
 	<!--   CONTENIDO   -->
 	<div class="contenedor">
 		<div class="cont-inf-mont" style="float:none;">
-			<h2>La Noticia se Modificó</h2>
+			<h2>Esta Artículo será ELIMINADO permanentemente</h2>
 			<form action="news-insd.php" method="post" name="form1" id="form1" style="margin-left:0; width:900px;">
-				<input type="hidden" name="" />
 				<label> Titulo<br />
-					<input name="titulo" type="text" disabled="disabled" required="required" id="titulo" onblur="vacio(this.value)" onkeyup="longitud(this.value, 140)" value="<?php echo $titulo ?>" size="100" maxlength="140" /><br /><br />
+					<input name="titulo" type="text" disabled="disabled" id="titulo" value="<?php echo $titulo ?>" size="100" maxlength="140" /><br /><br />
 				</label>
-				<label> Item:
-					<input name="item" type="text" disabled="disabled" value="<?php echo $item ?>"><br><br>
-				</label>
-				<lablel>PDF: <?php echo $aviso; ?>
+				<label> Autor:<br />
+					<input name="autor" type="text" disabled="disabled" id="autor" value="<?php echo $autor ?>" size="60" maxlength="100" />
+				</label><br /><br />
+				<lablel>PDF: Actual ->
 					<a href="../pdf/boletines/<?php echo $pdf ?>" target="_blank" style="color:#FFF;"><?php echo $pdf ?></a><br><br>
 				</lablel>
-				<label> Fecha<br /> Día:
+				<label>Palabras Clave: <br>
+					<textarea name="palabra_clave" id="palabra_clave" disabled="disabled" cols="50" rows="10"><?php echo $palabras; ?></textarea>
+				</label><br />
+				<label> Fecha<br /> Día: 
 					<input name="dia" type="text" disabled="disabled" required="required" id="dia" onblur="checkfecha(this.value,this.id)" value="<?php echo $dia ?>" size="2" maxlength="2" />
 				</label>
 				<label> Mes:
 					<input name="mes" type="text" disabled="disabled" required="required" id="mes" onblur="checkfecha(this.value,this.id)" value="<?php echo $mes ?>" size="2" maxlength="2" />
 				</label>
 				<label> Año:
-					<input name="ano" type="text" disabled="disabled" required="required" id="ano" onblur="checkfecha(this.value,this.id)" value="<?php echo $ano ?>" size="4" maxlength="4" />
-				</label><br /><br />
-				<a href="noticias-mod.php?num=<?php echo $id_noticia; ?>" style="color:#FFFFFF; text-decoration:none;" ><h2>Modificar</h2></a><br />
-				<label> Por<br />
-					<input name="autor" type="text" disabled="disabled" required="required" id="autor" value="<?php echo $autor ?>" size="60" maxlength="100" />
-				</label><br /><br />
+					<input name="ano" type="text" disabled="disabled" required="required" id="ano" onblur="checkfecha(this.value,this.id)" value="<?php echo $ano ?>" size="4" maxlength="4" /><br /><br />
+				</label><br />
+			</form>
+			<form id="form1" name="form1" method="post" action="articulos-delt.php">
+				<input type="hidden" name="id_articulos" id="textfield" value="<?php echo $id_articulos; ?>" /><br />
+				<input type="submit" name="button" id="button" value="Eliminar" />
 			</form><br /><br />
-		</div><br><br>
-		<br>
+		</div>
 	</div>
 </div>
 </body>

@@ -26,6 +26,7 @@ include("php/dbconect.php");
 		
 	echo '<ul class="bot-menu-prim">
 <li><a href="salir.php" title="SALIR">SALIR</a></li>
+<li><a href="articulos-ins.php" title="ARTÍCULOS">ARTÍCULOS</a></li>
 <li><a href="noticias-ins.php" title="NOTICIAS">NOTICIAS</a></li>';
 echo '</ul>
 <br clear="all">';
@@ -37,18 +38,15 @@ function menu_sec($validar,$seccion){
 	if ($validar == "correcto"){
 		//noticias
 		if ($seccion == "8"){
-//			echo '<a href="noticias-list.php">lista</a><img src="imagenes/sep.png"/>';
 			echo '<a href="noticias-ins.php">agregar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="noticias-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="noticias-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
 		}
 		//multimedia
-		elseif ($seccion == "9"){
-//			echo '<a href="noticias-list.php">lista</a><img src="imagenes/sep.png"/>';
-			echo '<a href="modificar.php?num=9">editar</a><img src="imagenes/sep.png"/>';
-			echo '<a href="multi-ins.php">agregar</a><img src="imagenes/sep.png"/>';
-			echo '<a href="multi-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
-			echo '<a href="multi-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
+		if ($seccion == "2"){
+			echo '<a href="articulos-ins.php">agregar</a><img src="imagenes/sep.png"/>';
+			echo '<a href="articulos-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
+			echo '<a href="articulos-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
 		}
 		//empleos
 		elseif ($seccion == "5"){
