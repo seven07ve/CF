@@ -26,6 +26,7 @@ include("php/dbconect.php");
 		
 	echo '<ul class="bot-menu-prim">
 <li><a href="salir.php" title="SALIR">SALIR</a></li>
+<li><a href="desarrollos-ins.php" title="DESARROLLOS">DESARROLLOS</a></li>
 <li><a href="articulos-ins.php" title="ARTÍCULOS">ARTÍCULOS</a></li>
 <li><a href="noticias-ins.php" title="NOTICIAS">NOTICIAS</a></li>';
 echo '</ul>
@@ -48,14 +49,11 @@ function menu_sec($validar,$seccion){
 			echo '<a href="articulos-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="articulos-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
 		}
-		//empleos
-		elseif ($seccion == "5"){
-			$result = $mysqli->query("SELECT id_solicitud FROM solicitudes");
-			$num_sol='';
-			if ($num_sol = $mysqli->affected_rows > 0){}
-			echo '<a href="modificar.php?num=5">editar</a><img src="imagenes/sep.png"/>';
-			echo '<a href="trabajos-ins.php">Trabajos</a><img src="imagenes/sep.png"/>';
-			echo '<a href="trabajos.php">'.$num_sol.' solicitudes</a><img src="imagenes/sep.png"/>';
+		//multimedia
+		if ($seccion == "3"){
+			echo '<a href="desarrollos-ins.php">agregar</a><img src="imagenes/sep.png"/>';
+			echo '<a href="desarrollos-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
+			echo '<a href="desarrollos-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
 		}
 		else{
 		}
