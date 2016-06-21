@@ -84,6 +84,11 @@ input{
 	height: 25px;  color:#FFFFFF; margin-top:5px; background:none; border-radius:5px; border-bottom: 2px solid #FFF; border-right: 2px solid #FFF; box-shadow:#626262 0 0 3px;
 }
 
+::-webkit-input-placeholder { color: rgba(255, 255, 255, .5); } /* WebKit */
+:-moz-placeholder { color: rgba(255, 255, 255, .5); } /* Firefox 18- */
+::-moz-placeholder { color: rgba(255, 255, 255, .5); } /* Firefox 19+ */
+:-ms-input-placeholder { color: rgba(255, 255, 255, .5); } /* IE 10+ */
+
 input:focus{
 	border-color: #D3D3D3;
 	box-shadow: #e2e2e2 0px 0px 7px;

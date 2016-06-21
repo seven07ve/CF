@@ -49,7 +49,7 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
 </head>
 <body>
 <?php 
-$noticia = "../";
+$niveles = "../";
 $experiencia=active; include("../php/menu.php"); 
 ?>
 <section class="cuadros-conten bg-1">
@@ -60,10 +60,11 @@ $experiencia=active; include("../php/menu.php");
                 <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-grd">
 					<?php 
 					while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
-						echo '<h2>'.$fila["titulo"].'<br />'."\n";
-						echo '<div style="font-size:14px; text-transform:capitalize;">'.$fila["mes"].'/'.$fila["dia"].'/'.$fila["ano"].'</h2></div>'."\n";
-						echo '<div class="seccion-anuncio">'."\n";					
-						echo'<div class="anuncio-cuerpo">'.$fila["contenido"].'</div><br clear="all" /></div>'."\n";
+						echo '<div class="seccion-anuncio">'."\n";
+						echo '<h2 style="color:#132C65">'.$fila["titulo"].'</h2>'."\n";
+						echo '<div style="font-size:14px; text-transform:capitalize;">'.$fila["mes"].'/'.$fila["dia"].'/'.$fila["ano"].'</div>'."\n";
+						echo'<div class="anuncio-cuerpo">'.$fila["contenido"].'</div>'."\n";
+						echo '</div>'."\n";
 					}
 					?>    
 <br clear="all">

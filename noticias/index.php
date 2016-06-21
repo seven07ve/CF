@@ -2,7 +2,7 @@
 include("../php/dbconect.php");
 
 //TOTAL DE IMG POR PAGINA
-$tamano_pagina = 10;
+$tamano_pagina = 5;
 //examino la página a mostrar y el inicio del registro a mostrar
 $pagina = $_GET["pagina"];
 if (!$pagina) {
@@ -80,7 +80,7 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
 </head>
 <body>
 <?php 
-$noticia = "../";
+$niveles = "../";
 $experiencia=active; include("../php/menu.php"); 
 ?>
 <section class="cuadros-conten bg-1 section">
@@ -90,7 +90,7 @@ $experiencia=active; include("../php/menu.php");
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-grd">
                 <h4>Aquí encuentra Artículos técnicos, Estudios de casos, Publicaciones de nuestro personal</h4><br><br>
-                <div class="table-responsive">
+                <div class="table-responsive text-med">
                     <table class="table table-striped">
                        <thead>
                         <tr class="text-center">
@@ -100,47 +100,26 @@ $experiencia=active; include("../php/menu.php");
                             <td>DESCRIPCIÓN</td>
                         </tr>
                         </thead>
-                        <tbody>
-                        <tr>
-                            <td>fdsd</td>
-                            <td>df</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>dsf</td>
-                            <td>dfs</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                            <tr>
-                                <td>fdsd</td>
-                                <td>df</td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>dsf</td>
-                                <td>dfs</td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                        <tbody><a href="" target="_blank"></a>
+<?php
+while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
+	$puntos = "";
+	if (strlen($fila["titulo"]) >= 50){
+		$puntos = "...";
+	}
+	echo '<tr>'."\n";
+	echo '<td class="text-center">'.$fila["mes"].'/'.$fila["dia"].'/'.$fila["ano"].'</td>'."\n";
+	echo '<td class="text-center">'.$fila["item"].'</td>'."\n";
+	echo '<td class="text-center"><a href="../pdf/boletines/'.$fila["pdf"].'" target="_blank"><img src="../imagenes/pdf.png" alt="Descarga/Download"></a></td>'."\n";
+	echo '<td class="text-center" style="overflow:hidden;"><a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content" style="text-decoration:none; color:#2d2d2d;" target="_blanck">'.substr($fila["titulo"], 0, 50).$puntos.'</a></td>'."\n";
+	echo '</tr>'."\n";
+}
+?> 
                         </tbody>
                     </table>
                 </div>
-<?php
-while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
-echo '<a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content" style="text-decoration:none; color:#2d2d2d;">
-<!--IMAGEN-->'."\n";
-echo '<div class="seccion-anuncio">'."\n";					
-echo '<div class="anuncio-nombre">'.$fila["titulo"].'<br />'."\n";
-echo '<div style="font-size:14px; text-transform:capitalize;">'.$fila["mes"].'/'.$fila["dia"].'/'.$fila["ano"].'</div>'."\n";
-echo'</div></div></a>'."\n";
-}
-?>                
-
 <!--paginacion-->
-<div style="font-family: 'Old Standard TT', serif; font-weight:bold; margin:10px 0px; text-align:center;">
+<div class="text-med" style="font-family: Arial; margin:10px 0px; text-align:center;">
 <?php 
 //muestro los distintos índices de las páginas, si es que hay varias páginas
 if ($total_paginas > 1){
@@ -178,7 +157,8 @@ if ($total_paginas > 1){
     </div>
     <br clear="all">
 </section>
-<section class="section section-9 hidden-xs visible-sm visible-md visible-lg"> <?php include("../php/footer.php"); ?>
+<section class="section section-9 hidden-xs visible-sm visible-md visible-lg"> 
+<?php include("../php/footer.php"); ?>
 </section>
 
     <!-- Bootstrap core JavaScript
