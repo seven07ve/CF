@@ -54,6 +54,12 @@
 			  </li>
 			  <li class="dropdown">
 				<a href="manejo.php">MANEJO SOFTWARE</a>
+				<ul class="dropdown-menu">
+					<li><a href="manejo.php">MANEJO SOFTWARE</a></li>
+					<li><a href="manejo.php#boletines">BOLETINES C&F</a></li>
+					<li><a href="manejo.php#articulos">ARTÍCULOS TÉCNICOS</a></li>
+					<li><a href="manejo.php#descargas">DESCARGAS</a></li>
+				</ul>
 			  </li>
 			  <li class="dropdown">
 				<a href="adiestramiento.php">ADIESTRAMIENTO</a>

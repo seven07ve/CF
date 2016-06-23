@@ -57,6 +57,12 @@
               </li>
               <li class="dropdown '.$manejo.'">
                 <a href="'.$niveles.'manejo.php">MANEJO SOFTWARE</a>
+				<ul class="dropdown-menu">
+					<li><a href="'.$niveles.'manejo.php">MANEJO SOFTWARE</a></li>
+					<li><a href="'.$niveles.'manejo.php#boletines">BOLETINES C&F</a></li>
+					<li><a href="'.$niveles.'manejo.php#articulos">ARTÍCULOS TÉCNICOS</a></li>
+					<li><a href="'.$niveles.'manejo.php#descargas">DESCARGAS</a></li>
+				</ul>
               </li>
               <li class="dropdown '.$adiestramiento.'">
                 <a href="'.$niveles.'adiestramiento.php">ADIESTRAMIENTO</a>
