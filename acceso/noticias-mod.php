@@ -73,7 +73,7 @@
 				<label for="fileField2">Agregar Imagen </label>
 				<input type="hidden" name="pagina" value="noticias-mod.php?num=<?php $id_multimedia ?>" />
 				<input type="file" name="img" id="fileField2" style="margin:0 0 15px" />
-				<input type="submit" name="submit" id="submit" value="Agregar" />
+				<input type="submit" name="submit" id="submit" value="Modificar" />
 			</form>
 <?php
 	//pagina a la que va a volver luego de borrar la imagen

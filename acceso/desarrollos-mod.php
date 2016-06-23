@@ -12,6 +12,11 @@
 </head>
 <body>
 <div align="center">
+	<?php
+	//Trae todos los datos de la  tabla desarrollos
+	$id_desarrollos = $_GET["num"];
+	include("bd/desarrollos-select.php");
+	?>
 	<div class="encabezado">
 		<img class="logo" src="../imagenes/logo.jpg">&Aacute;rea Administrativa
 	</div>
@@ -22,22 +27,31 @@
 	<!--   CONTENIDO   -->
 	<div class="contenedor">
 		<div class="cont-inf-mont" style="float:none;">
-			<h2>Agregar Desarrollo</h2>
-			<form action="desarrollos-insd.php" method="post" name="form1" id="form1" style="margin-left:0; width:900px;">
+			<h2>Modificar Desarrollo</h2>
+			<form action="desarrollos-modf.php" method="post" name="form1" id="form1" style="margin-left:0; width:900px;">
+				<input type="hidden" name="id_desarrollos" value="<?php echo $id_desarrollos ?>" />
 				<label> Cliente:<br />
-					<input name="cliente" type="text" required="required" id="cliente"  size="70" maxlength="140" /><br /><br />
+					<input name="cliente" type="text" id="cliente" size="70" maxlength="140" required value="<?php echo $cliente; ?>"/><br /><br />
 				</label>
 				<label> Lugar: <br>
-					<input name="lugar" type="text" required="required" id="lugar" size="50" />
+					<input name="lugar" type="text" id="lugar" size="50" required value="<?php echo $lugar ?>" />
 				</label><br /><br />
+<?php
+	if ($tipo == 1){
+		$ref = " checked";
+	}
+	elseif ($tipo == 2){
+		$proy = " checked";
+	}
+?>
 				<label> TIPO:
-					REFERENCIA <input type="radio" name="tipo" value="1" required> 
-					PROYECTO <input type="radio" name="tipo" value="2" required>
+					REFERENCIA <input type="radio" name="tipo" value="1" required <?php echo $ref ?>> 
+					PROYECTO <input type="radio" name="tipo" value="2" required <?php echo $proy ?>>
 				</label><br /><br />
 				<label>Descripción: <br>
-					<textarea name="descripcion" id="descripcion" required="required" cols="50" rows="10"></textarea>
+					<textarea name="descripcion" id="descripcion" cols="50" rows="10" required><?php echo $descripcion ?></textarea>
 				</label><br /><br />
-				<input type="submit" name="publicar" value="Agregar" />
+				<input type="submit" name="publicar" value="Modificar" />
 			</form><br /><br />
 		</div>
 	</div>

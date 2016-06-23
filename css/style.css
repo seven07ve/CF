@@ -189,7 +189,7 @@ textarea:focus{
 	display:inline-block;
 	width:150px;
 	height: 150px;
-	margin: 2%;
+	margin: 3%;
 	padding: 2em;
 	font-size: 8px;
 	text-align: left;
@@ -218,6 +218,9 @@ textarea:focus{
 	max-height: none;
 	padding:2%;
 	}
+.cuadros-conten  a{
+	color: #333;
+}
 @media (max-width: 1280px){
 	footer{
 		font-size: 11px;

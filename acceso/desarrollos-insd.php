@@ -12,6 +12,12 @@
 </head>
 <body>
 <div align="center">
+	<?php
+	//Guarda el desarrollo en la BD 
+	include("bd/desarrollos-guarda.php");
+	//Trae todos los datos de la  tabla desarrollos
+	include("bd/desarrollos-select.php");
+	?>
 	<div class="encabezado">
 		<img class="logo" src="../imagenes/logo.jpg">&Aacute;rea Administrativa
 	</div>
@@ -22,22 +28,30 @@
 	<!--   CONTENIDO   -->
 	<div class="contenedor">
 		<div class="cont-inf-mont" style="float:none;">
-			<h2>Agregar Desarrollo</h2>
-			<form action="desarrollos-insd.php" method="post" name="form1" id="form1" style="margin-left:0; width:900px;">
+			<h2>Desarrollo Agregado</h2>
+			<form action="" method="post" name="form1" id="form1" style="margin-left:0; width:900px;">
 				<label> Cliente:<br />
-					<input name="cliente" type="text" required="required" id="cliente"  size="70" maxlength="140" /><br /><br />
+					<input name="cliente" type="text" id="cliente"  size="70" maxlength="140" disabled="disabled" value="<?php echo $cliente; ?>"/><br /><br />
 				</label>
 				<label> Lugar: <br>
-					<input name="lugar" type="text" required="required" id="lugar" size="50" />
+					<input name="lugar" type="text" id="lugar" size="50" disabled="disabled" value="<?php echo $lugar ?>" />
 				</label><br /><br />
+<?php
+	if ($tipo == 1){
+		$ref = " checked";
+	}
+	elseif ($tipo == 2){
+		$proy = " checked";
+	}
+?>
 				<label> TIPO:
-					REFERENCIA <input type="radio" name="tipo" value="1" required> 
-					PROYECTO <input type="radio" name="tipo" value="2" required>
+					REFERENCIA <input type="radio" name="tipo" value="1" disabled="disabled" <?php echo $ref ?>> 
+					PROYECTO <input type="radio" name="tipo" value="2" required disabled="disabled" <?php echo $proy ?>>
 				</label><br /><br />
 				<label>Descripción: <br>
-					<textarea name="descripcion" id="descripcion" required="required" cols="50" rows="10"></textarea>
+					<textarea name="descripcion" id="descripcion" cols="50" rows="10" disabled="disabled"><?php echo $descripcion ?></textarea>
 				</label><br /><br />
-				<input type="submit" name="publicar" value="Agregar" />
+				<a href="desarrollos-mod.php?num=<?php echo $id_desarrollos; ?>" style="color:#FFFFFF; text-decoration:none;" ><h2>Modificar</h2></a><br />
 			</form><br /><br />
 		</div>
 	</div>
