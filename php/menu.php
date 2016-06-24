@@ -59,9 +59,9 @@
                 <a href="'.$niveles.'manejo.php">MANEJO SOFTWARE</a>
 				<ul class="dropdown-menu">
 					<li><a href="'.$niveles.'manejo.php">MANEJO SOFTWARE</a></li>
-					<li><a href="'.$niveles.'manejo.php#boletines">BOLETINES C&F</a></li>
-					<li><a href="'.$niveles.'manejo.php#articulos">ARTÍCULOS TÉCNICOS</a></li>
-					<li><a href="'.$niveles.'manejo.php#descargas">DESCARGAS</a></li>
+					<li><a href="'.$niveles.'boletines">BOLETINES C&F</a></li>
+					<li><a href="'.$niveles.'articulos.php">ARTÍCULOS TÉCNICOS</a></li>
+					<li><a href="'.$niveles.'descargas.php">DESCARGAS</a></li>
 				</ul>
               </li>
               <li class="dropdown '.$adiestramiento.'">

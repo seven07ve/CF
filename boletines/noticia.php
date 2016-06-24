@@ -50,7 +50,7 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
 <body>
 <?php 
 $niveles = "../";
-$experiencia=active; include("../php/menu.php"); 
+	$manejo=active; include("../php/menu.php"); 
 ?>
 <section class="cuadros-conten bg-1">
     <div class="row">

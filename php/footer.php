@@ -38,16 +38,19 @@ echo '<footer>
                         <a href="'.$niveles.'sectores.php" class="footer-link">
                             <div class="tit-secc">SECTORES</div>
                         </a><br>
-                        <a href="'.$niveles.'estrategia.php" class="footer-link"><div class="tit-secc">ESTRATEGIA</div></a>
-                            <a href="'.$niveles.'estrategia.php#capacidad" class="footer-link">CAPACIDAD DE EJECUCIÓN</a>
+                       <a href="'.$niveles.'manejo.php" class="footer-link">
+                            <div class="tit-secc">MANEJO SOFTWARE</div></a>
+							<a href="'.$niveles.'boletines" class="footer-link">BOLETINES C&F<br></a>
+							<a href="'.$niveles.'articulos.php" class="footer-link">ARTÍCULOS TÉCNICOS</a></a>
+							<a href="'.$niveles.'descargas.php" class="footer-link">DESCARGAS</a></a>
+                        <br>
                     </div>
                     <div class="col-md-2 text-center">
-                       <a href="'.$niveles.'manejo.php" class="footer-link">
-                            <div class="tit-secc">MANEJO SOFTWARE</div>
-                        </a><br>
+                        <a href="'.$niveles.'estrategia.php" class="footer-link"><div class="tit-secc">ESTRATEGIA</div></a>
+                            <a href="'.$niveles.'estrategia.php#capacidad" class="footer-link">CAPACIDAD DE EJECUCIÓN</a>
                         <a href="'.$niveles.'adiestramiento.php" class="footer-link"><div class="tit-secc">ADIESTRAMIENTO</div></a>
                             <a href="'.$niveles.'adiestramiento.php#cursos" class="footer-link">PRÓXIMOS CURSOS</a>
-                        <br><br>
+                        <br>
                         <a href="'.$niveles.'contactenos.php" class="footer-link"><div class="tit-secc">CONTÁCTENOS</div></a>
 							<a href="'.$niveles.'contactenos.php#escribanos" class="footer-link">ESCRÍBANOS</a>
                     </div>

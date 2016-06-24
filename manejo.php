@@ -50,8 +50,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 text-justify text-grd">
-                            <img class="img-responsive" src="imagenes/software.png"
-                                  style="margin:0 auto; border-radius:8px;" alt="SECTORES" title="SECTORES">
+                            <img class="img-responsive" src="imagenes/software.png" style="max-height:350px; margin:0 auto; border-radius:8px;" alt="SECTORES" title="SECTORES">
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 include("../php/dbconect.php");
 
 //TOTAL DE IMG POR PAGINA
-$tamano_pagina = 5;
+$tamano_pagina = 10;
 //examino la página a mostrar y el inicio del registro a mostrar
 $pagina = $_GET["pagina"];
 if (!$pagina) {
@@ -81,9 +81,9 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
 <body>
 <?php 
 $niveles = "../";
-$experiencia=active; include("../php/menu.php"); 
+	$manejo=active; include("../php/menu.php"); 
 ?>
-<section class="cuadros-conten bg-1 section">
+	<section class="cuadros-conten bg-1 section" style="height: auto;">
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10">
             <h3>BOLETINES C&F</h3>
