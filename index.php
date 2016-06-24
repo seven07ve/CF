@@ -83,9 +83,9 @@ $resultado = $mysqli->query($ssql);
 <?php
 echo '<ul>';
 while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
-	echo '<li><a href="boletines/noticia.php?news='.$fila["id_noticia"].'" title="View all content" target="_blank">'."\n";				
+	echo '<li><div><a href="boletines/noticia.php?news='.$fila["id_noticia"].'" title="View all content" target="_blank">'."\n";				
 	echo ''.substr($fila["titulo"], 0, 100).''."\n";
-	echo'</a></li>'."\n";
+	echo'</a><div></li>'."\n";
 }
 echo '</ul>';
 ?>
