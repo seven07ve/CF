@@ -56,7 +56,7 @@
 					</ul>
               </li>
               <li class="dropdown '.$manejo.'">
-                <a href="'.$niveles.'manejo.php">MANEJO SOFTWARE</a>
+                <a href="'.$niveles.'manejo.php">CENTRO INFORMACIÓN</a>
 				<ul class="dropdown-menu">
 					<li><a href="'.$niveles.'manejo.php">MANEJO SOFTWARE</a></li>
 					<li><a href="'.$niveles.'boletines">BOLETINES C&F</a></li>

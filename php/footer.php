@@ -39,7 +39,8 @@ echo '<footer>
                             <div class="tit-secc">SECTORES</div>
                         </a><br>
                        <a href="'.$niveles.'manejo.php" class="footer-link">
-                            <div class="tit-secc">MANEJO SOFTWARE</div></a>
+                            <div class="tit-secc">CENTRO INFORMACIÓN</div></a>
+							<a href="'.$niveles.'manejo.php" class="footer-link">MANEJO SOFTWARE<br></a>
 							<a href="'.$niveles.'boletines" class="footer-link">BOLETINES C&F<br></a>
 							<a href="'.$niveles.'articulos.php" class="footer-link">ARTÍCULOS TÉCNICOS</a></a>
 							<a href="'.$niveles.'descargas.php" class="footer-link">DESCARGAS</a></a>

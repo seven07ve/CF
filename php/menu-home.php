@@ -53,7 +53,7 @@
 					</ul>
 			  </li>
 			  <li class="dropdown">
-				<a href="manejo.php">MANEJO SOFTWARE</a>
+				<a href="manejo.php">CENTRO INFORMACIÓN</a>
 				<ul class="dropdown-menu">
 					<li><a href="manejo.php">MANEJO SOFTWARE</a></li>
 					<li><a href="boletines">BOLETINES C&F</a></li>
