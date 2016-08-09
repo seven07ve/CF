@@ -251,3 +251,21 @@ thead{
 .table-responsive td{
     border: 2px solid #FFFFFF;
 }
+/*---------------------------COMISIONAMIENTO Y ARRANQUE---------------------*/
+.commissioning-list{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.commissioning-list li{
+	margin: 5px 0px;
+}
+
+.start-list{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.start-list li{
+	margin: 5px 0px;
+}

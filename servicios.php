@@ -180,19 +180,17 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-6 text-justify text-med">
                                 <ul>
-                                    <li>Pre-Commissioning / Commissioning de instalaciones de Petróleo y Gas
-                                    Natural.</li>
-                                    <li>Arranque inicial de instalaciones.</li>
-                                    <li>Revamp de instalaciones de superficie.</li>
+									<li>Pre-Commissioning / Commissioning de instalaciones.</li>
+									<li>Revamp de instalaciones de superficie. </li>
                                     <li>Revisión de ensayos no destructivos previo a arranque.</li>
-                                    <li>Elaboración de procedimientos de operación.</li>
                                     <li>Completamiento mecánico de la instalación.</li>
                                     <li>Elaboración de “punch list” categorizada por importancia.</li>
-                                   <li>Lista de repuestos sugeridos durante la operación.</li>
-                                   <li>Estabilización de procesos.</li>
+									<li>Elaboración de procedimientos de operación.</li>
+									<li>Estabilización de procesos.</li>
+									<li>Arranque inicial de instalaciones.</li>
+									<li>Elaboración de Lista de repuestos sugeridos durante la operación.</li>
                                    <li>Entrenamiento a operadores.</li>
-                                   <li>Elaboración de la documentación durante arranque como referencia futura.
-                                   </li>
+									<li>Elaboración de la documentación durante arranque como referencia futura.</li>
                                 </ul>
                                 <br><br>
                             </div>
@@ -210,36 +208,16 @@
                     <h3 style="margin-bottom:3%;">PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
                     PETRÓLEO</h3>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-peq">
+                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
                             <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning1.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
-                            Estas son fases muy importantes para la excelente finalización del proyecto en la cual
-                            hay un solape entre la Gerencia de Construcción y Arranque. Resulta clave incorporar
-                            al personal que se encargará del arranque en las etapas tempranas del mismo.
+							Estas son fases muy importantes para la excelente finalización del proyecto en la cual hay un solape entre la Gerencia de Construcción y Arranque. Resulta clave incorporar al personal que se encargará del arranque en las etapas tempranas del mismo.
                             <h4>PRECOMISONAMIENTO (PRE ARRANQUE)</h4>
+							Las actividades de Pre-Comisionamiento son básicamente las pruebas o ensayos no destructivos de equipos mecánicos (tuberías y accesorios), instrumentos (pruebas de conexionado y lazos), eléctricos (cableado, conexiones y aterramientos). Las actividades incluyen:
+                           <br><br>
                             <ul style="margin-left:5px;">
-                                <li><strong>Verificación de las condiciones de procesos, electromecánicas y de
-                                instrumentación de las instalaciones, entre otros:</strong>
-                                    <ul style="margin-left:15px;">
-                                        <li>Verificación física y minuciosa del área, comparando los diagramas de
-                                        flujo y planos mecánicos con lo instalado.</li>
-                                        <li>Verificaciones de operaciones de arranque, parada, operación normal y
-                                        de emergencia.</li>
-                                        <li>Purga de líneas y colocación de ciegos en equipos no sujetos a pruebas
-                                        hidrostáticas tales como compresores, bombas y válvulas de seguridad.</li>
-                                    </ul>
-                                </li>
-                                <li><strong>Procedimientos de arranque seguro:</strong>
-                                    <ul style="margin-left:15px;">
-                                        <li>Revisión del diseño en función de la preparación para el arranque.</li>
-                                        <li>Planificación de la organización para el arranque y la operación normal.
-                                        </li>
-                                        <li>Verificar la preparación o existencia de manuales / instrucciones para
-                                        cada función.</li>
-                                        <li>Punch list.</li>
-                                        <li>Pruebas de instalaciones y equipos para el arranque.</li>
-                                       <li>Entrenamiento a operadores.</li>
-                                    </ul>
-                                </li>
+								<li><strong>Verificación de las condiciones de procesos, electromecánicas y de instrumentación de las instalaciones.</strong></li>
+								<br>
+								<li><strong>Procedimientos de arranque seguro.</strong></li>
                             </ul>
                         </div>
                     </div>
@@ -253,25 +231,32 @@
                     <h3>PRE-COMMISSIONING / COMMISSIONING Y ARRANQUE EN GAS NATURAL Y
                     PETRÓLEO</h3><br>
                     <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-med">
-                            <img class="img-responsive pull-right img-res-right" src="imagenes/commissioning2.jpg" style="border-radius:8px; box-shadow: #555 4px 4px 8px;" alt="EJECUCIÓN " title="EJECUCIÓN ">
-                            <h4>COMISIONAMIENTO Y ARRANQUE</h4>
-                                    <ul style="margin-left:5px;">
-                                        <li>Alcanzar el nivel mínimo para la operación estable y segura de la planta,
-                                        aumentando gradualmente la carga hasta alcanzar la capacidad de diseño y
-                                        determinar si existen limitaciones para lograrlo.</li>
-                                        <li>Probar el desempeño de los equipos y sistemas de la planta, según el
-                                        programa planificado.</li>
-                                        <li>Mantener la continuidad de la operación a los niveles predeterminados.
-</li>
-                                        <li>Programar los grados y cantidades de producción según los
-                                        requerimientos predeterminados.</li>
-                                        <li>Verificar la calidad de los productos.</li>
-                                       <li>Entrenamiento a operadores.</li>
-                                       <li>Pruebas a capacidad.</li>
-                                       <li>Entrega de las instalaciones.</li>
-                                    </ul>
+                        <div class="col-xs-5 col-sm-5 col-md-offset-1 col-md-5 text-justify text-med">
+                            <h4>COMISIONAMIENTO</h4>
+							Es la fase del proyecto donde se inicia la verificación detallada de la completación mecánica. Incluye:
+							<ul class="commissioning-list">
+								<li>Revisiones funcionales de cada equipo individual.</li>
+								<li>Elaboración de lista de pendientes de construcción.</li>
+								<li>Carga de catalizadores y/o fluidos.</li>
+								<li>Limpieza de sistemas, secado, verificación de hermeticidad de sistemas.</li>
+								<li>Pruebas funcionales de instrumentos y lazos de control.</li>
+								<li>Elaboración de Dossier de Comisionamiento (HC-1).</li>
+                            </ul>
                         </div>
+						<div class="col-xs-5 col-sm-5 col-md-offset-1 col-md-5 text-justify text-med">
+							<h4>ARRANQUE</h4>
+							Consiste en la puesta en servicio de todos los sistemas principales y auxiliares de la instalación hasta alcanzar el nivel mínimo para la operación estable y segura. Incluye:
+							<ul class="start-list">
+								<li>Probar el desempeño de los equipos, sub-sistemas y sistemas de la planta.</li>
+								<li>Mantener la continuidad de la operación a los niveles predeterminados.</li>
+								<li>Mantener la continuidad de la operación a los niveles predeterminados.
+								</li>
+								<li>Programar los grados y cantidades de producción.</li>
+								<li>Verificar la calidad de los productos.</li>
+								<li>Ejecutar las Pruebas de capacidad.</li>
+								<li>Entregar las instalaciones.</li>
+							</ul>
+						</div>
                     </div>
                 </div>
             </div>
