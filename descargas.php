@@ -46,8 +46,11 @@ $manejo=active; include("php/menu.php");
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-12 text-justify text-grd">
 					<h4>INFORMACIÓN GENERAL DE LA EMPRESA</h4><br>
-					<a href="#">Business Brochure C&F ENGINEERING.pdf</a><br><br>
+					Presentación C&F ENGINEERING<br><br>
 					<div data-configid="9358298/36663767" style="margin:0px auto; width:932px; height:350px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+				<br clear="all">
+				Business Brochure C&F ENGINEERING<br><br>
+					<div data-configid="9358298/37768849" style="margin:0px auto; width:932px; height:350px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 				<br clear="all">
                 </div>
             </div>
