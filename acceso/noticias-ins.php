@@ -39,8 +39,8 @@
 				<label> Titulo<br />
 					<input name="titulo" type="text" required="required" id="titulo" onblur="vacio(this.value)" onkeyup="longitud(this.value, 140)" size="100" maxlength="140" /><br /><br />
 				</label>
-				<label> Item: BT-
-					<input name="item" type="text" required="required" placeholder="000-<?php echo date("Y")?>"><br><br>
+				<label> Item: CF-BT-
+					<input name="item" type="text" required="required" placeholder="XXX-YYY"><br><br>
 				</label>
 				<lablel>PDF: 
 					<input type="file" name="pdf" id="pdf"><br><br>

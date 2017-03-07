@@ -31,7 +31,7 @@
 					<input name="lugar" type="text" required="required" id="lugar" size="50" />
 				</label><br /><br />
 				<label> TIPO:
-					REFERENCIA <input type="radio" name="tipo" value="1" required> 
+					REFERENCIA <input type="radio" name="tipo" value="1" checked = "checked" required> 
 					PROYECTO <input type="radio" name="tipo" value="2" required>
 				</label><br /><br />
 				<label>Descripción: <br>

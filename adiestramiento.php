@@ -72,14 +72,17 @@
             <?php $adiestramiento=active; include("php/menu.php"); ?>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8">
-                    <h3>PRÓXIMOS CURSOS</h3><br>
+                    <h3>PRÓXIMOS CURSOS</h3>
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-offset-1 col-md-11 text-justify text-grd">
                             <h4>PRÓXIMOS CURSOS</h4>
-                             <br><br>
+                             <br>
+                             <div style="color: #1d6dbc;">Nuestra oferta de Capacitación y Entrenamiento son programas especializados, que pueden ser hechos a la medida y orientados de acuerdo con las necesidades particulares de cada cliente, en modalidad abierta o “in House”.<br><br>
+                             Contáctenos a través de <span style="color: #093d71;">adiestramiento@cyf-eng.com</span><br><br>
+                             </div>
                                 <ul>
-                                 <li><a href="pdf/Analisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf" target="_blank">Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf</a></li><br>
-                                 <li><a href="pdf/Analisis de esfuerzos y Flexibilidad para Lideres de Tuberias.pdf" target="_blank">Análisis de esfuerzos y Flexibilidad para Líderes de Tuberías.</a></li>
+                                 <li><a href="pdf/Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf" target="_blank">Análisis de esfuerzos y Flexibilidad Avanzado (Modulo 1).pdf</a></li><br>
+                                 <li><a href="pdf/Análisis de esfuerzos y Flexibilidad para Líderes de Tuberías.pdf" target="_blank">Análisis de esfuerzos y Flexibilidad para Líderes de Tuberías.</a></li>
                              </ul>
                              <br>
                         </div>

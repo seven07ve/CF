@@ -79,7 +79,7 @@ $resultado = $mysqli->query($ssql);
         </div>
         <!-- #camera_wrap -->
 		<div class="noticias">
-			<div class="tit-not"><a href="boletines/"><h3>NOTICIAS</h3></a></div>
+			<div class="tit-not"><h3>NOTICIAS</h3></div>
 <?php
 echo '<ul>';
 while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
