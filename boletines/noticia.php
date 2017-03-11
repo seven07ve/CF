@@ -27,12 +27,11 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
         <!--fuente BITTER-->
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../css/camera.css">
         <!--    PAGE SCROLL-->
 	<link rel="stylesheet" href="../css/pagescroll.css">
         <!-- Bootstrap core CSS -->
     <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet">

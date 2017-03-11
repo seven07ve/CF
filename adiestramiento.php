@@ -14,8 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
         <!--fuente BITTER-->
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/camera.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--    PAGE SCROLL-->
     <link rel="stylesheet" href="css/pagescroll.css">
         <!-- Bootstrap core CSS -->

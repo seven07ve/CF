@@ -9,7 +9,7 @@ html,body {
 	margin: 0;
 	padding: 0;
 	color: #545454;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif !important;
 }
 .content{
 	width: 100%;
