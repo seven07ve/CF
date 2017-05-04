@@ -1,6 +1,6 @@
 <?php 
 include("php/dbconect.php");
-
+include("php/titulo.php");
 //busqueda de los datos de la noticia
 $ssql=sprintf("SELECT * FROM noticias ORDER BY id_noticia DESC LIMIT 0,4");
 //ejecuta la sentencia sql
@@ -85,8 +85,8 @@ $resultadoModal = $mysqli->query($ssql);
 echo '<ul>';
 while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
     // echo '<li><div><a href="boletines/noticia.php?news='.$fila["id_noticia"].'" title="View all content"  data-toggle="modal">'."\n";				
-	echo '<li><div><a href="#myModal'.$fila["id_noticia"].'" title="View all content"  data-toggle="modal">'."\n";				
-	echo ''.substr($fila["titulo"], 0, 100).''."\n";
+	echo '<li><div><a href="#myModal'.$fila["id_noticia"].'" title="Ver noticia completa"  data-toggle="modal" class="block-with-text">'."\n";
+    titulo($fila["titulo"]);
 	echo'</a><div></li>'."\n";
 }
 echo '</ul>';
