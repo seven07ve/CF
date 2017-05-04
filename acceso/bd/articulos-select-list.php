@@ -15,4 +15,17 @@
 	}
 	//ejecuta la sentencia sql
 	$resultado = $mysqli->query($ssql);
+
+	if ($_POST["mes"]){
+		$mes = $_POST["mes"];
+	}
+	else{
+		$mes = date("m");
+	}
+	if ($_POST["ano"]){
+		$ano = $_POST["ano"];
+	}
+	else{
+		$ano = date("Y");
+	}
 ?>

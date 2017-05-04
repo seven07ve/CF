@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	$_SESSION['user_cuenta'];
+	// echo "xxxx".$_SESSION['user_cuenta'];
 	$_SESSION['pasword_cuenta'];
 	include("php/acceso.sev.php");
 	$validar = validar_usuario($_SESSION['user_cuenta'],$_SESSION['pasword_cuenta']);

@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['user_cuenta']=$_POST['adm_usuario'];
+// echo $_SESSION['user_cuenta'];
 $_SESSION['pasword_cuenta']=$_POST['adm_password'];
 if (!isset($_SESSION['count'])) {
 	$_SESSION['count'] = 0;

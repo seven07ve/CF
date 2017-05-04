@@ -1,5 +1,5 @@
 <?php
-include("php/start.php");
+	include("php/start.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,22 +19,22 @@ include("php/start.php");
 <body>
 <div align="center">
 <?php
-	//busqueda el titulo y el id de la noticia ya sea que den el ano o el mes o ambos por post
-	include("bd/noticia-select-list.php");
+	//busqueda el titulo y el id de la boletin ya sea que den el ano o el mes o ambos por post
+	include("bd/boletin-select-list.php");
 ?>
 	<div class="encabezado">
 		<img class="logo" src="../imagenes/logo.jpg">&Aacute;rea Administrativa
 	</div>
 	<!--<div class="nomb-user">Jhean account</div>-->
 	<div class="menu-prim"> <?php echo menu_sup($validar) ?> </div>
-	<div class="menu-sec"> <?php echo menu_sec($validar,'8')?> </div>
+	<div class="menu-sec"> <?php echo menu_sec($validar,'4')?> </div>
 	<!--   CONTENIDO   -->
 	<div class="contenedor">
 		<div class="cont-inf-mont" style="float:none;">
-			<h2>Eliminar Noticias</h2><br /><br />
+			<h2>Modificar Boletines</h2><br /><br />
 			<form id="form1" name="form1" method="post" action="">
 				Seleccione Fecha<br />
-				<label>Mes: 
+				<label>Mes:
 					<input name="mes" type="text" id="mes" size="2" maxlength="2" onblur="checkfecha(this.value,this.id)" value="<?php echo $mes ?>" />
 				</label>
 				<label>Año: 
@@ -47,7 +47,7 @@ include("php/start.php");
 					<option selected>Seleccione</option>
 <?php 
 	while ($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
-		echo '<option value="noticias-del.php?num='.$fila["id_noticia"].'">'.$fila["titulo"].'</option>"';
+		echo '<option value="boletines-mod.php?num='.$fila["id_noticia"].'">'.$fila["titulo"].'</option>"';
 	}
 ?>                      
 				</select>

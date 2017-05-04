@@ -16,7 +16,7 @@
 	//Guarda la noticia en la BD
 	include("bd/noticia-guarda.php");
 	//Monta el archivo PDF y guarda el nombre del archivo en la tabla noticias de la BD
-	include("bd/montar-pdf-noticia.php");
+	// include("bd/montar-pdf-noticia.php");
 	//Trae todos los datos de la  tabla noticias
 	include("bd/noticia-select.php");
 ?>
@@ -35,12 +35,6 @@
 				<label> Titulo<br />
 					<input name="titulo" type="text" disabled="disabled" id="titulo" value="<?php echo $titulo ?>" size="100" maxlength="140" /><br /><br />
 				</label>
-				<label> Item:
-					<input name="item" type="text" disabled="disabled" value="<?php echo $item ?>"><br><br>
-				</label>
-				<lablel>PDF: <?php echo $aviso; ?>
-					<a href="../pdf/boletines/<?php echo $pdf ?>" target="_blank" style="color:#FFF;"><?php echo $pdf ?></a><br><br>
-				</lablel>
 				<label> Fecha<br /> Día:
 					<input name="dia" type="text" disabled="disabled" id="dia" onblur="checkfecha(this.value,this.id)" value="<?php echo $dia ?>" size="2" maxlength="2" />
 				</label>

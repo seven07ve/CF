@@ -35,10 +35,10 @@
 			<form id="form1" name="form1" method="post" action="">
 				Seleccione Fecha<br />
 				<label>Mes:
-					<input name="mes" type="text" id="mes" size="2" maxlength="2" onblur="checkfecha(this.value,this.id)" value="<?php echo date("m")?>" />
+					<input name="mes" type="text" id="mes" size="2" maxlength="2" onblur="checkfecha(this.value,this.id)" value="<?php echo $mes ?>" />
 				</label>
 				<label>Año: 
-					<input name="ano" type="text" id="ano" size="4" maxlength="4" onblur="checkfecha(this.value,this.id)" value="<?php echo date("Y")?>" />
+					<input name="ano" type="text" id="ano" size="4" maxlength="4" onblur="checkfecha(this.value,this.id)" value="<?php echo $ano ?>" />
 				</label><br />
 				<input type="submit" name="publicar" value="Select" />
 			</form><br /><br />

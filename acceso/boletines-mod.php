@@ -20,26 +20,34 @@
 <body>
 <div align="center">
 <?php
-	//Trae todos los datos de la  tabla noticias
+	//Trae todos los datos de la  tabla boletins
 	$id_noticia = $_GET["num"];
-	include("bd/noticia-select.php");
+	include("bd/boletin-select.php");
 ?>
 	<div class="encabezado">
 		<img class="logo" src="../imagenes/logo.jpg">&Aacute;rea Administrativa
 	</div>
 	<!--<div class="nomb-user">Jhean account</div>-->
 	<div class="menu-prim"> <?php echo menu_sup($validar) ?> </div>
-	<div class="menu-sec"> <?php echo menu_sec($validar,'8')?> </div>
+	<div class="menu-sec"> <?php echo menu_sec($validar,'4')?> </div>
 	<!--   CONTENIDO   -->
 	<div class="contenedor">
 		<div class="cont-inf-mont">
-			<h2>Modificar Noticias</h2>
-			<form action="noticias-modf.php" method="post" enctype="multipart/form-data" name="form1" id="form1" style="margin-left:0; width:900px;">
+			<h2>Modificar Boletín</h2>
+			<form action="boletines-modf.php" method="post" enctype="multipart/form-data" name="form1" id="form1" style="margin-left:0; width:900px;">
 				<input type="hidden" name="MAX_FILE_SIZE" value="6000000" />
 				<input type="hidden" name="id_noticia" value="<?php echo $id_noticia ?>" />
 				<label> Titulo<br />
 					<input name="titulo" type="text" required="required" id="titulo" onblur="vacio(this.value)" onkeyup="longitud(this.value, 140)" size="100" maxlength="140" value="<?php echo $titulo ?>" /><br /><br />
 				</label>
+				<label> Item:
+					<input name="item" type="text" value="<?php echo $item ?>"><br><br>
+				</label>
+				<lablel>PDF: Actual ->
+					<a href="../pdf/boletines/<?php echo $pdf ?>" target="_blank" style="color:#FFF;"><?php echo $pdf ?></a><br>
+					<input type="file" name="pdf" id="pdf">
+					<br><br>
+				</lablel>
 				<label> Fecha<br /> Día:
 					<input name="dia" type="text" required="required" id="dia" value="<?php echo $dia ?>" size="2" maxlength="2" />
 				</label>
@@ -63,13 +71,13 @@
 			<form action="ins_img.php" method="post" enctype="multipart/form-data" name="form2" id="form2" style="margin-bottom:30px;">
 				<input type="hidden" name="MAX_FILE_SIZE"  value="6000000"/>
 				<label for="fileField2">Agregar Imagen </label>
-				<input type="hidden" name="pagina" value="noticias-mod.php?num=<?php $id_noticia ?>" />
+				<input type="hidden" name="pagina" value="boletines-mod.php?num=<?php $id_noticia ?>" />
 				<input type="file" name="img" id="fileField2" style="margin:0 0 15px" />
 				<input type="submit" name="submit" id="submit" value="Modificar" />
 			</form>
 <?php
 	//pagina a la que va a volver luego de borrar la imagen
-	$pagina = "noticias-mod.php?num=".$fila["id_noticia"];
+	$pagina = "boletines-mod.php?num=".$fila["id_noticia"];
 	//Busca todas la imagenes que se han montado
 	include("php/lista-imagenes.php");
 ?>

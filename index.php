@@ -2,9 +2,10 @@
 include("php/dbconect.php");
 
 //busqueda de los datos de la noticia
-$ssql=sprintf("SELECT * FROM noticias ORDER BY id_noticia DESC LIMIT 0,3");
+$ssql=sprintf("SELECT * FROM noticias ORDER BY id_noticia DESC LIMIT 0,4");
 //ejecuta la sentencia sql
 $resultado = $mysqli->query($ssql);
+$resultadoModal = $mysqli->query($ssql);
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -83,15 +84,23 @@ $resultado = $mysqli->query($ssql);
 <?php
 echo '<ul>';
 while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
-	echo '<li><div><a href="boletines/noticia.php?news='.$fila["id_noticia"].'" title="View all content" target="_blank">'."\n";				
+    // echo '<li><div><a href="boletines/noticia.php?news='.$fila["id_noticia"].'" title="View all content"  data-toggle="modal">'."\n";				
+	echo '<li><div><a href="#myModal'.$fila["id_noticia"].'" title="View all content"  data-toggle="modal">'."\n";				
 	echo ''.substr($fila["titulo"], 0, 100).''."\n";
 	echo'</a><div></li>'."\n";
 }
 echo '</ul>';
 ?>
-		</div>
+		</div>      
     </div>
     <!-- .fluid_container -->
+<?php
+
+while($data = $resultadoModal->fetch_array(MYSQLI_ASSOC)){
+    // MODAL
+    include("php/modal.php");
+}
+?>
 	
     <?php include("php/footer.php"); ?>
 	</div>

@@ -92,31 +92,12 @@ strong{
 .bg-5{
     background:  url(../imagenes/bg-5.png) repeat;
 }
-.section-1{
-    /*background-color: #ffffff;*/
-}
-.section-2{
-/*	background-color: #d1d1d1;*/
-}
-.section-3{
-/*	background-color: #000000;*/
-}
-.section-4{
-    /*background-color: #CC0000;*/
-}
+
 .insection{
     height: 100%;
     text-align: justify;
 }
-.insection-1{
 
-}
-.insection-2{
-
-}
-.insection-3{
-
-}
 .control-prev{
     color: #606060;
     font-size: 45px;
@@ -178,6 +159,15 @@ strong{
     border: 2px solid #0AA5DE;
     background: none;
     margin-left: 3px;
+}
+
+h3.modal-title{
+    text-align: left;
+    color: #132C65;
+}
+
+.modal-dialog {
+    width: 70% !important;
 }
 @media (min-width: 1282px) {
     .section h3{

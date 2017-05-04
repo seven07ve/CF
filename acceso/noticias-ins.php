@@ -39,12 +39,6 @@
 				<label> Titulo<br />
 					<input name="titulo" type="text" required="required" id="titulo" onblur="vacio(this.value)" onkeyup="longitud(this.value, 140)" size="100" maxlength="140" /><br /><br />
 				</label>
-				<label> Item: CF-BT-
-					<input name="item" type="text" required="required" placeholder="XXX-YYY"><br><br>
-				</label>
-				<lablel>PDF: 
-					<input type="file" name="pdf" id="pdf"><br><br>
-				</lablel>
 				<label> Fecha<br />	Día:
 					<input name="dia" type="text" required="required" id="dia" onblur="checkfecha(this.value,this.id)" value="<?php echo date("d")?>" size="2" maxlength="2" />
 				</label>

@@ -16,7 +16,7 @@ else {
 //ejecuta la sentencia sql
 //$resultado_cont=$mysqli->query($ssql_cont);
 //$resultado_cont->store_result();
-$consulta = "SELECT * FROM noticias";
+$consulta = "SELECT * FROM noticias WHERE tipo='boletin'";
 if ($sentencia = $mysqli->prepare($consulta)) {
 	/* ejecutar la consulta */
 	$sentencia->execute();
@@ -32,11 +32,12 @@ $total_paginas = ceil($num_total_registros / $tamano_pagina);
 //echo $num_total_registros;
 
 //busqueda de los datos de la noticia
-$ssql=sprintf("SELECT * FROM noticias ORDER BY id_noticia DESC LIMIT ".$inicio.",".$tamano_pagina."");
+$ssql=sprintf("SELECT * FROM noticias WHERE tipo='boletin' ORDER BY id_noticia DESC LIMIT ".$inicio.",".$tamano_pagina."");
 //ejecuta la sentencia sql
 $resultado = $mysqli->query($ssql);
+$resultadoModal = $mysqli->query($ssql);
 //busqueda de la ultima noticia
-$ssql_meta=sprintf("SELECT * FROM noticias ORDER BY id_noticia DESC LIMIT 1");
+$ssql_meta=sprintf("SELECT * FROM noticias WHERE tipo='boletin' ORDER BY id_noticia DESC LIMIT 1");
 //ejecuta la sentencia sql
 $res_meta = $mysqli->query($ssql_meta);
 $row_meta = $res_meta->fetch_array(MYSQLI_ASSOC);
@@ -52,7 +53,7 @@ $meta = $row_meta["titulo"]." ".strip_tags(substr($row_meta["contenido"],0,800))
     <meta name="keywords" content="Empresa, Consultoría, creación, Soluciones, Soluciones integrales, Industria, Petrolero, Gasífero, Petroquímico, Energético, Servicios, asistencia técnica,  diseño, proyecto, Arranque, Arranque de instalaciones, instalaciones" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>NOTICIAS C&amp;F Engineering</title>
+	<title>BOLETINES C&amp;F Engineering</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
         <!--	fuente RALEWAY-->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -111,13 +112,22 @@ while($fila = $resultado->fetch_array(MYSQLI_ASSOC)){
 	echo '<td class="text-center">'.$fila["mes"].'/'.$fila["dia"].'/'.$fila["ano"].'</td>'."\n";
 	echo '<td class="text-center">'.$fila["item"].'</td>'."\n";
 	echo '<td class="text-center"><a href="../pdf/boletines/'.$fila["pdf"].'" target="_blank"><img src="../imagenes/pdf.png" alt="Descarga/Download"></a></td>'."\n";
-	echo '<td class="text-center" style="overflow:hidden;"><a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content" style="text-decoration:none; color:#2d2d2d;" target="_blanck">'.substr($fila["titulo"], 0, 50).$puntos.'</a></td>'."\n";
+	echo '<td class="text-center" style="overflow:hidden;">';
+    // echo '<a href="noticia.php?news='.$fila["id_noticia"].'" title="View all content" style="text-decoration:none; color:#2d2d2d;">'.substr($fila["titulo"], 0, 50).$puntos.'</a>';
+    echo '<a href="#myModal'.$fila["id_noticia"].'" title="View all content" style="text-decoration:none; color:#2d2d2d;"  data-toggle="modal">'.substr($fila["titulo"], 0, 50).$puntos.'</a>';
+    echo '</td>'."\n";
 	echo '</tr>'."\n";
 }
 ?> 
                         </tbody>
                     </table>
                 </div>
+<?php
+while($data = $resultadoModal->fetch_array(MYSQLI_ASSOC)){
+    // MODAL
+    include("../php/modal-boletines.php");
+}
+?>
 <!--paginacion-->
 <div class="text-med" style="font-family: Arial; margin:10px 0px; text-align:center;">
 <?php 
@@ -165,10 +175,10 @@ if ($total_paginas > 1){
     ================================================== -->
     <!--<script src="./bootstrap/jquery.min.js"></script>-->
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./bootstrap/ie10-viewport-bug-workaround.js"></script>
+    <script src="../bootstrap/ie10-viewport-bug-workaround.js"></script>
     <!--SCROLL SCRIPT-->
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <!--<script src="js/jquery-1.11.3.min.js"></script>-->
 </body>
 </html>

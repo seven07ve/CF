@@ -28,7 +28,8 @@ include("php/dbconect.php");
 <li><a href="salir.php" title="SALIR">SALIR</a></li>
 <li><a href="desarrollos-ins.php" title="DESARROLLOS">DESARROLLOS</a></li>
 <li><a href="articulos-ins.php" title="ARTÍCULOS">ARTÍCULOS</a></li>
-<li><a href="noticias-ins.php" title="NOTICIAS">NOTICIAS</a></li>';
+<li><a href="noticias-ins.php" title="NOTICIAS">NOTICIAS</a></li>
+<li><a href="boletines-ins.php" title="BOLETINES">BOLETINES</a></li>';
 echo '</ul>
 <br clear="all">';
 	}
@@ -43,13 +44,19 @@ function menu_sec($validar,$seccion){
 			echo '<a href="noticias-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="noticias-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
 		}
-		//multimedia
+		//boletines
+		if ($seccion == "4"){
+			echo '<a href="boletines-ins.php">agregar</a><img src="imagenes/sep.png"/>';
+			echo '<a href="boletines-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
+			echo '<a href="boletines-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
+		}
+		//articulos
 		if ($seccion == "2"){
 			echo '<a href="articulos-ins.php">agregar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="articulos-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="articulos-del-sel.php">eliminar</a><img src="imagenes/sep.png"/>';
 		}
-		//multimedia
+		//desarrollos
 		if ($seccion == "3"){
 			echo '<a href="desarrollos-ins.php">agregar</a><img src="imagenes/sep.png"/>';
 			echo '<a href="desarrollos-mod-sel.php">modificar</a><img src="imagenes/sep.png"/>';
